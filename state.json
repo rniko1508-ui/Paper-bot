@@ -1,17 +1,5 @@
 {
-  "cash": 0.0,
-  "position": {
-    "mint": "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump",
-    "symbol": "PumpkinBot",
-    "opened": "2026-10-25 15:29:38",
-    "opened_ts": 1792942178.2943301,
-    "signal_price": 0.0004209,
-    "entry_eff": 0.00042847920781048,
-    "units": 385.83324753133763,
-    "size": 0.19532152424917237,
-    "liq_entry": 54664.9,
-    "misses": 0
-  },
+  "position": null,
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
@@ -19,14 +7,16 @@
     "BY9TNoqwmeZUQwAWDjFcNziBZR567889xzWnbXQipump",
     "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump"
   ],
-  "scans": 7,
+  "scans": 8,
   "skipped": {
-    "variazione_h1_fuori_range": 22,
-    "volume_basso": 66,
-    "momentum_m5": 23,
-    "eta_fuori_range": 24,
+    "variazione_h1_fuori_range": 26,
+    "volume_basso": 75,
+    "momentum_m5": 27,
+    "eta_fuori_range": 29,
     "pressione_vendita": 5,
-    "liquidita_bassa": 171,
+    "liquidita_bassa": 192,
     "rugcheck_danger": 1
-  }
+  },
+  "balance": 4.936258332965993,
+  "reset_id": "2026-10-25-saldo-5"
 }
