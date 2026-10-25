@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
-    "symbol": "SWORDOPE",
-    "opened": "2026-10-25 17:18:46",
-    "opened_ts": 1792948726.6666818,
-    "signal_price": 0.0009019,
-    "entry_eff": 0.0009182129620928936,
-    "units": 4323.61572303568,
-    "size": 4.0,
-    "liq_entry": 91607.52,
-    "misses": 0,
-    "tg_msg": 19
-  },
+  "position": null,
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
@@ -22,16 +10,16 @@
     "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
     "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump"
   ],
-  "scans": 15,
+  "scans": 16,
   "skipped": {
-    "variazione_h1_fuori_range": 42,
-    "volume_basso": 131,
-    "momentum_m5": 65,
-    "eta_fuori_range": 67,
+    "variazione_h1_fuori_range": 44,
+    "volume_basso": 139,
+    "momentum_m5": 70,
+    "eta_fuori_range": 72,
     "pressione_vendita": 5,
-    "liquidita_bassa": 354,
+    "liquidita_bassa": 380,
     "rugcheck_danger": 1
   },
-  "balance": 3.659064339917517,
+  "balance": 2.8421655534429533,
   "reset_id": "2026-10-25-saldo-5"
 }
