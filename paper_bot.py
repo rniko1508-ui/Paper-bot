@@ -34,8 +34,9 @@ except Exception:
     LOCAL_TZ = timezone.utc
 
 # ---------------- PARAMETRI (modificabili) ----------------
-START_CAPITAL = 5.0          # capitale virtuale iniziale
-POSITION_SIZE = 4.0          # importo massimo per posizione (una sola posizione alla volta)
+START_CAPITAL = 5.0          # saldo virtuale iniziale
+POSITION_SIZE = 4.0          # importo investito in ogni posizione (sempre lo stesso, una alla volta)
+RESET_ID = "2026-10-25-saldo-5"   # se cambia, il saldo riparte da START_CAPITAL (lo storico dei trade resta)
 TAKE_PROFIT = 0.40           # +40% dal prezzo osservato all'ingresso
 STOP_LOSS = 0.10             # -10% dal prezzo osservato all'ingresso
 MAX_HOLD_MIN = 90            # uscita a tempo
@@ -136,7 +137,7 @@ def load_state():
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, encoding="utf-8") as f:
             return json.load(f)
-    return {"cash": START_CAPITAL, "position": None, "recent": [], "scans": 0, "skipped": {}}
+    return {"balance": START_CAPITAL, "reset_id": RESET_ID, "position": None, "recent": [], "scans": 0, "skipped": {}}
 
 
 def save_state(state):
@@ -288,14 +289,11 @@ def slippage(trade_usd, liquidity_usd):
 
 def open_position(state, p):
     liq = (p.get("liquidity") or {}).get("usd") or 0
-    size = min(POSITION_SIZE, state["cash"])
-    if size <= FIXED_COST * 2:
-        return
+    size = POSITION_SIZE
     price = float(p["priceUsd"])
     entry_eff = price * (1 + FEE + slippage(size, liq) + ENTRY_DELAY_PENALTY)
     units = (size - FIXED_COST) / entry_eff
     mint = p["baseToken"]["address"]
-    state["cash"] -= size
     state["position"] = {
         "mint": mint,
         "symbol": p["baseToken"].get("symbol", "?"),
@@ -313,7 +311,8 @@ def open_position(state, p):
     pos["tg_msg"] = send_telegram(
         f"APERTA (virtuale) ${pos['symbol']}\n"
         f"Importo {size:.2f} | prezzo segnale {price:.8g}\n"
-        f"Liquidita' {liq:,.0f} USD | cassa {state['cash']:.2f}\n"
+        f"Liquidita' {liq:,.0f} USD\n"
+        f"Saldo {state['balance']:.2f} | investiti {size:.2f}\n"
         f"Questo messaggio si aggiorna ad ogni controllo."
     )
 
@@ -331,7 +330,9 @@ def update_live_message(state, price, liq, change, held):
     pnl, roi = live_status(pos, price, liq)
     text = (
         f"LIVE ${pos['symbol']}\n"
+        f"Saldo: {state['balance']:.2f} | investiti: {pos['size']:.2f}\n"
         f"P&L: {money(pnl)} | ROI: {roi:+.1f}% (dopo costi stimati)\n"
+        f"Saldo se chiudesse ora: {state['balance'] + pnl:.2f}\n"
         f"Prezzo: {change:+.1%} dall'ingresso (prima dei costi)\n"
         f"Aperta da {held:.0f} min su {MAX_HOLD_MIN} | TP +{TAKE_PROFIT:.0%} / SL -{STOP_LOSS:.0%}\n"
         f"Protezione profitto: "
@@ -354,7 +355,7 @@ def close_position(state, price, reason, liq_now):
         exit_price = price
     pnl = proceeds - pos["size"]
     minutes = (time.time() - pos["opened_ts"]) / 60
-    state["cash"] += proceeds
+    state["balance"] += pnl
     append_trade({
         "chiuso_il": iso(now()), "simbolo": pos["symbol"], "mint": pos["mint"],
         "aperto_il": pos["opened"], "minuti": round(minutes, 1),
@@ -366,7 +367,7 @@ def close_position(state, price, reason, liq_now):
     send_telegram(
         f"CHIUSO (virtuale) ${pos['symbol']} - {reason}\n"
         f"P&L {pnl:+.2f} ({100 * pnl / pos['size']:+.1f}%) dopo costi e slippage stimati\n"
-        f"Cassa {state['cash']:.2f}"
+        f"Saldo {state['balance']:.2f}"
     )
     edit_telegram(pos.get("tg_msg"), f"CHIUSA ${pos['symbol']} - risultato nel messaggio qui sotto")
     state["position"] = None
@@ -454,17 +455,21 @@ def main():
     interval = int(os.environ.get("LOOP_INTERVAL_SEC", "60") or 60)
     end = time.time() + LOOP_MIN * 60
     state = load_state()
+    if state.get("reset_id") != RESET_ID:
+        state["balance"] = START_CAPITAL
+        state["reset_id"] = RESET_ID
+        state.pop("cash", None)
+        print(f"Saldo riportato a {START_CAPITAL:.2f}")
     last_push = time.time()
     while True:
-        before = ((state["position"] or {}).get("mint"), round(state["cash"], 4))
+        before = ((state["position"] or {}).get("mint"), round(state["balance"], 4))
         try:
             cycle(state)
         except Exception as e:  # un errore in un ciclo non deve fermare il bot
             print("Errore nel ciclo:", type(e).__name__, e)
         save_state(state)
-        after = ((state["position"] or {}).get("mint"), round(state["cash"], 4))
-        equity = state["cash"] + (state["position"]["size"] if state["position"] else 0)
-        print(f"Cassa {state['cash']:.2f} | patrimonio (a costo) {equity:.2f}")
+        after = ((state["position"] or {}).get("mint"), round(state["balance"], 4))
+        print(f"Saldo {state['balance']:.2f} | posizione aperta: {'si' if state['position'] else 'no'}")
         if LOOP_MIN > 0 and (after != before or time.time() - last_push > 1800):
             git_push()
             last_push = time.time()
