@@ -1,0 +1,28 @@
+{
+  "cash": 1.0,
+  "position": {
+    "mint": "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
+    "symbol": "KURUMI",
+    "opened": "2026-10-25 11:57:59",
+    "opened_ts": 1792929479.7887268,
+    "signal_price": 0.0007879,
+    "entry_eff": 0.0008021636212603372,
+    "units": 4949.114986992861,
+    "size": 4.0,
+    "liq_entry": 77414.67,
+    "misses": 0
+  },
+  "recent": [
+    "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump"
+  ],
+  "scans": 1,
+  "skipped": {
+    "variazione_h1_fuori_range": 4,
+    "volume_basso": 8,
+    "momentum_m5": 3,
+    "eta_fuori_range": 5,
+    "pressione_vendita": 1,
+    "liquidita_bassa": 26,
+    "rugcheck_danger": 1
+  }
+}
