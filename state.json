@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "HGS5NmToJnbM1wNtRgFhDYmAzy45D23jeT4TC3gZpump",
-    "symbol": "Brünnhilde",
-    "opened": "2026-10-25 20:49:41",
-    "opened_ts": 1792961381.3131406,
-    "signal_price": 5.202e-05,
-    "entry_eff": 5.297998322723618e-05,
-    "units": 74933.96105793942,
-    "size": 4.0,
-    "liq_entry": 17616.56,
-    "misses": 0,
-    "tg_msg": 37
-  },
+  "position": null,
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
@@ -30,17 +18,17 @@
     "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump",
     "HGS5NmToJnbM1wNtRgFhDYmAzy45D23jeT4TC3gZpump"
   ],
-  "scans": 81,
+  "scans": 82,
   "skipped": {
-    "variazione_h1_fuori_range": 222,
-    "volume_basso": 686,
-    "momentum_m5": 294,
-    "eta_fuori_range": 345,
+    "variazione_h1_fuori_range": 224,
+    "volume_basso": 693,
+    "momentum_m5": 298,
+    "eta_fuori_range": 351,
     "pressione_vendita": 12,
-    "liquidita_bassa": 2142,
+    "liquidita_bassa": 2174,
     "rugcheck_danger": 1,
     "gia_scambiato_di_recente": 28
   },
-  "balance": 0.7916267296411168,
+  "balance": -0.3439911281906296,
   "reset_id": "2026-10-25-saldo-5"
 }
