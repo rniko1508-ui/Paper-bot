@@ -1,17 +1,29 @@
 {
-  "cash": 2.7513530959396735,
-  "position": null,
+  "cash": 0.0,
+  "position": {
+    "mint": "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
+    "symbol": "BTC",
+    "opened": "2026-10-25 12:41:34",
+    "opened_ts": 1792932094.2252386,
+    "signal_price": 0.0001369,
+    "entry_eff": 0.00013938778211356942,
+    "units": 19523.612863876322,
+    "size": 2.7513530959396735,
+    "liq_entry": 31944.57,
+    "misses": 0
+  },
   "recent": [
-    "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump"
+    "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
+    "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC"
   ],
-  "scans": 2,
+  "scans": 3,
   "skipped": {
-    "variazione_h1_fuori_range": 6,
-    "volume_basso": 17,
-    "momentum_m5": 8,
-    "eta_fuori_range": 7,
-    "pressione_vendita": 2,
-    "liquidita_bassa": 56,
+    "variazione_h1_fuori_range": 9,
+    "volume_basso": 26,
+    "momentum_m5": 11,
+    "eta_fuori_range": 10,
+    "pressione_vendita": 3,
+    "liquidita_bassa": 83,
     "rugcheck_danger": 1
   }
 }
