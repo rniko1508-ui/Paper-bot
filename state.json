@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
-    "symbol": "CATTLEAXE",
-    "opened": "2026-10-25 18:28:19",
-    "opened_ts": 1792952899.6264462,
-    "signal_price": 0.00162,
-    "entry_eff": 0.001649267787810712,
-    "units": 2407.128805486402,
-    "size": 4.0,
-    "liq_entry": 120236.23,
-    "misses": 0,
-    "tg_msg": 24
-  },
+  "position": null,
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
@@ -24,17 +12,17 @@
     "BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump",
     "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump"
   ],
-  "scans": 56,
+  "scans": 57,
   "skipped": {
-    "variazione_h1_fuori_range": 161,
-    "volume_basso": 504,
-    "momentum_m5": 183,
-    "eta_fuori_range": 215,
+    "variazione_h1_fuori_range": 164,
+    "volume_basso": 510,
+    "momentum_m5": 188,
+    "eta_fuori_range": 223,
     "pressione_vendita": 8,
-    "liquidita_bassa": 1411,
+    "liquidita_bassa": 1438,
     "rugcheck_danger": 1,
     "gia_scambiato_di_recente": 8
   },
-  "balance": 3.3659962878332026,
+  "balance": 2.7878713151459316,
   "reset_id": "2026-10-25-saldo-5"
 }
