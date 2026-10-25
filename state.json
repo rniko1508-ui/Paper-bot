@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump",
-    "symbol": "AAPL",
-    "opened": "2026-10-25 20:38:33",
-    "opened_ts": 1792960713.210072,
-    "signal_price": 0.0002463,
-    "entry_eff": 0.0002507805554747401,
-    "units": 15830.57343694208,
-    "size": 4.0,
-    "liq_entry": 41785.18,
-    "misses": 0,
-    "tg_msg": 34
-  },
+  "position": null,
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
@@ -29,17 +17,17 @@
     "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump",
     "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump"
   ],
-  "scans": 74,
+  "scans": 75,
   "skipped": {
     "variazione_h1_fuori_range": 212,
-    "volume_basso": 625,
-    "momentum_m5": 276,
-    "eta_fuori_range": 313,
+    "volume_basso": 634,
+    "momentum_m5": 280,
+    "eta_fuori_range": 318,
     "pressione_vendita": 12,
-    "liquidita_bassa": 1921,
+    "liquidita_bassa": 1952,
     "rugcheck_danger": 1,
-    "gia_scambiato_di_recente": 21
+    "gia_scambiato_di_recente": 22
   },
-  "balance": -0.6958036485872161,
+  "balance": 0.7916267296411168,
   "reset_id": "2026-10-25-saldo-5"
 }
