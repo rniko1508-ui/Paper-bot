@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "ERXyWGqsEhfxSCuZrpgH3tm16moY47uXtcBknS29kmch",
-    "symbol": "KIMCHI",
-    "opened": "2026-10-25 23:01:14",
-    "opened_ts": 1792969274.465509,
-    "signal_price": 6.953e-05,
-    "entry_eff": 7.080654367476341e-05,
-    "units": 56068.26423042835,
-    "size": 4.0,
-    "liq_entry": 22246.33,
-    "misses": 0,
-    "tg_msg": 55
-  },
+  "position": null,
   "recent": [
     "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
     "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
@@ -34,18 +22,18 @@
     "57efDh62UeTXKidU6v9qhp8JUyGrgKiy2jB8twmpump",
     "ERXyWGqsEhfxSCuZrpgH3tm16moY47uXtcBknS29kmch"
   ],
-  "scans": 143,
+  "scans": 144,
   "skipped": {
-    "variazione_h1_fuori_range": 354,
-    "volume_basso": 1146,
-    "momentum_m5": 520,
-    "eta_fuori_range": 687,
+    "variazione_h1_fuori_range": 357,
+    "volume_basso": 1155,
+    "momentum_m5": 524,
+    "eta_fuori_range": 691,
     "pressione_vendita": 20,
-    "liquidita_bassa": 4019,
+    "liquidita_bassa": 4049,
     "rugcheck_danger": 1,
     "gia_scambiato_di_recente": 49,
     "variazioni_mancanti": 1
   },
-  "balance": -7.795580688446066,
+  "balance": -8.582647813143268,
   "reset_id": "2026-10-25-saldo-5"
 }
