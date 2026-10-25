@@ -1,18 +1,30 @@
 {
-  "cash": 2.0026595344548292,
-  "position": null,
+  "cash": 0.0,
+  "position": {
+    "mint": "ABiHPGnupPSjeMPyYn7hyeYjdAM6zV3foSnJexxLXhev",
+    "symbol": "S&P500",
+    "opened": "2026-10-25 14:37:09",
+    "opened_ts": 1792939029.4044478,
+    "signal_price": 6.666e-05,
+    "entry_eff": 6.787208833462735e-05,
+    "units": 29064.37068400041,
+    "size": 2.0026595344548292,
+    "liq_entry": 21869.86,
+    "misses": 0
+  },
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
-    "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC"
+    "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
+    "ABiHPGnupPSjeMPyYn7hyeYjdAM6zV3foSnJexxLXhev"
   ],
-  "scans": 4,
+  "scans": 5,
   "skipped": {
-    "variazione_h1_fuori_range": 12,
-    "volume_basso": 35,
-    "momentum_m5": 16,
-    "eta_fuori_range": 14,
-    "pressione_vendita": 3,
-    "liquidita_bassa": 105,
+    "variazione_h1_fuori_range": 15,
+    "volume_basso": 45,
+    "momentum_m5": 18,
+    "eta_fuori_range": 17,
+    "pressione_vendita": 4,
+    "liquidita_bassa": 127,
     "rugcheck_danger": 1
   }
 }
