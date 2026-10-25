@@ -1,5 +1,17 @@
 {
-  "position": null,
+  "position": {
+    "mint": "PWRDXNBbauWxU2ndLqvW99sdL4ZmsA21LzQoDcmpump",
+    "symbol": "MEMESTOCK",
+    "opened": "2026-10-25 19:16:42",
+    "opened_ts": 1792955802.8787267,
+    "signal_price": 7.011e-05,
+    "entry_eff": 7.139681613939907e-05,
+    "units": 55604.72041566607,
+    "size": 4.0,
+    "liq_entry": 22583.22,
+    "misses": 0,
+    "tg_msg": 26
+  },
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
@@ -10,16 +22,17 @@
     "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
     "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
     "BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump",
-    "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump"
+    "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+    "PWRDXNBbauWxU2ndLqvW99sdL4ZmsA21LzQoDcmpump"
   ],
-  "scans": 57,
+  "scans": 58,
   "skipped": {
-    "variazione_h1_fuori_range": 164,
-    "volume_basso": 510,
-    "momentum_m5": 188,
-    "eta_fuori_range": 223,
+    "variazione_h1_fuori_range": 168,
+    "volume_basso": 516,
+    "momentum_m5": 192,
+    "eta_fuori_range": 230,
     "pressione_vendita": 8,
-    "liquidita_bassa": 1438,
+    "liquidita_bassa": 1466,
     "rugcheck_danger": 1,
     "gia_scambiato_di_recente": 8
   },
