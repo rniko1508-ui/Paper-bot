@@ -1,30 +1,31 @@
 {
   "cash": 0.0,
   "position": {
-    "mint": "ABiHPGnupPSjeMPyYn7hyeYjdAM6zV3foSnJexxLXhev",
-    "symbol": "S&P500",
-    "opened": "2026-10-25 14:37:09",
-    "opened_ts": 1792939029.4044478,
-    "signal_price": 6.666e-05,
-    "entry_eff": 6.787208833462735e-05,
-    "units": 29064.37068400041,
-    "size": 2.0026595344548292,
-    "liq_entry": 21869.86,
+    "mint": "BY9TNoqwmeZUQwAWDjFcNziBZR567889xzWnbXQipump",
+    "symbol": "KEKW",
+    "opened": "2026-10-25 15:03:04",
+    "opened_ts": 1792940584.6403484,
+    "signal_price": 5.701e-05,
+    "entry_eff": 5.803836789104927e-05,
+    "units": 5984.169396680294,
+    "size": 0.3773114249668893,
+    "liq_entry": 19663.25,
     "misses": 0
   },
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
-    "ABiHPGnupPSjeMPyYn7hyeYjdAM6zV3foSnJexxLXhev"
+    "ABiHPGnupPSjeMPyYn7hyeYjdAM6zV3foSnJexxLXhev",
+    "BY9TNoqwmeZUQwAWDjFcNziBZR567889xzWnbXQipump"
   ],
-  "scans": 5,
+  "scans": 6,
   "skipped": {
-    "variazione_h1_fuori_range": 15,
-    "volume_basso": 45,
-    "momentum_m5": 18,
-    "eta_fuori_range": 17,
+    "variazione_h1_fuori_range": 19,
+    "volume_basso": 56,
+    "momentum_m5": 20,
+    "eta_fuori_range": 20,
     "pressione_vendita": 4,
-    "liquidita_bassa": 127,
+    "liquidita_bassa": 149,
     "rugcheck_danger": 1
   }
 }
