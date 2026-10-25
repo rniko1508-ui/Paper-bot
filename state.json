@@ -1,5 +1,17 @@
 {
-  "position": null,
+  "position": {
+    "mint": "HGS5NmToJnbM1wNtRgFhDYmAzy45D23jeT4TC3gZpump",
+    "symbol": "Brünnhilde",
+    "opened": "2026-10-25 20:49:41",
+    "opened_ts": 1792961381.3131406,
+    "signal_price": 5.202e-05,
+    "entry_eff": 5.297998322723618e-05,
+    "units": 74933.96105793942,
+    "size": 4.0,
+    "liq_entry": 17616.56,
+    "misses": 0,
+    "tg_msg": 37
+  },
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
@@ -15,18 +27,19 @@
     "97qwHhzWsjhaKpiHMxwMVJsGqG1xc2um4sE7ApgPpump",
     "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
     "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump",
-    "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump"
+    "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump",
+    "HGS5NmToJnbM1wNtRgFhDYmAzy45D23jeT4TC3gZpump"
   ],
-  "scans": 75,
+  "scans": 81,
   "skipped": {
-    "variazione_h1_fuori_range": 212,
-    "volume_basso": 634,
-    "momentum_m5": 280,
-    "eta_fuori_range": 318,
+    "variazione_h1_fuori_range": 222,
+    "volume_basso": 686,
+    "momentum_m5": 294,
+    "eta_fuori_range": 345,
     "pressione_vendita": 12,
-    "liquidita_bassa": 1952,
+    "liquidita_bassa": 2142,
     "rugcheck_danger": 1,
-    "gia_scambiato_di_recente": 22
+    "gia_scambiato_di_recente": 28
   },
   "balance": 0.7916267296411168,
   "reset_id": "2026-10-25-saldo-5"
