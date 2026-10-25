@@ -1,5 +1,17 @@
 {
-  "position": null,
+  "position": {
+    "mint": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+    "symbol": "SWORDOPE",
+    "opened": "2026-10-25 17:18:46",
+    "opened_ts": 1792948726.6666818,
+    "signal_price": 0.0009019,
+    "entry_eff": 0.0009182129620928936,
+    "units": 4323.61572303568,
+    "size": 4.0,
+    "liq_entry": 91607.52,
+    "misses": 0,
+    "tg_msg": 19
+  },
   "recent": [
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
@@ -7,16 +19,17 @@
     "BY9TNoqwmeZUQwAWDjFcNziBZR567889xzWnbXQipump",
     "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump",
     "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
-    "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump"
+    "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
+    "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump"
   ],
-  "scans": 11,
+  "scans": 15,
   "skipped": {
-    "variazione_h1_fuori_range": 32,
-    "volume_basso": 99,
-    "momentum_m5": 44,
-    "eta_fuori_range": 47,
+    "variazione_h1_fuori_range": 42,
+    "volume_basso": 131,
+    "momentum_m5": 65,
+    "eta_fuori_range": 67,
     "pressione_vendita": 5,
-    "liquidita_bassa": 256,
+    "liquidita_bassa": 354,
     "rugcheck_danger": 1
   },
   "balance": 3.659064339917517,
