@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "7tBFpmJe48sb6Ho61QTwACeoPgh1wx4D39v3FKZTpump",
-    "symbol": "Nevada",
-    "opened": "2026-10-26 20:14:21",
-    "opened_ts": 1793045661.766237,
-    "signal_price": 4.35e-05,
-    "entry_eff": 4.4305062291739567e-05,
-    "units": 89606.01327808504,
-    "size": 4.0,
-    "liq_entry": 15773.52,
-    "misses": 0,
-    "tg_msg": 160
-  },
+  "position": null,
   "recent": [
     "2XF2HchqJoed7ufaA8C4Nkmt9fDuRNwwBi7xH7EyLNCH",
     "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
@@ -34,19 +22,19 @@
     "3kFWwzjQ6cuLw5KUCmLX3t2h5F1NawncF5dL8wxUpump",
     "7tBFpmJe48sb6Ho61QTwACeoPgh1wx4D39v3FKZTpump"
   ],
-  "scans": 666,
+  "scans": 667,
   "skipped": {
-    "variazione_h1_fuori_range": 1675,
-    "volume_basso": 5508,
-    "momentum_m5": 2793,
-    "eta_fuori_range": 2777,
+    "variazione_h1_fuori_range": 1676,
+    "volume_basso": 5516,
+    "momentum_m5": 2796,
+    "eta_fuori_range": 2785,
     "pressione_vendita": 133,
-    "liquidita_bassa": 17612,
+    "liquidita_bassa": 17639,
     "rugcheck_danger": 23,
     "gia_scambiato_di_recente": 724,
     "variazioni_mancanti": 3,
     "eta_sconosciuta": 111
   },
-  "balance": -21.486145986279865,
+  "balance": -22.105699345800396,
   "reset_id": "2026-10-25-saldo-5"
 }
