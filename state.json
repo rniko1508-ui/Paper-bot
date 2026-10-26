@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "Asgq1QLYv4WxfEXfkcnu4jEZkcq5WA3GXW1ciEXbpump",
-    "symbol": "DANIELLA",
-    "opened": "2026-10-26 01:27:34",
-    "opened_ts": 1792978054.5668187,
-    "signal_price": 0.0002191,
-    "entry_eff": 0.00022308874316335968,
-    "units": 17795.608795433105,
-    "size": 4.0,
-    "liq_entry": 39000.37,
-    "misses": 0,
-    "tg_msg": 69
-  },
+  "position": null,
   "recent": [
     "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
     "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump",
@@ -34,18 +22,18 @@
     "82FEcWhKWAhm4QdqV5oCr7NDgXRQuXbACAstBqrJhook",
     "Asgq1QLYv4WxfEXfkcnu4jEZkcq5WA3GXW1ciEXbpump"
   ],
-  "scans": 257,
+  "scans": 258,
   "skipped": {
-    "variazione_h1_fuori_range": 598,
-    "volume_basso": 2126,
-    "momentum_m5": 962,
-    "eta_fuori_range": 1044,
+    "variazione_h1_fuori_range": 602,
+    "volume_basso": 2135,
+    "momentum_m5": 967,
+    "eta_fuori_range": 1047,
     "pressione_vendita": 40,
-    "liquidita_bassa": 7415,
+    "liquidita_bassa": 7443,
     "rugcheck_danger": 1,
     "gia_scambiato_di_recente": 204,
     "variazioni_mancanti": 1
   },
-  "balance": -13.000559635684496,
+  "balance": -13.618473152720501,
   "reset_id": "2026-10-25-saldo-5"
 }
