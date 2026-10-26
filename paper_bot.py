@@ -5,6 +5,8 @@ Nessun wallet, nessuna chiave privata, nessuna transazione reale.
 Modalita' continua (consigliata): con LOOP_MINUTES>0 il programma resta attivo e ripete il ciclo
 ogni LOOP_INTERVAL_SEC secondi. Senza, esegue un solo ciclo.
 
+In piu' raccoglie dati (modalita' osservazione, nessuna operazione): vedi la sezione OSSERVAZIONE.
+
 Ad ogni ciclo:
 1. gestisce l'eventuale posizione virtuale aperta (take profit, stop loss, tempo massimo,
    protezione del profitto: attiva a ROI netto +15%, vende se scende sotto +14%);
@@ -429,15 +431,244 @@ def find_and_open(state):
     print("Nessun candidato valido in questo ciclo")
 
 
+# ---------------- OSSERVAZIONE (raccolta dati, nessuna operazione) ----------------
+# Per ogni token che incontra, il bot registra le caratteristiche al momento dell'avvistamento
+# e poi segue il prezzo (ogni ciclo) per OBS_HORIZON_MIN minuti. A fine osservazione scrive una
+# riga in observations.csv con rendimenti a 5/15/30/60 minuti, massimo/minimo e il risultato
+# che avrebbero ottenuto le regole attuali del bot. Serve a capire cosa precede un rialzo.
+OBSERVE = os.environ.get("OBSERVE", "1") != "0"
+OBS_STATE_FILE = "observe_state.json"
+OBS_FILE = "observations.csv"
+OBS_HORIZON_MIN = float(os.environ.get("OBS_HORIZON_MIN", "60"))
+OBS_DISCOVERY_EVERY = 3        # cerca nuovi token ogni N cicli
+OBS_MAX_ACTIVE = 60            # token seguiti contemporaneamente
+OBS_MAX_NEW = 6                # nuovi token registrati per ricerca
+OBS_MIN_LIQ = 5000
+OBS_MIN_VOL_H1 = 2000
+OBS_REPEAT_AFTER_H = 6         # non rivalutare lo stesso token prima di N ore
+GT = "https://api.geckoterminal.com/api/v2"
+OBS_FIELDS = [
+    "obs_time", "mint", "symbol", "source", "price0", "liq", "fdv", "mcap", "age_min",
+    "vol_m5", "vol_h1", "vol_h6", "vol_h24", "chg_m5", "chg_h1", "chg_h6", "chg_h24",
+    "buys_m5", "sells_m5", "buys_h1", "sells_h1", "buys_h6", "sells_h6",
+    "rug_score", "rug_danger", "rug_warn", "rug_lp_locked", "rug_risks",
+    "ret_5", "ret_15", "ret_30", "ret_60", "max_up", "max_down",
+    "sim_reason", "sim_net_pct", "samples", "vanished", "path",
+]
+
+
+def obs_load():
+    if os.path.exists(OBS_STATE_FILE):
+        try:
+            with open(OBS_STATE_FILE, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {"tracked": {}, "seen": {}, "cycle": 0, "done": 0}
+
+
+def obs_save(obs):
+    with open(OBS_STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(obs, f, ensure_ascii=False)
+
+
+def obs_ensure_file():
+    if not os.path.exists(OBS_FILE):
+        with open(OBS_FILE, "w", newline="", encoding="utf-8") as f:
+            csv.DictWriter(f, fieldnames=OBS_FIELDS).writeheader()
+
+
+def pair_features(p):
+    ch = p.get("priceChange") or {}
+    vol = p.get("volume") or {}
+    tx = p.get("txns") or {}
+    created = p.get("pairCreatedAt")
+    age = (time.time() * 1000 - created) / 60000 if created else None
+
+    def t(k, side):
+        return (tx.get(k) or {}).get(side)
+
+    return {
+        "liq": (p.get("liquidity") or {}).get("usd"), "fdv": p.get("fdv"), "mcap": p.get("marketCap"),
+        "age_min": round(age, 1) if age is not None else None,
+        "vol_m5": vol.get("m5"), "vol_h1": vol.get("h1"), "vol_h6": vol.get("h6"), "vol_h24": vol.get("h24"),
+        "chg_m5": ch.get("m5"), "chg_h1": ch.get("h1"), "chg_h6": ch.get("h6"), "chg_h24": ch.get("h24"),
+        "buys_m5": t("m5", "buys"), "sells_m5": t("m5", "sells"),
+        "buys_h1": t("h1", "buys"), "sells_h1": t("h1", "sells"),
+        "buys_h6": t("h6", "buys"), "sells_h6": t("h6", "sells"),
+    }
+
+
+def rug_features(mint):
+    d = get_json(f"{RUG}/tokens/{mint}/report/summary", retries=0)
+    if not isinstance(d, dict):
+        return {}
+    risks = d.get("risks") or []
+
+    def n(level):
+        return sum(1 for r in risks if str(r.get("level", "")).lower() == level)
+
+    return {
+        "rug_score": d.get("score_normalised", d.get("score")),
+        "rug_danger": n("danger"), "rug_warn": n("warn"),
+        "rug_lp_locked": d.get("lpLockedPct"),
+        "rug_risks": "|".join(str(r.get("name", "")) for r in risks)[:120],
+    }
+
+
+def obs_source_mints():
+    """Token avvistati dalle varie fonti: (mint, fonte), senza duplicati."""
+    found = [(m, "dex_boost") for m in trending_mints()]
+    for src, path in (("gt_trending", "trending_pools"), ("gt_new", "new_pools")):
+        data = get_json(f"{GT}/networks/solana/{path}?page=1", retries=1)
+        for item in (data or {}).get("data") or []:
+            try:
+                mint = item["relationships"]["base_token"]["data"]["id"].split("_", 1)[1]
+            except Exception:
+                continue
+            found.append((mint, src))
+    out, seen = [], set()
+    for m, s in found:
+        if m not in seen:
+            seen.add(m)
+            out.append((m, s))
+    return out
+
+
+def obs_discover(obs):
+    now_ts = time.time()
+    obs["seen"] = {m: t for m, t in obs["seen"].items() if now_ts - t < OBS_REPEAT_AFTER_H * 3600}
+    free = OBS_MAX_ACTIVE - len(obs["tracked"])
+    if free <= 0:
+        return 0
+    cand = [(m, s) for m, s in obs_source_mints() if m not in obs["seen"] and m not in obs["tracked"]]
+    src_of = dict(cand)
+    pairs = pairs_for([m for m, _ in cand][:60])
+    pairs = [p for p in pairs if ((p.get("liquidity") or {}).get("usd") or 0) >= OBS_MIN_LIQ
+             and ((p.get("volume") or {}).get("h1") or 0) >= OBS_MIN_VOL_H1]
+    pairs.sort(key=lambda p: (p.get("volume") or {}).get("h1") or 0, reverse=True)
+    added = 0
+    for p in pairs[:min(OBS_MAX_NEW, free)]:
+        mint = p["baseToken"]["address"]
+        feat = pair_features(p)
+        feat.update(rug_features(mint))
+        obs["tracked"][mint] = {
+            "symbol": p["baseToken"].get("symbol", "?"), "source": src_of.get(mint, "?"),
+            "t0": now_ts, "price0": float(p["priceUsd"]), "feat": feat, "samples": [], "miss": 0,
+        }
+        obs["seen"][mint] = now_ts
+        added += 1
+    return added
+
+
+def sim_net(p0, p_exit, liq):
+    """ROI % netto simulato di un trade da POSITION_SIZE entrato a p0 e uscito a p_exit."""
+    size = POSITION_SIZE
+    entry_eff = p0 * (1 + FEE + slippage(size, liq) + ENTRY_DELAY_PENALTY)
+    units = (size - FIXED_COST) / entry_eff
+    exit_eff = p_exit * (1 - FEE - slippage(units * p_exit, liq) - EXIT_DELAY_PENALTY)
+    proceeds = max(0.0, units * exit_eff - FIXED_COST)
+    return 100 * (proceeds - size) / size
+
+
+def sim_rules(p0, samples, liq, vanished):
+    """Applica alla traiettoria osservata le stesse regole del bot di trading."""
+    armed = False
+    for _, p in samples:
+        change = p / p0 - 1
+        roi = sim_net(p0, p, liq)
+        if not armed and roi >= ARM_ROI:
+            armed = True
+        if change >= TAKE_PROFIT:
+            return "tp", roi
+        if armed and roi < FLOOR_ROI:
+            return "protezione", roi
+        if change <= -STOP_LOSS:
+            return "sl", roi
+    if vanished:
+        return "sparito", -100.0
+    if samples:
+        return "tempo", sim_net(p0, samples[-1][1], liq)
+    return "nessun_dato", None
+
+
+def obs_finalize(mint, rec, vanished):
+    s, p0 = rec["samples"], rec["price0"]
+    liq = rec["feat"].get("liq") or 0
+
+    def ret_at(m):
+        for t, p in s:
+            if t >= m:
+                return round(100 * (p / p0 - 1), 1)
+        return -100.0 if vanished else None
+
+    changes = [100 * (p / p0 - 1) for _, p in s]
+    reason, net = sim_rules(p0, s, liq, vanished)
+    row = {k: rec["feat"].get(k) for k in OBS_FIELDS}
+    row.update({
+        "obs_time": iso(datetime.fromtimestamp(rec["t0"], timezone.utc)), "mint": mint,
+        "symbol": rec["symbol"], "source": rec["source"], "price0": rec["price0"],
+        "ret_5": ret_at(5), "ret_15": ret_at(15), "ret_30": ret_at(30), "ret_60": ret_at(60),
+        "max_up": round(max(changes), 1) if changes else None,
+        "max_down": round(min(changes), 1) if changes else None,
+        "sim_reason": reason, "sim_net_pct": round(net, 1) if net is not None else None,
+        "samples": len(s), "vanished": int(vanished),
+        "path": ";".join(f"{t:.0f}:{100 * (p / p0 - 1):.0f}" for t, p in s[::2]),
+    })
+    obs_ensure_file()
+    with open(OBS_FILE, "a", newline="", encoding="utf-8") as f:
+        csv.DictWriter(f, fieldnames=OBS_FIELDS, extrasaction="ignore").writerow(row)
+
+
+def obs_update(obs):
+    """Aggiorna i prezzi dei token seguiti e chiude le osservazioni concluse."""
+    mints = list(obs["tracked"].keys())
+    prices = {}
+    for i in range(0, len(mints), 30):
+        data = get_json(f"{DEX}/latest/dex/tokens/{','.join(mints[i:i + 30])}")
+        for p in (data or {}).get("pairs") or []:
+            m = (p.get("baseToken") or {}).get("address")
+            if p.get("chainId") != "solana" or m not in obs["tracked"] or not p.get("priceUsd"):
+                continue
+            liq = (p.get("liquidity") or {}).get("usd") or 0
+            if m not in prices or liq > prices[m][1]:
+                prices[m] = (float(p["priceUsd"]), liq)
+    closed = 0
+    for mint, rec in list(obs["tracked"].items()):
+        minutes = (time.time() - rec["t0"]) / 60
+        if mint in prices and prices[mint][1] >= 500:
+            rec["samples"].append([round(minutes, 2), prices[mint][0]])
+            rec["miss"] = 0
+        else:
+            rec["miss"] += 1
+        vanished = rec["miss"] >= 5
+        if minutes >= OBS_HORIZON_MIN or vanished:
+            obs_finalize(mint, rec, vanished)
+            del obs["tracked"][mint]
+            obs["done"] += 1
+            closed += 1
+    return closed
+
+
+def obs_cycle(obs):
+    obs["cycle"] += 1
+    added = 0
+    if (obs["cycle"] - 1) % OBS_DISCOVERY_EVERY == 0:
+        added = obs_discover(obs)
+    closed = obs_update(obs) if obs["tracked"] else 0
+    print(f"Osservazione: {len(obs['tracked'])} in corso, +{added} nuovi, {closed} conclusi, {obs['done']} totali")
+
+
 def git_push():
     """In modalita' continua salva stato e storico su GitHub senza aspettare la fine del turno."""
     if not os.environ.get("GITHUB_ACTIONS"):
         return
     try:
-        subprocess.run(["git", "add", "state.json", "trades.csv"], check=True, timeout=60)
+        files = [f for f in ("state.json", "trades.csv", "observations.csv", "observe_state.json") if os.path.exists(f)]
+        subprocess.run(["git", "add", "-A"] + files, check=True, timeout=60)
         if subprocess.run(["git", "diff", "--staged", "--quiet"], timeout=60).returncode != 0:
             subprocess.run(["git", "commit", "-m", "stato paper bot"], check=True, timeout=60)
-            subprocess.run(["git", "pull", "--rebase"], check=True, timeout=120)
+            subprocess.run(["git", "pull", "--rebase", "--autostash"], check=True, timeout=120)
             subprocess.run(["git", "push"], check=True, timeout=120)
     except Exception as e:
         print("Salvataggio su GitHub non riuscito:", type(e).__name__)
@@ -452,6 +683,8 @@ def cycle(state):
 
 def main():
     ensure_trades_file()
+    obs_ensure_file()
+    obs = obs_load()
     interval = int(os.environ.get("LOOP_INTERVAL_SEC", "60") or 60)
     end = time.time() + LOOP_MIN * 60
     state = load_state()
@@ -467,6 +700,12 @@ def main():
             cycle(state)
         except Exception as e:  # un errore in un ciclo non deve fermare il bot
             print("Errore nel ciclo:", type(e).__name__, e)
+        if OBSERVE:
+            try:
+                obs_cycle(obs)
+            except Exception as e:
+                print("Errore osservazione:", type(e).__name__, e)
+            obs_save(obs)
         save_state(state)
         after = ((state["position"] or {}).get("mint"), round(state["balance"], 4))
         print(f"Saldo {state['balance']:.2f} | posizione aperta: {'si' if state['position'] else 'no'}")
@@ -476,6 +715,8 @@ def main():
         if LOOP_MIN <= 0 or time.time() + interval >= end:
             break
         time.sleep(interval)
+    if LOOP_MIN > 0:
+        git_push()  # lascia l'area di lavoro pulita per il passaggio successivo del workflow
 
 
 if __name__ == "__main__":
