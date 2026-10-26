@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "Gwk57iPpEZZzyfZQrHW7J3rwsPaifnjDJpvSYQ44pump",
-    "symbol": "KOBE",
-    "opened": "2026-10-26 19:32:26",
-    "opened_ts": 1793043146.280225,
-    "signal_price": 9.899e-05,
-    "entry_eff": 0.00010080261799761679,
-    "units": 39383.89774850749,
-    "size": 4.0,
-    "liq_entry": 25713.36,
-    "misses": 0,
-    "tg_msg": 155
-  },
+  "position": null,
   "recent": [
     "HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK",
     "5Aa378KvCX3bz2dJ3YncoXijBBVvgvipQAXHWaBNNHRw",
@@ -34,19 +22,19 @@
     "CyZ3khPnhAWmZNENcWN1VKwDCi3niJd5CCDa9NLrpump",
     "Gwk57iPpEZZzyfZQrHW7J3rwsPaifnjDJpvSYQ44pump"
   ],
-  "scans": 634,
+  "scans": 635,
   "skipped": {
-    "variazione_h1_fuori_range": 1662,
-    "volume_basso": 5273,
-    "momentum_m5": 2718,
-    "eta_fuori_range": 2542,
+    "variazione_h1_fuori_range": 1665,
+    "volume_basso": 5280,
+    "momentum_m5": 2719,
+    "eta_fuori_range": 2548,
     "pressione_vendita": 133,
-    "liquidita_bassa": 16666,
+    "liquidita_bassa": 16698,
     "rugcheck_danger": 23,
-    "gia_scambiato_di_recente": 690,
+    "gia_scambiato_di_recente": 691,
     "variazioni_mancanti": 3,
     "eta_sconosciuta": 111
   },
-  "balance": -22.260733475624438,
+  "balance": -20.784591273042523,
   "reset_id": "2026-10-25-saldo-5"
 }
