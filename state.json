@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump",
-    "symbol": "GTA",
-    "opened": "2026-10-25 23:59:42",
-    "opened_ts": 1792972782.217777,
-    "signal_price": 0.0003836,
-    "entry_eff": 0.00039056417354410214,
-    "units": 10164.782816547078,
+    "mint": "Ef1msGuVNfbKY6AzVM25SHEJWuEFSscKxTR2TazZpump",
+    "symbol": "BTC",
+    "opened": "2026-10-26 00:07:48",
+    "opened_ts": 1792973268.8965602,
+    "signal_price": 0.0001203,
+    "entry_eff": 0.00012249883700751285,
+    "units": 32408.470945373305,
     "size": 4.0,
-    "liq_entry": 51686.32,
+    "liq_entry": 28782.48,
     "misses": 0,
-    "tg_msg": 59
+    "tg_msg": 61
   },
   "recent": [
-    "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
     "BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump",
     "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
     "PWRDXNBbauWxU2ndLqvW99sdL4ZmsA21LzQoDcmpump",
@@ -32,20 +31,21 @@
     "57efDh62UeTXKidU6v9qhp8JUyGrgKiy2jB8twmpump",
     "ERXyWGqsEhfxSCuZrpgH3tm16moY47uXtcBknS29kmch",
     "8U4hUSfL4PEjz5DbXmsSfaRJwrb4tW65FQn7jZAdLnZF",
-    "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump"
+    "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump",
+    "Ef1msGuVNfbKY6AzVM25SHEJWuEFSscKxTR2TazZpump"
   ],
-  "scans": 198,
+  "scans": 199,
   "skipped": {
     "variazione_h1_fuori_range": 466,
-    "volume_basso": 1594,
-    "momentum_m5": 708,
-    "eta_fuori_range": 931,
+    "volume_basso": 1601,
+    "momentum_m5": 713,
+    "eta_fuori_range": 935,
     "pressione_vendita": 27,
-    "liquidita_bassa": 5688,
+    "liquidita_bassa": 5718,
     "rugcheck_danger": 1,
-    "gia_scambiato_di_recente": 116,
+    "gia_scambiato_di_recente": 118,
     "variazioni_mancanti": 1
   },
-  "balance": -9.518043170789783,
+  "balance": -10.158501405118942,
   "reset_id": "2026-10-25-saldo-5"
 }
