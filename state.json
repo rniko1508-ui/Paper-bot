@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump",
-    "symbol": "TICTACTOE",
-    "opened": "2026-10-26 14:45:14",
-    "opened_ts": 1793025914.1560917,
-    "signal_price": 0.0001022,
-    "entry_eff": 0.00010407120670374475,
-    "units": 38146.95846951441,
-    "size": 4.0,
-    "liq_entry": 25867.93,
-    "misses": 0,
-    "tg_msg": 132
-  },
+  "position": null,
   "recent": [
     "ABp2bT8ovFYYY8etNQmJauRDXgk3tYkt2jpmGqZSpump",
     "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
@@ -34,19 +22,19 @@
     "CzGXLpVjYaQTDM8FxKtiCwkm3YxYHL21XUVeSgWMxa7u",
     "ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump"
   ],
-  "scans": 591,
+  "scans": 592,
   "skipped": {
-    "variazione_h1_fuori_range": 1591,
-    "volume_basso": 4968,
-    "momentum_m5": 2536,
-    "eta_fuori_range": 2256,
+    "variazione_h1_fuori_range": 1596,
+    "volume_basso": 4972,
+    "momentum_m5": 2539,
+    "eta_fuori_range": 2266,
     "pressione_vendita": 132,
-    "liquidita_bassa": 15571,
+    "liquidita_bassa": 15589,
     "rugcheck_danger": 21,
-    "gia_scambiato_di_recente": 650,
+    "gia_scambiato_di_recente": 651,
     "variazioni_mancanti": 3,
     "eta_sconosciuta": 111
   },
-  "balance": -19.078577417187766,
+  "balance": -18.753749970581453,
   "reset_id": "2026-10-25-saldo-5"
 }
