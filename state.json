@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V",
+    "symbol": "Leverage",
+    "opened": "2026-10-27 03:54:01",
+    "opened_ts": 1793073241.6958485,
+    "signal_price": 6.849e-05,
+    "entry_eff": 6.974713486849415e-05,
+    "units": 56919.900831558174,
+    "size": 4.0,
+    "liq_entry": 22534.36,
+    "misses": 0,
+    "tg_msg": 210
+  },
   "recent": [
-    "7tBFpmJe48sb6Ho61QTwACeoPgh1wx4D39v3FKZTpump",
     "5EW3LXh5NYXHmH8X7kAG8iRm9x7Wwz2s6TCHjyFMpump",
     "8ttNP8EzDJeZXTdNLpYtpTd9fm2Dj9q9HenyqRfhpump",
     "51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump",
@@ -20,18 +31,19 @@
     "6zMfMXjovo7ivtrypSP7YspHm5TcbV4Sh5TwSDgapump",
     "27Qg7EcnGfmbthfQeQXTs4qjfnvU6gXf8W1ahJiJpump",
     "91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump",
-    "2BS3r41ma2cJMFBVhXCpcbwhEko4LuYqGdjAh9fLpump"
+    "2BS3r41ma2cJMFBVhXCpcbwhEko4LuYqGdjAh9fLpump",
+    "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V"
   ],
-  "scans": 912,
+  "scans": 918,
   "skipped": {
-    "variazione_h1_fuori_range": 2275,
-    "volume_basso": 7925,
-    "momentum_m5": 3726,
-    "eta_fuori_range": 4546,
-    "pressione_vendita": 210,
-    "liquidita_bassa": 23963,
+    "variazione_h1_fuori_range": 2290,
+    "volume_basso": 8005,
+    "momentum_m5": 3762,
+    "eta_fuori_range": 4584,
+    "pressione_vendita": 215,
+    "liquidita_bassa": 24105,
     "rugcheck_danger": 33,
-    "gia_scambiato_di_recente": 935,
+    "gia_scambiato_di_recente": 944,
     "variazioni_mancanti": 8,
     "eta_sconosciuta": 111,
     "rugcheck_non_verificato": 7
