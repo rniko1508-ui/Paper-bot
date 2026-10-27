@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "7aGAb9jrgm36ZLRMLnH9jSaNV6RrjtM3No9SWCHNpump",
-    "symbol": "MUSK2028",
-    "opened": "2026-10-27 00:56:37",
-    "opened_ts": 1793062597.2190945,
-    "signal_price": 4.276e-05,
-    "entry_eff": 4.354852236866992e-05,
-    "units": 91162.67978947856,
-    "size": 4.0,
-    "liq_entry": 18154.83,
-    "misses": 0,
-    "tg_msg": 189
-  },
+  "position": null,
   "recent": [
     "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
     "84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump",
@@ -34,20 +22,20 @@
     "8BnNS15Q6h6D5Vcq1sNPaUxhpRVdK8FGRbLvCrLxibSx",
     "7aGAb9jrgm36ZLRMLnH9jSaNV6RrjtM3No9SWCHNpump"
   ],
-  "scans": 827,
+  "scans": 828,
   "skipped": {
-    "variazione_h1_fuori_range": 1991,
-    "volume_basso": 6884,
-    "momentum_m5": 3347,
-    "eta_fuori_range": 3970,
+    "variazione_h1_fuori_range": 1995,
+    "volume_basso": 6893,
+    "momentum_m5": 3353,
+    "eta_fuori_range": 3976,
     "pressione_vendita": 206,
-    "liquidita_bassa": 22052,
-    "rugcheck_danger": 29,
-    "gia_scambiato_di_recente": 807,
+    "liquidita_bassa": 22078,
+    "rugcheck_danger": 30,
+    "gia_scambiato_di_recente": 809,
     "variazioni_mancanti": 7,
     "eta_sconosciuta": 111,
     "rugcheck_non_verificato": 7
   },
-  "balance": -26.17474501797154,
+  "balance": -26.938980790404933,
   "reset_id": "2026-10-25-saldo-5"
 }
