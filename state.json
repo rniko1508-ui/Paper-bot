@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "6GaNPFwUv3P7K8nzFRXLba4hnabdmrjiKofmr5Qkpump",
-    "symbol": "GTAELON",
-    "opened": "2026-10-27 06:42:57",
-    "opened_ts": 1793083377.4494016,
-    "signal_price": 0.0004453,
-    "entry_eff": 0.0004533783596626221,
-    "units": 8756.483222874254,
-    "size": 4.0,
-    "liq_entry": 56582.26,
-    "misses": 0,
-    "tg_msg": 223
-  },
+  "position": null,
   "recent": [
     "DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump",
     "2oYmpGGMtpU94dp3HFUpJ3WJJSRZngJfkcxYUs8apump",
@@ -34,20 +22,20 @@
     "ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump",
     "6GaNPFwUv3P7K8nzFRXLba4hnabdmrjiKofmr5Qkpump"
   ],
-  "scans": 1070,
+  "scans": 1071,
   "skipped": {
-    "variazione_h1_fuori_range": 2767,
-    "volume_basso": 9843,
-    "momentum_m5": 4595,
-    "eta_fuori_range": 5305,
-    "pressione_vendita": 328,
-    "liquidita_bassa": 27789,
+    "variazione_h1_fuori_range": 2769,
+    "volume_basso": 9857,
+    "momentum_m5": 4598,
+    "eta_fuori_range": 5307,
+    "pressione_vendita": 330,
+    "liquidita_bassa": 27814,
     "rugcheck_danger": 43,
-    "gia_scambiato_di_recente": 1144,
+    "gia_scambiato_di_recente": 1145,
     "variazioni_mancanti": 11,
     "eta_sconosciuta": 111,
     "rugcheck_non_verificato": 7
   },
-  "balance": -26.55472537458929,
+  "balance": -26.150844645363417,
   "reset_id": "2026-10-25-saldo-5"
 }
