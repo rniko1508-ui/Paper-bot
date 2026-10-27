@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "61uUYv7jRhZkpNuG6DCFppsSaFBea5TP7fLuRzQ4pump",
+    "symbol": "MACCA",
+    "opened": "2026-10-27 16:10:45",
+    "opened_ts": 1793117445.7992797,
+    "signal_price": 0.0001217,
+    "entry_eff": 0.00012392503216110968,
+    "units": 32035.497032098985,
+    "size": 4.0,
+    "liq_entry": 28275.89,
+    "misses": 0,
+    "tg_msg": 258
+  },
   "recent": [
-    "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V",
     "57Kdxy5SSYMF9U4ZJ9qXLysR5AoAHbUv4yWQhx4Npump",
     "E6exteuDy1u6u3FfQV7SvPyU4XPdcBGi4cBnqrusocat",
     "2qQVrHpQaWzGf8iGYbpVUjYELYN2Q911XQWxFbsGpump",
@@ -20,16 +31,17 @@
     "7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc",
     "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
     "27Qg7EcnGfmbthfQeQXTs4qjfnvU6gXf8W1ahJiJpump",
-    "J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump"
+    "J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump",
+    "61uUYv7jRhZkpNuG6DCFppsSaFBea5TP7fLuRzQ4pump"
   ],
-  "scans": 1314,
+  "scans": 1316,
   "skipped": {
-    "variazione_h1_fuori_range": 3416,
-    "volume_basso": 12473,
-    "momentum_m5": 5716,
-    "eta_fuori_range": 6294,
+    "variazione_h1_fuori_range": 3422,
+    "volume_basso": 12495,
+    "momentum_m5": 5721,
+    "eta_fuori_range": 6308,
     "pressione_vendita": 412,
-    "liquidita_bassa": 33609,
+    "liquidita_bassa": 33657,
     "rugcheck_danger": 95,
     "gia_scambiato_di_recente": 1451,
     "variazioni_mancanti": 12,
