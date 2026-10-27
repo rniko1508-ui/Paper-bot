@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
-    "symbol": "Shitcoin",
-    "opened": "2026-10-26 23:28:00",
-    "opened_ts": 1793057280.4221878,
-    "signal_price": 5.259e-05,
-    "entry_eff": 5.355733512274862e-05,
-    "units": 74126.1676089954,
-    "size": 4.0,
-    "liq_entry": 20309.8,
-    "misses": 0,
-    "tg_msg": 182
-  },
+  "position": null,
   "recent": [
     "Ep1EjfNk8mTdiwKLEUsX4YLHpGXeMBL2wXvhCa6Kf4mx",
     "AA39p6RQP2a6zX2tHwnaSR8wY6AyFftb3wxKrDqMpump",
@@ -34,20 +22,20 @@
     "DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump",
     "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump"
   ],
-  "scans": 817,
+  "scans": 818,
   "skipped": {
-    "variazione_h1_fuori_range": 1961,
-    "volume_basso": 6797,
-    "momentum_m5": 3306,
-    "eta_fuori_range": 3909,
+    "variazione_h1_fuori_range": 1963,
+    "volume_basso": 6807,
+    "momentum_m5": 3311,
+    "eta_fuori_range": 3914,
     "pressione_vendita": 203,
-    "liquidita_bassa": 21769,
-    "rugcheck_danger": 24,
+    "liquidita_bassa": 21799,
+    "rugcheck_danger": 25,
     "gia_scambiato_di_recente": 805,
     "variazioni_mancanti": 7,
     "eta_sconosciuta": 111,
     "rugcheck_non_verificato": 7
   },
-  "balance": -25.33153620492282,
+  "balance": -26.037500518732095,
   "reset_id": "2026-10-25-saldo-5"
 }
