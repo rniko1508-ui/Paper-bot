@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump",
-    "symbol": "MIYA",
-    "opened": "2026-10-27 03:23:07",
-    "opened_ts": 1793071387.0675302,
-    "signal_price": 0.0001463,
-    "entry_eff": 0.00014896994643667555,
-    "units": 26649.670587668337,
-    "size": 4.0,
-    "liq_entry": 32025.01,
-    "misses": 0,
-    "tg_msg": 205
-  },
+  "position": null,
   "recent": [
     "3kFWwzjQ6cuLw5KUCmLX3t2h5F1NawncF5dL8wxUpump",
     "7tBFpmJe48sb6Ho61QTwACeoPgh1wx4D39v3FKZTpump",
@@ -34,20 +22,20 @@
     "27Qg7EcnGfmbthfQeQXTs4qjfnvU6gXf8W1ahJiJpump",
     "91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump"
   ],
-  "scans": 909,
+  "scans": 910,
   "skipped": {
-    "variazione_h1_fuori_range": 2266,
-    "volume_basso": 7884,
-    "momentum_m5": 3706,
-    "eta_fuori_range": 4525,
+    "variazione_h1_fuori_range": 2270,
+    "volume_basso": 7898,
+    "momentum_m5": 3712,
+    "eta_fuori_range": 4533,
     "pressione_vendita": 209,
-    "liquidita_bassa": 23896,
+    "liquidita_bassa": 23918,
     "rugcheck_danger": 33,
     "gia_scambiato_di_recente": 934,
     "variazioni_mancanti": 8,
     "eta_sconosciuta": 111,
     "rugcheck_non_verificato": 7
   },
-  "balance": -24.20748716591539,
+  "balance": -24.182559275852455,
   "reset_id": "2026-10-25-saldo-5"
 }
