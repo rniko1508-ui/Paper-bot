@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-    "symbol": "CHICO",
-    "opened": "2026-10-27 01:20:07",
-    "opened_ts": 1793064007.1167324,
-    "signal_price": 0.00273,
-    "entry_eff": 0.002779295592547572,
-    "units": 1428.4194925668194,
+    "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
+    "symbol": "PEAK",
+    "opened": "2026-10-27 01:22:11",
+    "opened_ts": 1793064131.4008477,
+    "signal_price": 5.359e-05,
+    "entry_eff": 5.457614509235725e-05,
+    "units": 72742.4040903166,
     "size": 4.0,
-    "liq_entry": 140366.62,
+    "liq_entry": 19917.22,
     "misses": 0,
-    "tg_msg": 194
+    "tg_msg": 197
   },
   "recent": [
-    "fR9dwtL4PhAcV19XyFnnsAvWcXsk93raxvWdWCqpump",
     "WJbYURhAuVEZqKHTwH3nsVtPZ55HKcHtnrUppTapump",
     "CyZ3khPnhAWmZNENcWN1VKwDCi3niJd5CCDa9NLrpump",
     "Gwk57iPpEZZzyfZQrHW7J3rwsPaifnjDJpvSYQ44pump",
@@ -32,22 +31,23 @@
     "8BnNS15Q6h6D5Vcq1sNPaUxhpRVdK8FGRbLvCrLxibSx",
     "7aGAb9jrgm36ZLRMLnH9jSaNV6RrjtM3No9SWCHNpump",
     "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
-    "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump"
+    "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
+    "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray"
   ],
-  "scans": 834,
+  "scans": 835,
   "skipped": {
-    "variazione_h1_fuori_range": 2018,
-    "volume_basso": 6943,
-    "momentum_m5": 3383,
-    "eta_fuori_range": 4015,
+    "variazione_h1_fuori_range": 2021,
+    "volume_basso": 6951,
+    "momentum_m5": 3389,
+    "eta_fuori_range": 4020,
     "pressione_vendita": 208,
-    "liquidita_bassa": 22235,
+    "liquidita_bassa": 22260,
     "rugcheck_danger": 33,
-    "gia_scambiato_di_recente": 821,
+    "gia_scambiato_di_recente": 823,
     "variazioni_mancanti": 7,
     "eta_sconosciuta": 111,
     "rugcheck_non_verificato": 7
   },
-  "balance": -26.841338666607605,
+  "balance": -25.48183995610089,
   "reset_id": "2026-10-25-saldo-5"
 }
