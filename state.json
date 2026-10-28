@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6",
-    "symbol": "STONKLANA",
-    "opened": "2026-10-28 18:38:42",
-    "opened_ts": 1793212722.1868966,
-    "signal_price": 0.0005516,
-    "entry_eff": 0.0005615528838893034,
-    "units": 7069.681438556355,
-    "size": 4.0,
-    "liq_entry": 183226.22,
-    "misses": 0,
-    "tg_msg": 388
-  },
+  "position": null,
   "recent": [
     "Pmfm2RprxQRKZH1XWVsBUc2KgCTyzeDTSFbT1vJmogz",
     "HZccH9aPk9PpxNRZwgESbYE3BMb3zcrjtunJkdAwpump",
@@ -34,20 +22,20 @@
     "2jzKCyzPDfx6TNem1f1AUdz4UxSCUzkxUmSHRbKbpump",
     "GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6"
   ],
-  "scans": 2245,
+  "scans": 2246,
   "skipped": {
-    "variazione_h1_fuori_range": 5870,
-    "volume_basso": 19144,
-    "momentum_m5": 9235,
-    "eta_fuori_range": 11415,
+    "variazione_h1_fuori_range": 5873,
+    "volume_basso": 19149,
+    "momentum_m5": 9238,
+    "eta_fuori_range": 11423,
     "pressione_vendita": 861,
-    "liquidita_bassa": 56441,
+    "liquidita_bassa": 56465,
     "rugcheck_danger": 144,
-    "gia_scambiato_di_recente": 2376,
+    "gia_scambiato_di_recente": 2377,
     "variazioni_mancanti": 22,
     "eta_sconosciuta": 120,
     "rugcheck_non_verificato": 7
   },
-  "balance": -55.38221258686769,
+  "balance": -56.17954836110194,
   "reset_id": "2026-10-25-saldo-5"
 }
