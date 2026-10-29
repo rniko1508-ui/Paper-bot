@@ -182,3 +182,4 @@ chiuso_il,simbolo,mint,aperto_il,minuti,prezzo_ingresso,prezzo_uscita,importo,in
 2026-10-29 00:01:06,FLOATCAT,EnMv4aju8JzWkYQfUXbfekhwRWqXvMELKxrMLaHQpump,2026-10-28 23:59:02,2.1,0.0001112,6.597e-05,4.0,2.2523,-1.7477,-43.7,stop loss,27197
 2026-10-29 00:56:05,CPU,5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo,2026-10-29 00:51:58,4.1,0.0002571,0.0002031,4.0,3.0102,-0.9898,-24.7,stop loss,105439
 2026-10-29 00:58:10,BIO,7AxJJTaJumkDRCJNz4n8ixobaPjrmL6GmxexuJKDpump,2026-10-29 00:56:07,2.0,0.0001021,8.87e-05,4.0,3.312,-0.688,-17.2,stop loss,26815
+2026-10-29 01:57:21,FLOATER,J7cqsaTuXUavwA3sp238tSpartUfYwDrJAaHuDvypump,2026-10-29 01:36:50,20.5,0.0002449,0.0002893,4.0,4.5151,0.5151,12.9,protezione profitto (ROI sceso sotto +14%),41232
