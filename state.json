@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump",
-    "symbol": "SLEGO",
-    "opened": "2026-10-29 02:38:27",
-    "opened_ts": 1793241507.2976835,
-    "signal_price": 0.0003147,
-    "entry_eff": 0.0003204191757481295,
-    "units": 12390.020012786877,
-    "size": 4.0,
-    "liq_entry": 46130.38,
-    "misses": 0,
-    "tg_msg": 429
-  },
+  "position": null,
   "recent": [
     "2jzKCyzPDfx6TNem1f1AUdz4UxSCUzkxUmSHRbKbpump",
     "GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6",
@@ -34,20 +22,20 @@
     "147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec",
     "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump"
   ],
-  "scans": 2515,
+  "scans": 2516,
   "skipped": {
-    "variazione_h1_fuori_range": 6400,
-    "volume_basso": 21420,
-    "momentum_m5": 10136,
-    "eta_fuori_range": 13165,
+    "variazione_h1_fuori_range": 6402,
+    "volume_basso": 21431,
+    "momentum_m5": 10141,
+    "eta_fuori_range": 13171,
     "pressione_vendita": 945,
-    "liquidita_bassa": 62890,
+    "liquidita_bassa": 62912,
     "rugcheck_danger": 161,
     "gia_scambiato_di_recente": 2687,
     "variazioni_mancanti": 34,
     "eta_sconosciuta": 172,
     "rugcheck_non_verificato": 7
   },
-  "balance": -61.092308112955756,
+  "balance": -61.83691136451204,
   "reset_id": "2026-10-25-saldo-5"
 }
