@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "5wCqCq6jbppuTocMeq6zd4UywAm64L1QNNxvEDAHpump",
-    "symbol": "TYGR",
-    "opened": "2026-10-30 19:01:01",
-    "opened_ts": 1793386861.6898878,
-    "signal_price": 0.0002835,
-    "entry_eff": 0.0002886492185653129,
-    "units": 13753.71816259293,
-    "size": 4.0,
-    "liq_entry": 49071.19,
-    "misses": 0,
-    "tg_msg": 616
-  },
+  "position": null,
   "recent": [
     "A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump",
     "2xkczG594A3iYjpJdECVSZooukxu13GwRgGxVTJvpump",
@@ -34,20 +22,20 @@
     "3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump",
     "5wCqCq6jbppuTocMeq6zd4UywAm64L1QNNxvEDAHpump"
   ],
-  "scans": 4028,
+  "scans": 4029,
   "skipped": {
     "variazione_h1_fuori_range": 9257,
-    "volume_basso": 34580,
-    "momentum_m5": 14589,
-    "eta_fuori_range": 19443,
+    "volume_basso": 34589,
+    "momentum_m5": 14595,
+    "eta_fuori_range": 19446,
     "pressione_vendita": 1438,
-    "liquidita_bassa": 102750,
+    "liquidita_bassa": 102779,
     "rugcheck_danger": 302,
-    "gia_scambiato_di_recente": 3507,
+    "gia_scambiato_di_recente": 3509,
     "variazioni_mancanti": 52,
     "eta_sconosciuta": 172,
     "rugcheck_non_verificato": 7
   },
-  "balance": -81.04409130678509,
+  "balance": -82.09210850038433,
   "reset_id": "2026-10-25-saldo-5"
 }
