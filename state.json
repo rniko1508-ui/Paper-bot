@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump",
-    "symbol": "BITCAT",
-    "opened": "2026-10-30 04:22:29",
-    "opened_ts": 1793334149.684751,
-    "signal_price": 0.0002818,
-    "entry_eff": 0.0002869247004762582,
-    "units": 13836.382832883713,
+    "mint": "CodmwQiDsHkBUEj18ZrUZRuR1E5TopppJc2R9tqdpump",
+    "symbol": "PURR",
+    "opened": "2026-10-30 04:52:03",
+    "opened_ts": 1793335923.7470298,
+    "signal_price": 5.206e-05,
+    "entry_eff": 5.3019439925653023e-05,
+    "units": 74878.19572532203,
     "size": 4.0,
-    "liq_entry": 43104.77,
+    "liq_entry": 18626.18,
     "misses": 0,
-    "tg_msg": 547
+    "tg_msg": 549
   },
   "recent": [
-    "GXQVzSaNGQiSy7Kxpvox3HE4bJujFa666E2wvbrrpump",
     "FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump",
     "H3iGq7KSqdzw7QG3xZo2mF4eaYsvihZqqoAkdXripump",
     "C5hLhhd5MivJ8m2MTQjB9A2nmuBymRzYhyRpeRMMpump",
@@ -32,22 +31,23 @@
     "FGGwUpqPHTxwLDdtoY37KBJ6tQxfY5N1JLTXEs2ppump",
     "J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump",
     "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
-    "9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump"
+    "9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump",
+    "CodmwQiDsHkBUEj18ZrUZRuR1E5TopppJc2R9tqdpump"
   ],
-  "scans": 3407,
+  "scans": 3408,
   "skipped": {
-    "variazione_h1_fuori_range": 7944,
-    "volume_basso": 29250,
-    "momentum_m5": 12737,
-    "eta_fuori_range": 16989,
-    "pressione_vendita": 1170,
-    "liquidita_bassa": 85747,
+    "variazione_h1_fuori_range": 7945,
+    "volume_basso": 29257,
+    "momentum_m5": 12742,
+    "eta_fuori_range": 16993,
+    "pressione_vendita": 1171,
+    "liquidita_bassa": 85775,
     "rugcheck_danger": 219,
     "gia_scambiato_di_recente": 3188,
     "variazioni_mancanti": 48,
     "eta_sconosciuta": 172,
     "rugcheck_non_verificato": 7
   },
-  "balance": -72.22897483098629,
+  "balance": -72.81403407271821,
   "reset_id": "2026-10-25-saldo-5"
 }
