@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump",
-    "symbol": "iCoin",
-    "opened": "2026-10-30 23:26:20",
-    "opened_ts": 1793402780.1659994,
-    "signal_price": 0.0006248,
-    "entry_eff": 0.0006361139516969687,
-    "units": 6241.0201653480235,
-    "size": 4.0,
-    "liq_entry": 73993.7,
-    "misses": 0,
-    "tg_msg": 648
-  },
+  "position": null,
   "recent": [
     "2aZp4sP2bPdMUVkTVeRmzBvJvCaeTpgYXNBXNuEopump",
     "8bbAcnTtgUTCCXGZbJ7DBKSvW8Z2k9bFj9NfGgEapump",
@@ -34,20 +22,20 @@
     "66auXVTRw9ZekMeB8h5jdJS9WhMRVz8zfMyzqeinpump",
     "HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump"
   ],
-  "scans": 4200,
+  "scans": 4201,
   "skipped": {
-    "variazione_h1_fuori_range": 9528,
-    "volume_basso": 35939,
-    "momentum_m5": 15115,
-    "eta_fuori_range": 20672,
-    "pressione_vendita": 1493,
-    "liquidita_bassa": 107906,
+    "variazione_h1_fuori_range": 9530,
+    "volume_basso": 35949,
+    "momentum_m5": 15118,
+    "eta_fuori_range": 20679,
+    "pressione_vendita": 1494,
+    "liquidita_bassa": 107929,
     "rugcheck_danger": 302,
-    "gia_scambiato_di_recente": 3626,
+    "gia_scambiato_di_recente": 3627,
     "variazioni_mancanti": 58,
     "eta_sconosciuta": 172,
     "rugcheck_non_verificato": 7
   },
-  "balance": -85.72070511047451,
+  "balance": -83.73206539941285,
   "reset_id": "2026-10-25-saldo-5"
 }
