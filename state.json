@@ -22,19 +22,19 @@
     "3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump",
     "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump"
   ],
-  "scans": 4586,
+  "scans": 4614,
   "skipped": {
-    "variazione_h1_fuori_range": 10322,
-    "volume_basso": 40582,
-    "momentum_m5": 16393,
-    "eta_fuori_range": 22636,
+    "variazione_h1_fuori_range": 10365,
+    "volume_basso": 40920,
+    "momentum_m5": 16505,
+    "eta_fuori_range": 22756,
     "pressione_vendita": 1548,
-    "liquidita_bassa": 118294,
+    "liquidita_bassa": 118957,
     "rugcheck_danger": 302,
-    "gia_scambiato_di_recente": 3913,
+    "gia_scambiato_di_recente": 3929,
     "variazioni_mancanti": 58,
     "eta_sconosciuta": 172,
-    "rugcheck_non_verificato": 248
+    "rugcheck_non_verificato": 288
   },
   "balance": -85.33308902918367,
   "reset_id": "2026-10-25-saldo-5"
