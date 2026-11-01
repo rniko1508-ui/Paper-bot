@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "6qhnbvdJuWVUQ7EQpgz5GNraV7pty7cqc8MmfQTEpump",
-    "symbol": "Capri",
-    "opened": "2026-11-01 16:58:42",
-    "opened_ts": 1793552322.834504,
-    "signal_price": 4.713e-05,
-    "entry_eff": 4.800176535559893e-05,
-    "units": 82705.2915781344,
-    "size": 4.0,
-    "liq_entry": 16095.38,
-    "misses": 0,
-    "tg_msg": 759
-  },
+  "position": null,
   "recent": [
     "5U7cD5cXVMVFFhYVRhcm1Ruerg6RzVnUQkGcraZepump",
     "4RGFCEspCXydaXwH4siYcyeNduY2MABG1nWsTUAjpump",
@@ -34,20 +22,20 @@
     "2EQxezWgXPRU6V3UD7DKr5m12mxqeFGPWNRx9wbqy9fC",
     "6qhnbvdJuWVUQ7EQpgz5GNraV7pty7cqc8MmfQTEpump"
   ],
-  "scans": 5986,
+  "scans": 5987,
   "skipped": {
-    "variazione_h1_fuori_range": 12917,
-    "volume_basso": 53456,
-    "momentum_m5": 20986,
-    "eta_fuori_range": 28623,
+    "variazione_h1_fuori_range": 12919,
+    "volume_basso": 53468,
+    "momentum_m5": 20988,
+    "eta_fuori_range": 28625,
     "pressione_vendita": 1929,
-    "liquidita_bassa": 151971,
+    "liquidita_bassa": 151995,
     "rugcheck_danger": 305,
     "gia_scambiato_di_recente": 4985,
     "variazioni_mancanti": 77,
     "eta_sconosciuta": 302,
     "rugcheck_non_verificato": 621
   },
-  "balance": -100.71936470734978,
+  "balance": -101.65206426165199,
   "reset_id": "2026-10-25-saldo-5"
 }
