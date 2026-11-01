@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "6g16UK4wHoFhC7PCmw8LYYCdt9q8m99fyoAwxeCrpump",
-    "symbol": "VETOTRUMP",
-    "opened": "2026-11-01 22:27:47",
-    "opened_ts": 1793572067.8267393,
-    "signal_price": 0.0001434,
-    "entry_eff": 0.0001460200273280489,
-    "units": 27188.051342306557,
-    "size": 4.0,
-    "liq_entry": 29546.2,
-    "misses": 0,
-    "tg_msg": 785
-  },
+  "position": null,
   "recent": [
     "GYKnd6jGUSQoBUnj6LdGCBtCWYDgr2Zd6QwNPcy5pump",
     "6jFcYpa95qnzX3Kui4TTyPCEzQorHRCHXhoCAg5tpump",
@@ -34,20 +22,20 @@
     "6pGyajBJsvKWLvgDZPNebH5uZcHXc7hVQAJ3y1uuVXNd",
     "6g16UK4wHoFhC7PCmw8LYYCdt9q8m99fyoAwxeCrpump"
   ],
-  "scans": 6260,
+  "scans": 6261,
   "skipped": {
-    "variazione_h1_fuori_range": 13187,
-    "volume_basso": 55759,
-    "momentum_m5": 21409,
-    "eta_fuori_range": 30568,
+    "variazione_h1_fuori_range": 13189,
+    "volume_basso": 55764,
+    "momentum_m5": 21410,
+    "eta_fuori_range": 30575,
     "pressione_vendita": 1967,
-    "liquidita_bassa": 158329,
+    "liquidita_bassa": 158354,
     "rugcheck_danger": 305,
     "gia_scambiato_di_recente": 5084,
     "variazioni_mancanti": 105,
     "eta_sconosciuta": 302,
     "rugcheck_non_verificato": 627
   },
-  "balance": -101.4880763607532,
+  "balance": -102.05729240850238,
   "reset_id": "2026-10-25-saldo-5"
 }
