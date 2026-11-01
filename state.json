@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "EZZ4WS7XXKgWP2btL2iTjHz4of9PT16tCDMd1LTCpump",
-    "symbol": "ANAKINCORE",
-    "opened": "2026-11-01 22:42:04",
-    "opened_ts": 1793572924.3266566,
-    "signal_price": 0.0003839,
-    "entry_eff": 0.0003908714925275284,
-    "units": 10156.790852994734,
-    "size": 4.0,
-    "liq_entry": 50107.25,
-    "misses": 0,
-    "tg_msg": 787
-  },
+  "position": null,
   "recent": [
     "6jFcYpa95qnzX3Kui4TTyPCEzQorHRCHXhoCAg5tpump",
     "DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump",
@@ -34,20 +22,20 @@
     "6g16UK4wHoFhC7PCmw8LYYCdt9q8m99fyoAwxeCrpump",
     "EZZ4WS7XXKgWP2btL2iTjHz4of9PT16tCDMd1LTCpump"
   ],
-  "scans": 6272,
+  "scans": 6273,
   "skipped": {
-    "variazione_h1_fuori_range": 13195,
-    "volume_basso": 55810,
-    "momentum_m5": 21425,
-    "eta_fuori_range": 30666,
+    "variazione_h1_fuori_range": 13196,
+    "volume_basso": 55815,
+    "momentum_m5": 21426,
+    "eta_fuori_range": 30675,
     "pressione_vendita": 1967,
-    "liquidita_bassa": 158633,
+    "liquidita_bassa": 158659,
     "rugcheck_danger": 305,
     "gia_scambiato_di_recente": 5090,
     "variazioni_mancanti": 105,
     "eta_sconosciuta": 302,
     "rugcheck_non_verificato": 627
   },
-  "balance": -102.05729240850238,
+  "balance": -102.67236722837205,
   "reset_id": "2026-10-25-saldo-5"
 }
