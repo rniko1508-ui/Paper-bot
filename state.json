@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "6g16UK4wHoFhC7PCmw8LYYCdt9q8m99fyoAwxeCrpump",
+    "symbol": "VETOTRUMP",
+    "opened": "2026-11-01 22:27:47",
+    "opened_ts": 1793572067.8267393,
+    "signal_price": 0.0001434,
+    "entry_eff": 0.0001460200273280489,
+    "units": 27188.051342306557,
+    "size": 4.0,
+    "liq_entry": 29546.2,
+    "misses": 0,
+    "tg_msg": 785
+  },
   "recent": [
-    "GuvRLfGP4CMJfF9VyHv85vih9yqxhNB5R8zgRcD9pump",
     "GYKnd6jGUSQoBUnj6LdGCBtCWYDgr2Zd6QwNPcy5pump",
     "6jFcYpa95qnzX3Kui4TTyPCEzQorHRCHXhoCAg5tpump",
     "DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump",
@@ -20,18 +31,19 @@
     "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump",
     "8Wi25nQhEay9KwAsoguEs3y1uxaJmCRQxRYnSY9dpump",
     "DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT",
-    "6pGyajBJsvKWLvgDZPNebH5uZcHXc7hVQAJ3y1uuVXNd"
+    "6pGyajBJsvKWLvgDZPNebH5uZcHXc7hVQAJ3y1uuVXNd",
+    "6g16UK4wHoFhC7PCmw8LYYCdt9q8m99fyoAwxeCrpump"
   ],
-  "scans": 6246,
+  "scans": 6260,
   "skipped": {
-    "variazione_h1_fuori_range": 13164,
-    "volume_basso": 55682,
-    "momentum_m5": 21387,
-    "eta_fuori_range": 30465,
-    "pressione_vendita": 1965,
-    "liquidita_bassa": 157978,
+    "variazione_h1_fuori_range": 13187,
+    "volume_basso": 55759,
+    "momentum_m5": 21409,
+    "eta_fuori_range": 30568,
+    "pressione_vendita": 1967,
+    "liquidita_bassa": 158329,
     "rugcheck_danger": 305,
-    "gia_scambiato_di_recente": 5079,
+    "gia_scambiato_di_recente": 5084,
     "variazioni_mancanti": 105,
     "eta_sconosciuta": 302,
     "rugcheck_non_verificato": 627
