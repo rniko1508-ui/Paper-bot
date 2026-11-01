@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "8BxKRVNTRzM7LTJ9Q6rqKQFwXtMjZjjSNYNDyjLSpump",
-    "symbol": "BABYKIN",
-    "opened": "2026-11-01 20:33:45",
-    "opened_ts": 1793565225.0719545,
-    "signal_price": 0.0001163,
-    "entry_eff": 0.00011842818664019528,
-    "units": 33522.42496173252,
-    "size": 4.0,
-    "liq_entry": 26745.9,
-    "misses": 0,
-    "tg_msg": 773
-  },
+  "position": null,
   "recent": [
     "CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump",
     "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump",
@@ -34,20 +22,20 @@
     "HNxyGpz8AkLqmfBBKMzmugkPE5Bahj2bGPPTNgWGpump",
     "8BxKRVNTRzM7LTJ9Q6rqKQFwXtMjZjjSNYNDyjLSpump"
   ],
-  "scans": 6158,
+  "scans": 6159,
   "skipped": {
-    "variazione_h1_fuori_range": 13057,
-    "volume_basso": 55057,
+    "variazione_h1_fuori_range": 13059,
+    "volume_basso": 55067,
     "momentum_m5": 21231,
-    "eta_fuori_range": 29752,
+    "eta_fuori_range": 29762,
     "pressione_vendita": 1954,
-    "liquidita_bassa": 155933,
+    "liquidita_bassa": 155956,
     "rugcheck_danger": 305,
     "gia_scambiato_di_recente": 5052,
     "variazioni_mancanti": 105,
     "eta_sconosciuta": 302,
     "rugcheck_non_verificato": 621
   },
-  "balance": -103.15386678779406,
+  "balance": -100.99894435573742,
   "reset_id": "2026-10-25-saldo-5"
 }
