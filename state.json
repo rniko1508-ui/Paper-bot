@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT",
-    "symbol": "REGRETAMINE",
-    "opened": "2026-11-01 17:35:38",
-    "opened_ts": 1793554538.7846272,
-    "signal_price": 0.0001401,
-    "entry_eff": 0.00014265670456833156,
-    "units": 27829.046044578987,
-    "size": 4.0,
-    "liq_entry": 32110.41,
-    "misses": 0,
-    "tg_msg": 764
-  },
+  "position": null,
   "recent": [
     "HhBuvegE7Ew2stS5svkMcxL8povkaL8brwt9JUtfpump",
     "CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump",
@@ -34,20 +22,20 @@
     "7k4h6e913NxWNcshaTzSm5pT2EskWK3hyRzCSDzdbonk",
     "Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT"
   ],
-  "scans": 6007,
+  "scans": 6008,
   "skipped": {
     "variazione_h1_fuori_range": 12952,
-    "volume_basso": 53662,
-    "momentum_m5": 21023,
-    "eta_fuori_range": 28692,
+    "volume_basso": 53670,
+    "momentum_m5": 21027,
+    "eta_fuori_range": 28696,
     "pressione_vendita": 1935,
-    "liquidita_bassa": 152493,
+    "liquidita_bassa": 152517,
     "rugcheck_danger": 305,
     "gia_scambiato_di_recente": 4998,
-    "variazioni_mancanti": 77,
+    "variazioni_mancanti": 78,
     "eta_sconosciuta": 302,
     "rugcheck_non_verificato": 621
   },
-  "balance": -101.45264467862303,
+  "balance": -102.16261527384195,
   "reset_id": "2026-10-25-saldo-5"
 }
