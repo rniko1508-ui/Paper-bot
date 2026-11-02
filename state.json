@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump",
-    "symbol": "TrumpWars",
-    "opened": "2026-11-02 02:55:41",
-    "opened_ts": 1793588141.641331,
-    "signal_price": 5.775e-05,
-    "entry_eff": 5.881452583836558e-05,
-    "units": 67500.33165123829,
-    "size": 4.0,
-    "liq_entry": 18460.92,
-    "misses": 0,
-    "tg_msg": 811
-  },
+  "position": null,
   "recent": [
     "MAXXib7SQAQn4ymrwhhR9qMRUcYv8BNhbQxizJn5CCk",
     "HNxyGpz8AkLqmfBBKMzmugkPE5Bahj2bGPPTNgWGpump",
@@ -34,20 +22,20 @@
     "91QMBp6GNEfMmDg2VWH7iWkyUSpePRkdhc44W7oapump",
     "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump"
   ],
-  "scans": 6467,
+  "scans": 6468,
   "skipped": {
-    "variazione_h1_fuori_range": 13364,
-    "volume_basso": 57510,
-    "momentum_m5": 21751,
-    "eta_fuori_range": 31895,
+    "variazione_h1_fuori_range": 13367,
+    "volume_basso": 57521,
+    "momentum_m5": 21754,
+    "eta_fuori_range": 31899,
     "pressione_vendita": 1980,
-    "liquidita_bassa": 163499,
-    "rugcheck_danger": 322,
+    "liquidita_bassa": 163525,
+    "rugcheck_danger": 323,
     "gia_scambiato_di_recente": 5236,
     "variazioni_mancanti": 105,
     "eta_sconosciuta": 302,
     "rugcheck_non_verificato": 627
   },
-  "balance": -106.41361202034075,
+  "balance": -107.20369463194204,
   "reset_id": "2026-10-25-saldo-5"
 }
