@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "En5icDhYYCuGXTtCLmfWiGR4C9nMiYMKojLdBRfVpump",
-    "symbol": "TRUMP",
-    "opened": "2026-11-02 06:11:39",
-    "opened_ts": 1793599899.2345433,
-    "signal_price": 9.849e-05,
-    "entry_eff": 0.00010029424774633796,
-    "units": 39583.5263657477,
-    "size": 4.0,
-    "liq_entry": 25070.84,
-    "misses": 0,
-    "tg_msg": 822
-  },
+  "position": null,
   "recent": [
     "DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT",
     "6pGyajBJsvKWLvgDZPNebH5uZcHXc7hVQAJ3y1uuVXNd",
@@ -34,20 +22,20 @@
     "5GNDhmKmNks2ELBCmLHPZYBeYu2NCDqnrhKnBBr99xmr",
     "En5icDhYYCuGXTtCLmfWiGR4C9nMiYMKojLdBRfVpump"
   ],
-  "scans": 6644,
+  "scans": 6645,
   "skipped": {
     "variazione_h1_fuori_range": 13600,
-    "volume_basso": 59619,
-    "momentum_m5": 22104,
-    "eta_fuori_range": 32505,
+    "volume_basso": 59629,
+    "momentum_m5": 22106,
+    "eta_fuori_range": 32510,
     "pressione_vendita": 1990,
-    "liquidita_bassa": 167776,
+    "liquidita_bassa": 167798,
     "rugcheck_danger": 337,
-    "gia_scambiato_di_recente": 5374,
+    "gia_scambiato_di_recente": 5375,
     "variazioni_mancanti": 106,
     "eta_sconosciuta": 369,
     "rugcheck_non_verificato": 627
   },
-  "balance": -107.71443088016228,
+  "balance": -111.67067414401266,
   "reset_id": "2026-10-25-saldo-5"
 }
