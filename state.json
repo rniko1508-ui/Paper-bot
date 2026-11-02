@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "99V36NFUcueC2tHjd1JV5bfhFux73NKWRiSBnxJ8pump",
-    "symbol": "faucet",
-    "opened": "2026-11-02 06:33:57",
-    "opened_ts": 1793601237.7439082,
-    "signal_price": 8.57e-05,
-    "entry_eff": 8.727274215967517e-05,
-    "units": 45489.57557373921,
-    "size": 4.0,
-    "liq_entry": 22745.55,
-    "misses": 0,
-    "tg_msg": 824
-  },
+  "position": null,
   "recent": [
     "6pGyajBJsvKWLvgDZPNebH5uZcHXc7hVQAJ3y1uuVXNd",
     "6g16UK4wHoFhC7PCmw8LYYCdt9q8m99fyoAwxeCrpump",
@@ -34,20 +22,20 @@
     "En5icDhYYCuGXTtCLmfWiGR4C9nMiYMKojLdBRfVpump",
     "99V36NFUcueC2tHjd1JV5bfhFux73NKWRiSBnxJ8pump"
   ],
-  "scans": 6660,
+  "scans": 6661,
   "skipped": {
     "variazione_h1_fuori_range": 13607,
-    "volume_basso": 59786,
-    "momentum_m5": 22117,
-    "eta_fuori_range": 32556,
+    "volume_basso": 59796,
+    "momentum_m5": 22118,
+    "eta_fuori_range": 32558,
     "pressione_vendita": 1990,
-    "liquidita_bassa": 168159,
+    "liquidita_bassa": 168184,
     "rugcheck_danger": 337,
-    "gia_scambiato_di_recente": 5391,
+    "gia_scambiato_di_recente": 5392,
     "variazioni_mancanti": 106,
     "eta_sconosciuta": 369,
     "rugcheck_non_verificato": 627
   },
-  "balance": -111.67067414401266,
+  "balance": -112.35235474186419,
   "reset_id": "2026-10-25-saldo-5"
 }
