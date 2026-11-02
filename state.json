@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump",
-    "symbol": "Bert",
-    "opened": "2026-11-02 10:30:28",
-    "opened_ts": 1793615428.9512856,
-    "signal_price": 0.0001132,
-    "entry_eff": 0.0001152715945554656,
-    "units": 34440.4015170428,
-    "size": 4.0,
-    "liq_entry": 26639.56,
-    "misses": 0,
-    "tg_msg": 842
-  },
+  "position": null,
   "recent": [
     "DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump",
     "GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA",
@@ -34,20 +22,20 @@
     "FAqiaGmrSdx2Z5qZmSRUkbyYCF2dFCUTfYVwP4Mypump",
     "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump"
   ],
-  "scans": 6782,
+  "scans": 6783,
   "skipped": {
     "variazione_h1_fuori_range": 13662,
-    "volume_basso": 60732,
-    "momentum_m5": 22285,
-    "eta_fuori_range": 32932,
+    "volume_basso": 60741,
+    "momentum_m5": 22288,
+    "eta_fuori_range": 32933,
     "pressione_vendita": 1992,
-    "liquidita_bassa": 171175,
-    "rugcheck_danger": 351,
+    "liquidita_bassa": 171199,
+    "rugcheck_danger": 352,
     "gia_scambiato_di_recente": 5485,
     "variazioni_mancanti": 106,
     "eta_sconosciuta": 369,
     "rugcheck_non_verificato": 627
   },
-  "balance": -114.82357811706825,
+  "balance": -115.4939881271065,
   "reset_id": "2026-10-25-saldo-5"
 }
