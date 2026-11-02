@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "E84psoV4rJQYBoyTkzTrh1hzjZJv81VGFRX9gMLHpump",
-    "symbol": "Tumulun",
-    "opened": "2026-11-02 08:16:31",
-    "opened_ts": 1793607391.1893785,
-    "signal_price": 4.769e-05,
-    "entry_eff": 4.857172117959473e-05,
-    "units": 81734.80172384382,
-    "size": 4.0,
-    "liq_entry": 16373.42,
-    "misses": 0,
-    "tg_msg": 836
-  },
+  "position": null,
   "recent": [
     "2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump",
     "74Np8Ga5DomwZVx5bZBGFcHgFavPhgkvkJ2LPdWdpump",
@@ -34,20 +22,20 @@
     "ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump",
     "E84psoV4rJQYBoyTkzTrh1hzjZJv81VGFRX9gMLHpump"
   ],
-  "scans": 6742,
+  "scans": 6743,
   "skipped": {
-    "variazione_h1_fuori_range": 13632,
-    "volume_basso": 60454,
-    "momentum_m5": 22230,
-    "eta_fuori_range": 32800,
+    "variazione_h1_fuori_range": 13633,
+    "volume_basso": 60462,
+    "momentum_m5": 22232,
+    "eta_fuori_range": 32804,
     "pressione_vendita": 1990,
-    "liquidita_bassa": 170230,
+    "liquidita_bassa": 170254,
     "rugcheck_danger": 337,
     "gia_scambiato_di_recente": 5446,
     "variazioni_mancanti": 106,
     "eta_sconosciuta": 369,
     "rugcheck_non_verificato": 627
   },
-  "balance": -111.99055487677272,
+  "balance": -114.00365671487526,
   "reset_id": "2026-10-25-saldo-5"
 }
