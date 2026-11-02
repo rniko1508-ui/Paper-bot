@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "xRtT8q7g7NsAnbTgvCtim8jtxKVVc5epoLoAYmqpump",
-    "symbol": "CAPYTISTAS",
-    "opened": "2026-11-02 19:19:23",
-    "opened_ts": 1793647163.8719282,
-    "signal_price": 6.023e-05,
-    "entry_eff": 6.133758590129792e-05,
-    "units": 64723.773224273464,
-    "size": 4.0,
-    "liq_entry": 20551.14,
-    "misses": 0,
-    "tg_msg": 878
-  },
+  "position": null,
   "recent": [
     "8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump",
     "FAqiaGmrSdx2Z5qZmSRUkbyYCF2dFCUTfYVwP4Mypump",
@@ -34,20 +22,20 @@
     "6qnAerbLSGbhS3i6Xyh8AcsLTrutS1Rb7kuHsfwZpump",
     "xRtT8q7g7NsAnbTgvCtim8jtxKVVc5epoLoAYmqpump"
   ],
-  "scans": 7220,
+  "scans": 7221,
   "skipped": {
-    "variazione_h1_fuori_range": 14262,
-    "volume_basso": 62695,
-    "momentum_m5": 23350,
-    "eta_fuori_range": 35017,
+    "variazione_h1_fuori_range": 14264,
+    "volume_basso": 62701,
+    "momentum_m5": 23353,
+    "eta_fuori_range": 35022,
     "pressione_vendita": 2079,
-    "liquidita_bassa": 180158,
-    "rugcheck_danger": 487,
-    "gia_scambiato_di_recente": 5617,
+    "liquidita_bassa": 180182,
+    "rugcheck_danger": 488,
+    "gia_scambiato_di_recente": 5618,
     "variazioni_mancanti": 119,
     "eta_sconosciuta": 369,
     "rugcheck_non_verificato": 640
   },
-  "balance": -120.12246766822574,
+  "balance": -118.41465451781772,
   "reset_id": "2026-10-25-saldo-5"
 }
