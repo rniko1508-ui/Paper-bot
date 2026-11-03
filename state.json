@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "2KwPc4FxdNm92DKo6Zy8vUF9sGYsXuKjykXEhXkdpump",
-    "symbol": "HUGO",
-    "opened": "2026-11-03 17:33:29",
-    "opened_ts": 1793727209.6525047,
-    "signal_price": 6.273e-05,
-    "entry_eff": 6.388458928247667e-05,
-    "units": 62143.31256707254,
-    "size": 4.0,
-    "liq_entry": 19719.22,
-    "misses": 0,
-    "tg_msg": 1000
-  },
+  "position": null,
   "recent": [
     "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump",
     "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump",
@@ -34,20 +22,20 @@
     "ECiKD6Gna9Rp1bU36L7mfdrpjtHwoMqJMAuVCXV8SM39",
     "2KwPc4FxdNm92DKo6Zy8vUF9sGYsXuKjykXEhXkdpump"
   ],
-  "scans": 8186,
+  "scans": 8187,
   "skipped": {
     "variazione_h1_fuori_range": 16478,
-    "volume_basso": 70650,
-    "momentum_m5": 26895,
-    "eta_fuori_range": 40133,
+    "volume_basso": 70658,
+    "momentum_m5": 26901,
+    "eta_fuori_range": 40143,
     "pressione_vendita": 2431,
-    "liquidita_bassa": 201663,
+    "liquidita_bassa": 201683,
     "rugcheck_danger": 532,
-    "gia_scambiato_di_recente": 6389,
+    "gia_scambiato_di_recente": 6391,
     "variazioni_mancanti": 162,
     "eta_sconosciuta": 369,
     "rugcheck_non_verificato": 640
   },
-  "balance": -130.27788824315832,
+  "balance": -130.93264475094526,
   "reset_id": "2026-10-25-saldo-5"
 }
