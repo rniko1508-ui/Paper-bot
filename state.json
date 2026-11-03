@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump",
+    "symbol": "김여정",
+    "opened": "2026-11-03 10:28:49",
+    "opened_ts": 1793701729.2805448,
+    "signal_price": 8.602e-05,
+    "entry_eff": 8.759841157362888e-05,
+    "units": 45320.45648639537,
+    "size": 4.0,
+    "liq_entry": 22899.3,
+    "misses": 0,
+    "tg_msg": 966
+  },
   "recent": [
-    "DLsvm8VGQMucYFjagmv6j7WAr1NZiX2qMFVtGz8pump",
     "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump",
     "HAp8U1SB7bDGMa81AQom1ee6AR5iSFFTi57MEbTzcash",
     "DayjoyjxCA2SVTApEW7oBFG3WMvrYZRMjAnqsetLpump",
@@ -20,19 +31,20 @@
     "3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump",
     "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump",
     "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump",
-    "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump"
+    "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump",
+    "3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump"
   ],
-  "scans": 7853,
+  "scans": 7856,
   "skipped": {
-    "variazione_h1_fuori_range": 15846,
-    "volume_basso": 67818,
-    "momentum_m5": 25816,
-    "eta_fuori_range": 38373,
-    "pressione_vendita": 2333,
-    "liquidita_bassa": 194810,
+    "variazione_h1_fuori_range": 15847,
+    "volume_basso": 67851,
+    "momentum_m5": 25836,
+    "eta_fuori_range": 38384,
+    "pressione_vendita": 2336,
+    "liquidita_bassa": 194882,
     "rugcheck_danger": 532,
-    "gia_scambiato_di_recente": 6092,
-    "variazioni_mancanti": 158,
+    "gia_scambiato_di_recente": 6094,
+    "variazioni_mancanti": 159,
     "eta_sconosciuta": 369,
     "rugcheck_non_verificato": 640
   },
