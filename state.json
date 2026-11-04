@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "CPZguakzrJSPZDvyB2BY7wdk25eKFwuwtYxSPYHmpump",
-    "symbol": "LEOMAN",
-    "opened": "2026-11-04 15:36:34",
-    "opened_ts": 1793806594.3346295,
-    "signal_price": 0.0001893,
-    "entry_eff": 0.00019275037544207746,
-    "units": 20596.587637739813,
-    "size": 4.0,
-    "liq_entry": 35238.73,
-    "misses": 0,
-    "tg_msg": 1091
-  },
+  "position": null,
   "recent": [
     "GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump",
     "FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump",
@@ -34,20 +22,20 @@
     "CaQR7CNrXvXaFQLC2ChWBZHpUed4EYfVVJxjR34ipair",
     "CPZguakzrJSPZDvyB2BY7wdk25eKFwuwtYxSPYHmpump"
   ],
-  "scans": 8948,
+  "scans": 8949,
   "skipped": {
-    "variazione_h1_fuori_range": 17869,
-    "volume_basso": 77099,
-    "momentum_m5": 29306,
-    "eta_fuori_range": 44042,
+    "variazione_h1_fuori_range": 17870,
+    "volume_basso": 77108,
+    "momentum_m5": 29310,
+    "eta_fuori_range": 44050,
     "pressione_vendita": 2798,
-    "liquidita_bassa": 219904,
+    "liquidita_bassa": 219924,
     "rugcheck_danger": 590,
     "gia_scambiato_di_recente": 6993,
     "variazioni_mancanti": 168,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -140.42302137449343,
+  "balance": -141.2031135410066,
   "reset_id": "2026-10-25-saldo-5"
 }
