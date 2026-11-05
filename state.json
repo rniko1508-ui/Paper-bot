@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "Ea5dBrJZN58yV1nm1Q4DybJNYKeTvwpb2GEkXyW64bUH",
-    "symbol": "PHILCOIN",
-    "opened": "2026-11-05 18:37:03",
-    "opened_ts": 1793903823.1158187,
-    "signal_price": 0.000108,
-    "entry_eff": 0.00010997503598773644,
-    "units": 36099.10162195995,
-    "size": 4.0,
-    "liq_entry": 27838.65,
-    "misses": 0,
-    "tg_msg": 1231
-  },
+  "position": null,
   "recent": [
     "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
     "SivBpeYowiW8LyKyhoZGoh67qCc2ZV4jpWy6btPpump",
@@ -34,20 +22,20 @@
     "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
     "Ea5dBrJZN58yV1nm1Q4DybJNYKeTvwpb2GEkXyW64bUH"
   ],
-  "scans": 9760,
+  "scans": 9761,
   "skipped": {
-    "variazione_h1_fuori_range": 19268,
-    "volume_basso": 87218,
-    "momentum_m5": 31891,
-    "eta_fuori_range": 49464,
+    "variazione_h1_fuori_range": 19270,
+    "volume_basso": 87233,
+    "momentum_m5": 31893,
+    "eta_fuori_range": 49469,
     "pressione_vendita": 3033,
-    "liquidita_bassa": 236292,
+    "liquidita_bassa": 236312,
     "rugcheck_danger": 605,
-    "gia_scambiato_di_recente": 7725,
+    "gia_scambiato_di_recente": 7726,
     "variazioni_mancanti": 178,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -172.45542632018976,
+  "balance": -171.95827110002858,
   "reset_id": "2026-10-25-saldo-5"
 }
