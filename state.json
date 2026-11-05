@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "FqJu1nmcNP8fCJfAW7Y4dGmp6fF9iF2RxrqMSFAcpump",
+    "symbol": "TOYS4KIDS",
+    "opened": "2026-11-05 23:19:41",
+    "opened_ts": 1793920781.2396078,
+    "signal_price": 7.118e-05,
+    "entry_eff": 7.249010799674534e-05,
+    "units": 54766.09305338937,
+    "size": 4.0,
+    "liq_entry": 19725.65,
+    "misses": 0,
+    "tg_msg": 1272
+  },
   "recent": [
-    "7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump",
     "ECNQSQA7Y5bnXzbotgv6XcG15c6jpJ6V2BFbYzJrpump",
     "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
     "Ea5dBrJZN58yV1nm1Q4DybJNYKeTvwpb2GEkXyW64bUH",
@@ -20,19 +31,20 @@
     "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump",
     "Bi59TGKZgLa7zVRz1BX3yPg6Cj8wWfZwfNc5FaCApump",
     "DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump",
-    "ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump"
+    "ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump",
+    "FqJu1nmcNP8fCJfAW7Y4dGmp6fF9iF2RxrqMSFAcpump"
   ],
-  "scans": 9898,
+  "scans": 9915,
   "skipped": {
-    "variazione_h1_fuori_range": 19482,
-    "volume_basso": 89041,
-    "momentum_m5": 32222,
-    "eta_fuori_range": 49998,
+    "variazione_h1_fuori_range": 19492,
+    "volume_basso": 89272,
+    "momentum_m5": 32250,
+    "eta_fuori_range": 50056,
     "pressione_vendita": 3037,
-    "liquidita_bassa": 239262,
+    "liquidita_bassa": 239600,
     "rugcheck_danger": 605,
-    "gia_scambiato_di_recente": 7827,
-    "variazioni_mancanti": 179,
+    "gia_scambiato_di_recente": 7842,
+    "variazioni_mancanti": 182,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
