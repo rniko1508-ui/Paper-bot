@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "FqJu1nmcNP8fCJfAW7Y4dGmp6fF9iF2RxrqMSFAcpump",
-    "symbol": "TOYS4KIDS",
-    "opened": "2026-11-05 23:19:41",
-    "opened_ts": 1793920781.2396078,
-    "signal_price": 7.118e-05,
-    "entry_eff": 7.249010799674534e-05,
-    "units": 54766.09305338937,
-    "size": 4.0,
-    "liq_entry": 19725.65,
-    "misses": 0,
-    "tg_msg": 1272
-  },
+  "position": null,
   "recent": [
     "ECNQSQA7Y5bnXzbotgv6XcG15c6jpJ6V2BFbYzJrpump",
     "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
@@ -34,20 +22,20 @@
     "ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump",
     "FqJu1nmcNP8fCJfAW7Y4dGmp6fF9iF2RxrqMSFAcpump"
   ],
-  "scans": 9915,
+  "scans": 9916,
   "skipped": {
     "variazione_h1_fuori_range": 19492,
-    "volume_basso": 89272,
-    "momentum_m5": 32250,
-    "eta_fuori_range": 50056,
+    "volume_basso": 89286,
+    "momentum_m5": 32253,
+    "eta_fuori_range": 50059,
     "pressione_vendita": 3037,
-    "liquidita_bassa": 239600,
+    "liquidita_bassa": 239620,
     "rugcheck_danger": 605,
-    "gia_scambiato_di_recente": 7842,
+    "gia_scambiato_di_recente": 7843,
     "variazioni_mancanti": 182,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -177.8324627694276,
+  "balance": -178.47292225988977,
   "reset_id": "2026-10-25-saldo-5"
 }
