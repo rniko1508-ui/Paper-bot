@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
-    "symbol": "ZELDA",
-    "opened": "2026-11-05 07:17:24",
-    "opened_ts": 1793863044.5534194,
-    "signal_price": 8.61e-05,
-    "entry_eff": 8.767908338605731e-05,
-    "units": 45278.75801939905,
-    "size": 4.0,
-    "liq_entry": 23521.87,
-    "misses": 0,
-    "tg_msg": 1189
-  },
+  "position": null,
   "recent": [
     "4GMG7T7HvXhsYYTDHP9n1qT7jWiyaZky4jxSSwH7pump",
     "6GjZvj8aT5t4jEi7xiMkK3nqqKNiYVes1n5Va8Zfpump",
@@ -34,20 +22,20 @@
     "WecNBsywJKQLGfBKZzBSix3ykXJ11DfAGUiXCLypair",
     "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump"
   ],
-  "scans": 9394,
+  "scans": 9395,
   "skipped": {
-    "variazione_h1_fuori_range": 18801,
-    "volume_basso": 82255,
-    "momentum_m5": 31024,
-    "eta_fuori_range": 47303,
+    "variazione_h1_fuori_range": 18802,
+    "volume_basso": 82272,
+    "momentum_m5": 31028,
+    "eta_fuori_range": 47307,
     "pressione_vendita": 2985,
-    "liquidita_bassa": 228764,
+    "liquidita_bassa": 228785,
     "rugcheck_danger": 604,
-    "gia_scambiato_di_recente": 7383,
+    "gia_scambiato_di_recente": 7384,
     "variazioni_mancanti": 175,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -161.111263319469,
+  "balance": -161.84907516530654,
   "reset_id": "2026-10-25-saldo-5"
 }
