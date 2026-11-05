@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "Ea5dBrJZN58yV1nm1Q4DybJNYKeTvwpb2GEkXyW64bUH",
+    "symbol": "PHILCOIN",
+    "opened": "2026-11-05 18:37:03",
+    "opened_ts": 1793903823.1158187,
+    "signal_price": 0.000108,
+    "entry_eff": 0.00010997503598773644,
+    "units": 36099.10162195995,
+    "size": 4.0,
+    "liq_entry": 27838.65,
+    "misses": 0,
+    "tg_msg": 1231
+  },
   "recent": [
-    "WecNBsywJKQLGfBKZzBSix3ykXJ11DfAGUiXCLypair",
     "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
     "SivBpeYowiW8LyKyhoZGoh67qCc2ZV4jpWy6btPpump",
     "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump",
@@ -20,18 +31,19 @@
     "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump",
     "7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump",
     "ECNQSQA7Y5bnXzbotgv6XcG15c6jpJ6V2BFbYzJrpump",
-    "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump"
+    "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+    "Ea5dBrJZN58yV1nm1Q4DybJNYKeTvwpb2GEkXyW64bUH"
   ],
-  "scans": 9739,
+  "scans": 9760,
   "skipped": {
-    "variazione_h1_fuori_range": 19235,
-    "volume_basso": 86948,
-    "momentum_m5": 31849,
-    "eta_fuori_range": 49327,
+    "variazione_h1_fuori_range": 19268,
+    "volume_basso": 87218,
+    "momentum_m5": 31891,
+    "eta_fuori_range": 49464,
     "pressione_vendita": 3033,
-    "liquidita_bassa": 235820,
+    "liquidita_bassa": 236292,
     "rugcheck_danger": 605,
-    "gia_scambiato_di_recente": 7716,
+    "gia_scambiato_di_recente": 7725,
     "variazioni_mancanti": 178,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
