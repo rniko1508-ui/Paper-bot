@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "9q17YrKCeBtSZ6qkBTmttyZnh5ZVEapF6TwTrtX2pump",
+    "symbol": "Chika",
+    "opened": "2026-11-06 01:33:41",
+    "opened_ts": 1793928821.6574762,
+    "signal_price": 4.849e-05,
+    "entry_eff": 4.9385941731817225e-05,
+    "units": 80387.2490993181,
+    "size": 4.0,
+    "liq_entry": 16777.29,
+    "misses": 0,
+    "tg_msg": 1278
+  },
   "recent": [
-    "Ea5dBrJZN58yV1nm1Q4DybJNYKeTvwpb2GEkXyW64bUH",
     "9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump",
     "Fa93AEKdk5GJovkJseEjQ4geYuadFLimbKgy3BiPwiwS",
     "GMdkBYSKJuWnqd4vGdSnxiELNQTPhMhvdCmPb77dpump",
@@ -20,19 +31,20 @@
     "ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump",
     "FqJu1nmcNP8fCJfAW7Y4dGmp6fF9iF2RxrqMSFAcpump",
     "BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump",
-    "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump"
+    "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump",
+    "9q17YrKCeBtSZ6qkBTmttyZnh5ZVEapF6TwTrtX2pump"
   ],
-  "scans": 10027,
+  "scans": 10042,
   "skipped": {
-    "variazione_h1_fuori_range": 19602,
-    "volume_basso": 90813,
-    "momentum_m5": 32497,
-    "eta_fuori_range": 50319,
+    "variazione_h1_fuori_range": 19610,
+    "volume_basso": 90980,
+    "momentum_m5": 32540,
+    "eta_fuori_range": 50366,
     "pressione_vendita": 3039,
-    "liquidita_bassa": 241845,
+    "liquidita_bassa": 242153,
     "rugcheck_danger": 615,
-    "gia_scambiato_di_recente": 7965,
-    "variazioni_mancanti": 183,
+    "gia_scambiato_di_recente": 7985,
+    "variazioni_mancanti": 184,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
