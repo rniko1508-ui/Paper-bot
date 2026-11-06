@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "Dk2iHPgeStfACECMbmigRRcDtP8yzfTjdHnMq7hqpump",
-    "symbol": "DEGEN",
-    "opened": "2026-11-06 02:34:33",
-    "opened_ts": 1793932473.4293253,
-    "signal_price": 6.929e-05,
-    "entry_eff": 7.05624436969516e-05,
-    "units": 56262.22381200653,
-    "size": 4.0,
-    "liq_entry": 21976.16,
-    "misses": 0,
-    "tg_msg": 1281
-  },
+  "position": null,
   "recent": [
     "Fa93AEKdk5GJovkJseEjQ4geYuadFLimbKgy3BiPwiwS",
     "GMdkBYSKJuWnqd4vGdSnxiELNQTPhMhvdCmPb77dpump",
@@ -34,20 +22,20 @@
     "9q17YrKCeBtSZ6qkBTmttyZnh5ZVEapF6TwTrtX2pump",
     "Dk2iHPgeStfACECMbmigRRcDtP8yzfTjdHnMq7hqpump"
   ],
-  "scans": 10088,
+  "scans": 10089,
   "skipped": {
-    "variazione_h1_fuori_range": 19660,
-    "volume_basso": 91496,
-    "momentum_m5": 32643,
-    "eta_fuori_range": 50517,
+    "variazione_h1_fuori_range": 19663,
+    "volume_basso": 91507,
+    "momentum_m5": 32646,
+    "eta_fuori_range": 50519,
     "pressione_vendita": 3058,
-    "liquidita_bassa": 243081,
+    "liquidita_bassa": 243103,
     "rugcheck_danger": 615,
     "gia_scambiato_di_recente": 8015,
     "variazioni_mancanti": 184,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -179.54480368324315,
+  "balance": -180.28070855076177,
   "reset_id": "2026-10-25-saldo-5"
 }
