@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump",
-    "symbol": "HODL",
-    "opened": "2026-11-06 17:30:34",
-    "opened_ts": 1793986234.8619435,
-    "signal_price": 0.000105,
-    "entry_eff": 0.0001069241577968221,
-    "units": 37129.121068634624,
+    "mint": "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump",
+    "symbol": "KoriMu",
+    "opened": "2026-11-06 17:36:45",
+    "opened_ts": 1793986605.2501988,
+    "signal_price": 0.0002324,
+    "entry_eff": 0.0002366327357620919,
+    "units": 16777.053213767504,
     "size": 4.0,
-    "liq_entry": 24591.75,
+    "liq_entry": 37532.48,
     "misses": 0,
-    "tg_msg": 1348
+    "tg_msg": 1351
   },
   "recent": [
-    "5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump",
     "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump",
     "HuqKMcaEojnp4qRReE1dr5ed5TQhhMcjEn6wskRppump",
     "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
@@ -32,22 +31,23 @@
     "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
     "Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump",
     "7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump",
-    "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump"
+    "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump",
+    "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump"
   ],
-  "scans": 10633,
+  "scans": 10634,
   "skipped": {
-    "variazione_h1_fuori_range": 20613,
-    "volume_basso": 95804,
-    "momentum_m5": 34437,
-    "eta_fuori_range": 51937,
+    "variazione_h1_fuori_range": 20616,
+    "volume_basso": 95808,
+    "momentum_m5": 34444,
+    "eta_fuori_range": 51941,
     "pressione_vendita": 3227,
-    "liquidita_bassa": 256427,
+    "liquidita_bassa": 256456,
     "rugcheck_danger": 621,
     "gia_scambiato_di_recente": 8634,
     "variazioni_mancanti": 186,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -186.8980077587229,
+  "balance": -185.12547220733865,
   "reset_id": "2026-10-25-saldo-5"
 }
