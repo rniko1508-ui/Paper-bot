@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat",
+    "symbol": "BTC",
+    "opened": "2026-11-08 18:10:56",
+    "opened_ts": 1794161456.4355724,
+    "signal_price": 0.0003792,
+    "entry_eff": 0.00038605002072229013,
+    "units": 10283.641463280399,
+    "size": 4.0,
+    "liq_entry": 124222.37,
+    "misses": 0,
+    "tg_msg": 1529
+  },
   "recent": [
-    "DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump",
     "HHgNzGNwvS4MPWqDXp2zkwLEpsxASiWZGtW3MYbV1NhF",
     "HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump",
     "984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump",
@@ -20,16 +31,17 @@
     "BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump",
     "7mAcg6duNYnfeP4pVie1JMvGsXF9FP6A3Aah47rcpump",
     "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
-    "VjKCt9XXKQ5zjR2xf8hNyXc6VRJHMqrGaK7p7NtPLUS"
+    "VjKCt9XXKQ5zjR2xf8hNyXc6VRJHMqrGaK7p7NtPLUS",
+    "9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat"
   ],
-  "scans": 12442,
+  "scans": 12447,
   "skipped": {
-    "variazione_h1_fuori_range": 22777,
-    "volume_basso": 110152,
-    "momentum_m5": 38383,
-    "eta_fuori_range": 59746,
-    "pressione_vendita": 3537,
-    "liquidita_bassa": 295203,
+    "variazione_h1_fuori_range": 22784,
+    "volume_basso": 110177,
+    "momentum_m5": 38396,
+    "eta_fuori_range": 59766,
+    "pressione_vendita": 3541,
+    "liquidita_bassa": 295280,
     "rugcheck_danger": 731,
     "gia_scambiato_di_recente": 9737,
     "variazioni_mancanti": 210,
