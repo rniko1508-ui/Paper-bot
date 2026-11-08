@@ -668,3 +668,4 @@ chiuso_il,simbolo,mint,aperto_il,minuti,prezzo_ingresso,prezzo_uscita,importo,in
 2026-11-08 20:37:20,GROKIA,BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump,2026-11-08 20:35:15,2.1,0.0001518,0.0001307,4.0,3.2826,-0.7174,-17.9,stop loss,34386
 2026-11-08 20:42:31,GROKIA,HMKBqmMXLe4Nt2mmFZEWdWY2dbgrcTuopBmi6xVfpump,2026-11-08 20:39:24,3.1,5.895e-05,8.369e-05,4.0,5.4299,1.4299,35.7,take profit,20249
 2026-11-08 21:34:27,Heat,Ddcf7inwuqPL71JKP8iZGyd75ZCfxFakJ1jJM72Fpump,2026-11-08 20:56:45,37.7,3.939e-05,4.558e-05,4.0,4.4193,0.4193,10.5,protezione profitto (ROI sceso sotto +14%),15577
+2026-11-08 21:42:38,chud,7xWZSw8KfLbPRiLiyPPMNboCq81j3oc53DpAYiXfLoat,2026-11-08 21:34:28,8.2,0.0001847,0.0002175,4.0,4.5018,0.5018,12.5,protezione profitto (ROI sceso sotto +14%),85550
