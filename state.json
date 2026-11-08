@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump",
-    "symbol": "GROKIA",
-    "opened": "2026-11-08 20:35:15",
-    "opened_ts": 1794170115.8389301,
-    "signal_price": 0.0001518,
-    "entry_eff": 0.00015456771708894588,
-    "units": 25684.535391795085,
-    "size": 4.0,
-    "liq_entry": 34385.62,
-    "misses": 0,
-    "tg_msg": 1538
-  },
+  "position": null,
   "recent": [
     "6su7bnRHedae92kCE98uyuN7nqYHdCkMK6G9Z3uhpump",
     "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
@@ -34,20 +22,20 @@
     "3MBJfJ3AFU2vyXr9PaF4S1DaVeo4wW48y7E8q53DZbjU",
     "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump"
   ],
-  "scans": 12545,
+  "scans": 12546,
   "skipped": {
-    "variazione_h1_fuori_range": 23036,
-    "volume_basso": 110710,
-    "momentum_m5": 38775,
-    "eta_fuori_range": 60292,
-    "pressione_vendita": 3557,
-    "liquidita_bassa": 297232,
+    "variazione_h1_fuori_range": 23040,
+    "volume_basso": 110715,
+    "momentum_m5": 38777,
+    "eta_fuori_range": 60299,
+    "pressione_vendita": 3558,
+    "liquidita_bassa": 297251,
     "rugcheck_danger": 732,
-    "gia_scambiato_di_recente": 9806,
+    "gia_scambiato_di_recente": 9809,
     "variazioni_mancanti": 210,
     "eta_sconosciuta": 432,
     "rugcheck_non_verificato": 640
   },
-  "balance": -210.71818093477478,
+  "balance": -211.43556081541863,
   "reset_id": "2026-10-25-saldo-5"
 }
