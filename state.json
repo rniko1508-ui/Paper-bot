@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "GDRSWpEeKWngc26CVLFXZyZCUwo9fEzctZoEAp1qpump",
-    "symbol": "HABIBI",
-    "opened": "2026-11-08 03:31:52",
-    "opened_ts": 1794108712.3847542,
-    "signal_price": 0.0002582,
-    "entry_eff": 0.000262899965617267,
-    "units": 15100.800757728417,
-    "size": 4.0,
-    "liq_entry": 39445.73,
-    "misses": 0,
-    "tg_msg": 1495
-  },
+  "position": null,
   "recent": [
     "CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump",
     "BB843oCDKgqZyQXiGfF5RAHF1ZYsEBQx8oxGq5dPZqHq",
@@ -34,20 +22,20 @@
     "984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump",
     "GDRSWpEeKWngc26CVLFXZyZCUwo9fEzctZoEAp1qpump"
   ],
-  "scans": 11806,
+  "scans": 11807,
   "skipped": {
-    "variazione_h1_fuori_range": 22044,
-    "volume_basso": 105948,
-    "momentum_m5": 37186,
-    "eta_fuori_range": 57330,
+    "variazione_h1_fuori_range": 22045,
+    "volume_basso": 105958,
+    "momentum_m5": 37192,
+    "eta_fuori_range": 57333,
     "pressione_vendita": 3461,
-    "liquidita_bassa": 283198,
+    "liquidita_bassa": 283223,
     "rugcheck_danger": 690,
-    "gia_scambiato_di_recente": 9440,
+    "gia_scambiato_di_recente": 9441,
     "variazioni_mancanti": 199,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -200.86853357054585,
+  "balance": -201.51436114003403,
   "reset_id": "2026-10-25-saldo-5"
 }
