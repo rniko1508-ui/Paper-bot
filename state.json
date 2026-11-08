@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
-    "symbol": "HEREWEGO",
-    "opened": "2026-11-08 04:07:42",
-    "opened_ts": 1794110862.8452017,
-    "signal_price": 0.001357,
-    "entry_eff": 0.0013815401092827624,
-    "units": 2873.6045905037513,
-    "size": 4.0,
-    "liq_entry": 95136.87,
-    "misses": 0,
-    "tg_msg": 1499
-  },
+  "position": null,
   "recent": [
     "899T4hR2vwi9no5fpdnWHERQwLdoUGDk8xkB1kJNpump",
     "DY3o5SLKeZkhkyqJJL4bbxxHos86yLqoVD4wVVaHpiLL",
@@ -34,20 +22,20 @@
     "6su7bnRHedae92kCE98uyuN7nqYHdCkMK6G9Z3uhpump",
     "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump"
   ],
-  "scans": 11809,
+  "scans": 11810,
   "skipped": {
-    "variazione_h1_fuori_range": 22047,
-    "volume_basso": 105980,
-    "momentum_m5": 37201,
-    "eta_fuori_range": 57339,
+    "variazione_h1_fuori_range": 22048,
+    "volume_basso": 105989,
+    "momentum_m5": 37205,
+    "eta_fuori_range": 57343,
     "pressione_vendita": 3461,
-    "liquidita_bassa": 283271,
+    "liquidita_bassa": 283298,
     "rugcheck_danger": 690,
     "gia_scambiato_di_recente": 9443,
     "variazioni_mancanti": 199,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -205.51436114003403,
+  "balance": -206.10142663032786,
   "reset_id": "2026-10-25-saldo-5"
 }
