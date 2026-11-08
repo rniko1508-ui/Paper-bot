@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV",
-    "symbol": "MAGGIE",
-    "opened": "2026-11-08 01:03:19",
-    "opened_ts": 1794099799.9253256,
-    "signal_price": 0.0001366,
-    "entry_eff": 0.00013909564543965192,
-    "units": 28541.51175942043,
-    "size": 4.0,
-    "liq_entry": 29659.03,
-    "misses": 0,
-    "tg_msg": 1482
-  },
+  "position": null,
   "recent": [
     "4gyubJ7sqYDySUDmVFEfSdvvC43F1eWLUXgEHDDWpump",
     "6JmDY4eYXiBJhKFjLhM2oG95UiwkEoAN2daqq6tUpump",
@@ -34,20 +22,20 @@
     "HMFrT2kiqWBGgiPWXqQuavi3Y7eezEySgwn1yDwfpump",
     "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV"
   ],
-  "scans": 11778,
+  "scans": 11779,
   "skipped": {
     "variazione_h1_fuori_range": 22024,
-    "volume_basso": 105655,
-    "momentum_m5": 37138,
-    "eta_fuori_range": 57147,
+    "volume_basso": 105665,
+    "momentum_m5": 37139,
+    "eta_fuori_range": 57154,
     "pressione_vendita": 3460,
-    "liquidita_bassa": 282638,
+    "liquidita_bassa": 282658,
     "rugcheck_danger": 690,
-    "gia_scambiato_di_recente": 9415,
+    "gia_scambiato_di_recente": 9416,
     "variazioni_mancanti": 199,
     "eta_sconosciuta": 410,
     "rugcheck_non_verificato": 640
   },
-  "balance": -201.72586755224594,
+  "balance": -200.21084069668564,
   "reset_id": "2026-10-25-saldo-5"
 }
