@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
-    "symbol": "ELYSION",
-    "opened": "2026-11-08 16:18:49",
-    "opened_ts": 1794154729.9480505,
-    "signal_price": 0.001995,
-    "entry_eff": 0.0020310481889130754,
-    "units": 1954.65573966739,
-    "size": 4.0,
-    "liq_entry": 115494.07,
-    "misses": 0,
-    "tg_msg": 1524
-  },
+  "position": null,
   "recent": [
     "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV",
     "DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump",
@@ -34,20 +22,20 @@
     "7mAcg6duNYnfeP4pVie1JMvGsXF9FP6A3Aah47rcpump",
     "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump"
   ],
-  "scans": 12352,
+  "scans": 12353,
   "skipped": {
-    "variazione_h1_fuori_range": 22663,
-    "volume_basso": 109761,
-    "momentum_m5": 38153,
-    "eta_fuori_range": 59355,
-    "pressione_vendita": 3516,
-    "liquidita_bassa": 293933,
+    "variazione_h1_fuori_range": 22664,
+    "volume_basso": 109764,
+    "momentum_m5": 38156,
+    "eta_fuori_range": 59359,
+    "pressione_vendita": 3517,
+    "liquidita_bassa": 293949,
     "rugcheck_danger": 717,
-    "gia_scambiato_di_recente": 9658,
+    "gia_scambiato_di_recente": 9660,
     "variazioni_mancanti": 207,
     "eta_sconosciuta": 432,
     "rugcheck_non_verificato": 640
   },
-  "balance": -214.04818740049208,
+  "balance": -213.50621670125835,
   "reset_id": "2026-10-25-saldo-5"
 }
