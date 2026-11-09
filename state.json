@@ -22,16 +22,16 @@
     "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1",
     "5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump"
   ],
-  "scans": 13060,
+  "scans": 13090,
   "skipped": {
-    "variazione_h1_fuori_range": 23739,
-    "volume_basso": 114879,
-    "momentum_m5": 40155,
-    "eta_fuori_range": 62226,
+    "variazione_h1_fuori_range": 23780,
+    "volume_basso": 115089,
+    "momentum_m5": 40218,
+    "eta_fuori_range": 62318,
     "pressione_vendita": 3688,
-    "liquidita_bassa": 307442,
+    "liquidita_bassa": 308069,
     "rugcheck_danger": 733,
-    "gia_scambiato_di_recente": 10332,
+    "gia_scambiato_di_recente": 10348,
     "variazioni_mancanti": 212,
     "eta_sconosciuta": 514,
     "rugcheck_non_verificato": 640
