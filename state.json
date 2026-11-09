@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "T8PVfjmAsczCPk5odgScSHbjyywe4QTxSaVPeVoELYS",
-    "symbol": "ELYS",
-    "opened": "2026-11-09 03:46:02",
-    "opened_ts": 1794195962.0308692,
-    "signal_price": 4.716e-05,
-    "entry_eff": 4.8030495019138296e-05,
-    "units": 82655.8210240829,
-    "size": 4.0,
-    "liq_entry": 17454.53,
-    "misses": 0,
-    "tg_msg": 1587
-  },
+  "position": null,
   "recent": [
     "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump",
     "HMKBqmMXLe4Nt2mmFZEWdWY2dbgrcTuopBmi6xVfpump",
@@ -34,20 +22,20 @@
     "GgN3jfbg75SiW4qJKmak4VJrnWQvQdnUmN4NLHW5pump",
     "T8PVfjmAsczCPk5odgScSHbjyywe4QTxSaVPeVoELYS"
   ],
-  "scans": 12759,
+  "scans": 12760,
   "skipped": {
-    "variazione_h1_fuori_range": 23375,
-    "volume_basso": 112354,
-    "momentum_m5": 39431,
-    "eta_fuori_range": 61327,
+    "variazione_h1_fuori_range": 23376,
+    "volume_basso": 112364,
+    "momentum_m5": 39434,
+    "eta_fuori_range": 61331,
     "pressione_vendita": 3608,
-    "liquidita_bassa": 300819,
+    "liquidita_bassa": 300837,
     "rugcheck_danger": 732,
     "gia_scambiato_di_recente": 10052,
     "variazioni_mancanti": 212,
     "eta_sconosciuta": 514,
     "rugcheck_non_verificato": 640
   },
-  "balance": -210.7948870652678,
+  "balance": -211.77499348131394,
   "reset_id": "2026-10-25-saldo-5"
 }
