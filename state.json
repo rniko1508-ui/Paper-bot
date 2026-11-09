@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "CXz596uKfWb5tkyz5Vh5a9QCKKh38io6hdgGrKKcpump",
-    "symbol": "GTA6KODAK",
-    "opened": "2026-11-09 01:24:13",
-    "opened_ts": 1794187453.237872,
-    "signal_price": 6.853e-05,
-    "entry_eff": 6.979231125477494e-05,
-    "units": 56883.056723936585,
-    "size": 4.0,
-    "liq_entry": 19055.13,
-    "misses": 0,
-    "tg_msg": 1570
-  },
+  "position": null,
   "recent": [
     "7mAcg6duNYnfeP4pVie1JMvGsXF9FP6A3Aah47rcpump",
     "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
@@ -34,20 +22,20 @@
     "E28Q8PGpUrKkuq18cWsX8viGkx692sKGyhfyJoz8pump",
     "CXz596uKfWb5tkyz5Vh5a9QCKKh38io6hdgGrKKcpump"
   ],
-  "scans": 12663,
+  "scans": 12664,
   "skipped": {
     "variazione_h1_fuori_range": 23220,
-    "volume_basso": 111523,
-    "momentum_m5": 39147,
-    "eta_fuori_range": 60837,
+    "volume_basso": 111533,
+    "momentum_m5": 39151,
+    "eta_fuori_range": 60841,
     "pressione_vendita": 3608,
-    "liquidita_bassa": 299232,
+    "liquidita_bassa": 299249,
     "rugcheck_danger": 732,
-    "gia_scambiato_di_recente": 9922,
+    "gia_scambiato_di_recente": 9925,
     "variazioni_mancanti": 212,
     "eta_sconosciuta": 514,
     "rugcheck_non_verificato": 640
   },
-  "balance": -210.47332882669974,
+  "balance": -211.05298282896322,
   "reset_id": "2026-10-25-saldo-5"
 }
