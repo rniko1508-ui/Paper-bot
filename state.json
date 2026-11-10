@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump",
-    "symbol": "KAWAENE",
-    "opened": "2026-11-10 05:01:19",
-    "opened_ts": 1794286879.2180843,
-    "signal_price": 0.0001827,
-    "entry_eff": 0.0001860339843698416,
-    "units": 21340.186920404343,
-    "size": 4.0,
-    "liq_entry": 32204.92,
-    "misses": 0,
-    "tg_msg": 1666
-  },
+  "position": null,
   "recent": [
     "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
     "HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z",
@@ -34,20 +22,20 @@
     "52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd",
     "Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump"
   ],
-  "scans": 13931,
+  "scans": 13932,
   "skipped": {
     "variazione_h1_fuori_range": 24889,
-    "volume_basso": 123156,
-    "momentum_m5": 41913,
-    "eta_fuori_range": 66509,
+    "volume_basso": 123170,
+    "momentum_m5": 41916,
+    "eta_fuori_range": 66515,
     "pressione_vendita": 3816,
-    "liquidita_bassa": 323177,
+    "liquidita_bassa": 323197,
     "rugcheck_danger": 756,
     "gia_scambiato_di_recente": 10738,
     "variazioni_mancanti": 231,
     "eta_sconosciuta": 514,
     "rugcheck_non_verificato": 640
   },
-  "balance": -219.46998100282735,
+  "balance": -223.4637327724434,
   "reset_id": "2026-10-25-saldo-5"
 }
