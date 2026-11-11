@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "8oGD1rEraxCCXd98JYdNnb38bENjfR6pGcRuqmfMpump",
-    "symbol": "MEOWLAND",
-    "opened": "2026-11-11 17:18:18",
-    "opened_ts": 1794417498.121408,
-    "signal_price": 0.0001834,
-    "entry_eff": 0.0001867469897435593,
-    "units": 21258.709473451745,
-    "size": 4.0,
-    "liq_entry": 32042.11,
-    "misses": 0,
-    "tg_msg": 1789
-  },
+  "position": null,
   "recent": [
     "5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump",
     "BYCNogKA4DjbhBa2LaVWLPyszFDzDsUNSYdLqdNnpump",
@@ -34,20 +22,20 @@
     "EDNud65UFwMxP3TWGWvq1GTL8Qnd2aX3aU5aJtdsCuLt",
     "8oGD1rEraxCCXd98JYdNnb38bENjfR6pGcRuqmfMpump"
   ],
-  "scans": 14953,
+  "scans": 14954,
   "skipped": {
-    "variazione_h1_fuori_range": 26272,
-    "volume_basso": 131295,
-    "momentum_m5": 44087,
-    "eta_fuori_range": 74108,
+    "variazione_h1_fuori_range": 26276,
+    "volume_basso": 131304,
+    "momentum_m5": 44093,
+    "eta_fuori_range": 74117,
     "pressione_vendita": 4105,
-    "liquidita_bassa": 345085,
+    "liquidita_bassa": 345104,
     "rugcheck_danger": 876,
     "gia_scambiato_di_recente": 11318,
     "variazioni_mancanti": 242,
     "eta_sconosciuta": 525,
     "rugcheck_non_verificato": 640
   },
-  "balance": -230.23695956246826,
+  "balance": -230.9357281124146,
   "reset_id": "2026-10-25-saldo-5"
 }
