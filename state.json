@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump",
+    "symbol": "GTA Six",
+    "opened": "2026-11-12 13:17:18",
+    "opened_ts": 1794489438.2044923,
+    "signal_price": 6.339e-05,
+    "entry_eff": 6.455928042253544e-05,
+    "units": 61493.87003722254,
+    "size": 4.0,
+    "liq_entry": 17944.53,
+    "misses": 0,
+    "tg_msg": 1850
+  },
   "recent": [
-    "7fNYfFkDefatZugpcgaHqGxQuwm6JzcRYDQrdajqpump",
     "HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump",
     "7r3Hcmzzko9UrCvbCAN3QhUfojs2RqpnzH8tfeyRpump",
     "HtKSi76B481vtpE1Ssydb8gKrcL3eeaVSDeh8sbRpump",
@@ -20,16 +31,17 @@
     "7tg8gm8LPw6N6CsRZGDxnykABpBqfqxdbTAvFemHpump",
     "2ETgxCfRwJRBuMgU7T5YiCDFYFQd3sUN3cFosRCPpump",
     "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
-    "3Yoj6vQYTHfFVVBwHGNDbxBhh6R7iw41BSrNSGJ4pump"
+    "3Yoj6vQYTHfFVVBwHGNDbxBhh6R7iw41BSrNSGJ4pump",
+    "oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump"
   ],
-  "scans": 15816,
+  "scans": 15827,
   "skipped": {
-    "variazione_h1_fuori_range": 27735,
-    "volume_basso": 139217,
-    "momentum_m5": 46569,
-    "eta_fuori_range": 78131,
+    "variazione_h1_fuori_range": 27744,
+    "volume_basso": 139251,
+    "momentum_m5": 46593,
+    "eta_fuori_range": 78154,
     "pressione_vendita": 4553,
-    "liquidita_bassa": 366089,
+    "liquidita_bassa": 366374,
     "rugcheck_danger": 946,
     "gia_scambiato_di_recente": 11756,
     "variazioni_mancanti": 257,
