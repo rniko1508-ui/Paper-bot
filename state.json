@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "HtKSi76B481vtpE1Ssydb8gKrcL3eeaVSDeh8sbRpump",
+    "symbol": "CELON",
+    "opened": "2026-11-12 00:27:59",
+    "opened_ts": 1794443279.5248828,
+    "signal_price": 4.605e-05,
+    "entry_eff": 4.6899526533762506e-05,
+    "units": 84649.04218472305,
+    "size": 4.0,
+    "liq_entry": 17860.49,
+    "misses": 0,
+    "tg_msg": 1811
+  },
   "recent": [
-    "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump",
     "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump",
     "BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash",
     "7cin51XTpSkesiZMLJvEGNXqd5DFFqSBixcvn7Ppump",
@@ -20,17 +31,18 @@
     "8bTJDVTG1xPuP4GsaXVKCRrbG4mRehhn5AyFy9yapump",
     "7fNYfFkDefatZugpcgaHqGxQuwm6JzcRYDQrdajqpump",
     "HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump",
-    "7r3Hcmzzko9UrCvbCAN3QhUfojs2RqpnzH8tfeyRpump"
+    "7r3Hcmzzko9UrCvbCAN3QhUfojs2RqpnzH8tfeyRpump",
+    "HtKSi76B481vtpE1Ssydb8gKrcL3eeaVSDeh8sbRpump"
   ],
-  "scans": 15156,
+  "scans": 15166,
   "skipped": {
-    "variazione_h1_fuori_range": 26831,
-    "volume_basso": 133638,
-    "momentum_m5": 44907,
-    "eta_fuori_range": 75817,
-    "pressione_vendita": 4250,
-    "liquidita_bassa": 349782,
-    "rugcheck_danger": 886,
+    "variazione_h1_fuori_range": 26853,
+    "volume_basso": 133749,
+    "momentum_m5": 44943,
+    "eta_fuori_range": 75888,
+    "pressione_vendita": 4252,
+    "liquidita_bassa": 350010,
+    "rugcheck_danger": 895,
     "gia_scambiato_di_recente": 11427,
     "variazioni_mancanti": 255,
     "eta_sconosciuta": 525,
