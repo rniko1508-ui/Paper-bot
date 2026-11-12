@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "GLY7h4BLgJfxmJmSRr5azXeREyXM6AxHmzExxz7Vpump",
+    "symbol": "SAXON",
+    "opened": "2026-11-12 03:26:29",
+    "opened_ts": 1794453989.316336,
+    "signal_price": 5.292e-05,
+    "entry_eff": 5.389481434589485e-05,
+    "units": 73662.00344472277,
+    "size": 4.0,
+    "liq_entry": 19023.7,
+    "misses": 0,
+    "tg_msg": 1826
+  },
   "recent": [
-    "Fkc9FKhK1K8FSPtKkcjfGkpeb4waa3DspRXHmwvvpump",
     "EeMWtqT5HHBJ9ptp56GMrCvETJG3WT5s5UkbKDuEpump",
     "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat",
     "EDNud65UFwMxP3TWGWvq1GTL8Qnd2aX3aU5aJtdsCuLt",
@@ -20,18 +31,19 @@
     "BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash",
     "H57bUBka6sBfPQph6f58TsQvUvxugJQmqMANFV1mpump",
     "AitksCRn29wLXgf6AGJbcszX9maZtVg62D1bV4expump",
-    "6mb1WzFveWXa9AeBwQ2mbyoxJhw8KCgmyQaDZziZBAGS"
+    "6mb1WzFveWXa9AeBwQ2mbyoxJhw8KCgmyQaDZziZBAGS",
+    "GLY7h4BLgJfxmJmSRr5azXeREyXM6AxHmzExxz7Vpump"
   ],
-  "scans": 15282,
+  "scans": 15284,
   "skipped": {
-    "variazione_h1_fuori_range": 27098,
-    "volume_basso": 135123,
-    "momentum_m5": 45460,
-    "eta_fuori_range": 76473,
+    "variazione_h1_fuori_range": 27103,
+    "volume_basso": 135148,
+    "momentum_m5": 45467,
+    "eta_fuori_range": 76482,
     "pressione_vendita": 4317,
-    "liquidita_bassa": 352562,
+    "liquidita_bassa": 352608,
     "rugcheck_danger": 918,
-    "gia_scambiato_di_recente": 11485,
+    "gia_scambiato_di_recente": 11486,
     "variazioni_mancanti": 256,
     "eta_sconosciuta": 525,
     "rugcheck_non_verificato": 640
