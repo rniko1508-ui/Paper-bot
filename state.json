@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "a9zoLRHvqn12KiGxERC298Gr2rS8YQxuMuN9VFMpump",
-    "symbol": "FANDEMON",
-    "opened": "2026-11-12 22:23:05",
-    "opened_ts": 1794522185.93799,
-    "signal_price": 0.0003794,
-    "entry_eff": 0.0003862942059229665,
-    "units": 10277.140943687064,
-    "size": 4.0,
-    "liq_entry": 46691.13,
-    "misses": 0,
-    "tg_msg": 1892
-  },
+  "position": null,
   "recent": [
     "3Yoj6vQYTHfFVVBwHGNDbxBhh6R7iw41BSrNSGJ4pump",
     "oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump",
@@ -34,20 +22,20 @@
     "2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump",
     "a9zoLRHvqn12KiGxERC298Gr2rS8YQxuMuN9VFMpump"
   ],
-  "scans": 16128,
+  "scans": 16129,
   "skipped": {
-    "variazione_h1_fuori_range": 28235,
-    "volume_basso": 140360,
-    "momentum_m5": 47416,
-    "eta_fuori_range": 79909,
+    "variazione_h1_fuori_range": 28238,
+    "volume_basso": 140366,
+    "momentum_m5": 47419,
+    "eta_fuori_range": 79916,
     "pressione_vendita": 4648,
-    "liquidita_bassa": 373664,
+    "liquidita_bassa": 373689,
     "rugcheck_danger": 982,
-    "gia_scambiato_di_recente": 11858,
+    "gia_scambiato_di_recente": 11859,
     "variazioni_mancanti": 258,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
   },
-  "balance": -247.30079067165448,
+  "balance": -247.88456811482135,
   "reset_id": "2026-10-25-saldo-5"
 }
