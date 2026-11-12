@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "7rtrYEBfMhMPmPqCr4BZyY3zYRSLqUa7h6WR44Z7YWWF",
-    "symbol": "KRESS",
-    "opened": "2026-11-12 15:17:21",
-    "opened_ts": 1794496641.880378,
-    "signal_price": 7.931e-05,
-    "entry_eff": 8.076393398105111e-05,
-    "units": 49155.604541644105,
-    "size": 4.0,
-    "liq_entry": 24075.3,
-    "misses": 0,
-    "tg_msg": 1854
-  },
+  "position": null,
   "recent": [
     "HtKSi76B481vtpE1Ssydb8gKrcL3eeaVSDeh8sbRpump",
     "9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok",
@@ -34,20 +22,20 @@
     "Bd9WHu5qtbxzsCuxH5omFQb6XmSSeEVsPKn8erTCpump",
     "7rtrYEBfMhMPmPqCr4BZyY3zYRSLqUa7h6WR44Z7YWWF"
   ],
-  "scans": 15881,
+  "scans": 15882,
   "skipped": {
-    "variazione_h1_fuori_range": 27800,
-    "volume_basso": 139430,
-    "momentum_m5": 46742,
-    "eta_fuori_range": 78337,
-    "pressione_vendita": 4565,
-    "liquidita_bassa": 367554,
+    "variazione_h1_fuori_range": 27801,
+    "volume_basso": 139435,
+    "momentum_m5": 46744,
+    "eta_fuori_range": 78340,
+    "pressione_vendita": 4566,
+    "liquidita_bassa": 367578,
     "rugcheck_danger": 969,
-    "gia_scambiato_di_recente": 11763,
+    "gia_scambiato_di_recente": 11764,
     "variazioni_mancanti": 258,
     "eta_sconosciuta": 525,
     "rugcheck_non_verificato": 640
   },
-  "balance": -239.50877511693722,
+  "balance": -240.20816285726696,
   "reset_id": "2026-10-25-saldo-5"
 }
