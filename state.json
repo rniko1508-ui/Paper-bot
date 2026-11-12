@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+    "symbol": "Shitcoin",
+    "opened": "2026-11-12 11:52:01",
+    "opened_ts": 1794484321.6315384,
+    "signal_price": 4.955e-05,
+    "entry_eff": 5.046738037644619e-05,
+    "units": 78664.67350567799,
+    "size": 4.0,
+    "liq_entry": 15557.07,
+    "misses": 0,
+    "tg_msg": 1845
+  },
   "recent": [
-    "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ",
     "8bTJDVTG1xPuP4GsaXVKCRrbG4mRehhn5AyFy9yapump",
     "7fNYfFkDefatZugpcgaHqGxQuwm6JzcRYDQrdajqpump",
     "HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump",
@@ -20,16 +31,17 @@
     "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump",
     "2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump",
     "7tg8gm8LPw6N6CsRZGDxnykABpBqfqxdbTAvFemHpump",
-    "2ETgxCfRwJRBuMgU7T5YiCDFYFQd3sUN3cFosRCPpump"
+    "2ETgxCfRwJRBuMgU7T5YiCDFYFQd3sUN3cFosRCPpump",
+    "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump"
   ],
-  "scans": 15741,
+  "scans": 15754,
   "skipped": {
-    "variazione_h1_fuori_range": 27638,
-    "volume_basso": 138961,
-    "momentum_m5": 46423,
-    "eta_fuori_range": 77910,
-    "pressione_vendita": 4533,
-    "liquidita_bassa": 364355,
+    "variazione_h1_fuori_range": 27656,
+    "volume_basso": 139030,
+    "momentum_m5": 46438,
+    "eta_fuori_range": 77958,
+    "pressione_vendita": 4537,
+    "liquidita_bassa": 364652,
     "rugcheck_danger": 946,
     "gia_scambiato_di_recente": 11736,
     "variazioni_mancanti": 257,
