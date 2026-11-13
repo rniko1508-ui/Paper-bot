@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump",
-    "symbol": "Sakura",
-    "opened": "2026-11-13 19:57:27",
-    "opened_ts": 1794599847.69286,
-    "signal_price": 5.973e-05,
-    "entry_eff": 6.0832236791754366e-05,
-    "units": 65261.45033250072,
-    "size": 4.0,
-    "liq_entry": 17634.56,
-    "misses": 0,
-    "tg_msg": 1984
-  },
+  "position": null,
   "recent": [
     "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
     "HcsZdLqWXmL7BQBhvoBvi9BDRZyiBuMvymhNwrfKpump",
@@ -34,20 +22,20 @@
     "7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump",
     "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump"
   ],
-  "scans": 16998,
+  "scans": 16999,
   "skipped": {
-    "variazione_h1_fuori_range": 29547,
-    "volume_basso": 147167,
-    "momentum_m5": 49684,
-    "eta_fuori_range": 82961,
-    "pressione_vendita": 5046,
-    "liquidita_bassa": 395799,
+    "variazione_h1_fuori_range": 29549,
+    "volume_basso": 147172,
+    "momentum_m5": 49689,
+    "eta_fuori_range": 82966,
+    "pressione_vendita": 5047,
+    "liquidita_bassa": 395827,
     "rugcheck_danger": 989,
     "gia_scambiato_di_recente": 12456,
     "variazioni_mancanti": 262,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
   },
-  "balance": -256.0173591507198,
+  "balance": -256.80936571963326,
   "reset_id": "2026-10-25-saldo-5"
 }
