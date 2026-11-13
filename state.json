@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "EMNsQjn55DFugZ13nFja49CVGJv9r3qPyehqRVFqpump",
-    "symbol": "JENSWAN",
-    "opened": "2026-11-13 04:23:29",
-    "opened_ts": 1794543809.1095383,
-    "signal_price": 0.0001105,
-    "entry_eff": 0.00011252471023166808,
-    "units": 35281.13950994841,
+    "mint": "G9E8zzhdqCGpGqrHSgL2CKW1MuAbCVTQPFUhFk72pump",
+    "symbol": "CHARITY",
+    "opened": "2026-11-13 04:25:35",
+    "opened_ts": 1794543935.0303764,
+    "signal_price": 0.0001236,
+    "entry_eff": 0.00012586317816543207,
+    "units": 31542.18777776222,
     "size": 4.0,
-    "liq_entry": 24754.81,
+    "liq_entry": 25764.65,
     "misses": 0,
-    "tg_msg": 1920
+    "tg_msg": 1922
   },
   "recent": [
-    "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump",
     "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump",
     "F3fEfTxGhAfhkbAaxtiErdcDEMZdTrqssXbfMVKbpump",
     "91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump",
@@ -32,22 +31,23 @@
     "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
     "FQbUZry4SJTzxS1GxAeZGLW2ngzDnwxv3XDNVXa4pump",
     "9azVa2sxrvM1meRA2ixEyyYNcYMoYQYgjtjmFczUpump",
-    "EMNsQjn55DFugZ13nFja49CVGJv9r3qPyehqRVFqpump"
+    "EMNsQjn55DFugZ13nFja49CVGJv9r3qPyehqRVFqpump",
+    "G9E8zzhdqCGpGqrHSgL2CKW1MuAbCVTQPFUhFk72pump"
   ],
-  "scans": 16277,
+  "scans": 16278,
   "skipped": {
-    "variazione_h1_fuori_range": 28532,
-    "volume_basso": 141683,
-    "momentum_m5": 47900,
-    "eta_fuori_range": 80787,
+    "variazione_h1_fuori_range": 28535,
+    "volume_basso": 141695,
+    "momentum_m5": 47904,
+    "eta_fuori_range": 80788,
     "pressione_vendita": 4731,
-    "liquidita_bassa": 377501,
+    "liquidita_bassa": 377524,
     "rugcheck_danger": 982,
     "gia_scambiato_di_recente": 11972,
     "variazioni_mancanti": 258,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
   },
-  "balance": -253.46358836095348,
+  "balance": -254.1780787474947,
   "reset_id": "2026-10-25-saldo-5"
 }
