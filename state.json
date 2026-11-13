@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "EMNsQjn55DFugZ13nFja49CVGJv9r3qPyehqRVFqpump",
+    "symbol": "JENSWAN",
+    "opened": "2026-11-13 04:23:29",
+    "opened_ts": 1794543809.1095383,
+    "signal_price": 0.0001105,
+    "entry_eff": 0.00011252471023166808,
+    "units": 35281.13950994841,
+    "size": 4.0,
+    "liq_entry": 24754.81,
+    "misses": 0,
+    "tg_msg": 1920
+  },
   "recent": [
-    "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump",
     "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump",
     "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump",
     "F3fEfTxGhAfhkbAaxtiErdcDEMZdTrqssXbfMVKbpump",
@@ -20,16 +31,17 @@
     "CXvoRriW4Dzw9n4EzLR1gYeuY8J8wga6M2efzP8qpump",
     "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
     "FQbUZry4SJTzxS1GxAeZGLW2ngzDnwxv3XDNVXa4pump",
-    "9azVa2sxrvM1meRA2ixEyyYNcYMoYQYgjtjmFczUpump"
+    "9azVa2sxrvM1meRA2ixEyyYNcYMoYQYgjtjmFczUpump",
+    "EMNsQjn55DFugZ13nFja49CVGJv9r3qPyehqRVFqpump"
   ],
-  "scans": 16267,
+  "scans": 16277,
   "skipped": {
-    "variazione_h1_fuori_range": 28507,
-    "volume_basso": 141577,
-    "momentum_m5": 47860,
-    "eta_fuori_range": 80763,
-    "pressione_vendita": 4724,
-    "liquidita_bassa": 377278,
+    "variazione_h1_fuori_range": 28532,
+    "volume_basso": 141683,
+    "momentum_m5": 47900,
+    "eta_fuori_range": 80787,
+    "pressione_vendita": 4731,
+    "liquidita_bassa": 377501,
     "rugcheck_danger": 982,
     "gia_scambiato_di_recente": 11972,
     "variazioni_mancanti": 258,
