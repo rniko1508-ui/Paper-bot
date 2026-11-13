@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-    "symbol": "Christmax",
-    "opened": "2026-11-12 23:47:42",
-    "opened_ts": 1794527262.0885108,
-    "signal_price": 9.73e-05,
-    "entry_eff": 9.908602875298673e-05,
-    "units": 40066.19348825536,
-    "size": 4.0,
-    "liq_entry": 22478.43,
-    "misses": 0,
-    "tg_msg": 1896
-  },
+  "position": null,
   "recent": [
     "Bd9WHu5qtbxzsCuxH5omFQb6XmSSeEVsPKn8erTCpump",
     "7rtrYEBfMhMPmPqCr4BZyY3zYRSLqUa7h6WR44Z7YWWF",
@@ -34,20 +22,20 @@
     "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
     "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump"
   ],
-  "scans": 16181,
+  "scans": 16182,
   "skipped": {
-    "variazione_h1_fuori_range": 28371,
-    "volume_basso": 140697,
-    "momentum_m5": 47543,
-    "eta_fuori_range": 80317,
+    "variazione_h1_fuori_range": 28373,
+    "volume_basso": 140707,
+    "momentum_m5": 47545,
+    "eta_fuori_range": 80323,
     "pressione_vendita": 4680,
-    "liquidita_bassa": 375093,
+    "liquidita_bassa": 375124,
     "rugcheck_danger": 982,
     "gia_scambiato_di_recente": 11882,
     "variazioni_mancanti": 258,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
   },
-  "balance": -249.15356502394164,
+  "balance": -248.7798549742812,
   "reset_id": "2026-10-25-saldo-5"
 }
