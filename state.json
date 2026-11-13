@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
-    "symbol": "Shitcoin",
-    "opened": "2026-11-13 02:16:47",
-    "opened_ts": 1794536207.4310372,
-    "signal_price": 0.0001033,
-    "entry_eff": 0.00010519439178768485,
-    "units": 37739.65448664507,
+    "mint": "FQbUZry4SJTzxS1GxAeZGLW2ngzDnwxv3XDNVXa4pump",
+    "symbol": "THRONG",
+    "opened": "2026-11-13 02:42:40",
+    "opened_ts": 1794537760.0936377,
+    "signal_price": 0.0002023,
+    "entry_eff": 0.0002059896725934021,
+    "units": 19272.81086482566,
     "size": 4.0,
-    "liq_entry": 23616.97,
+    "liq_entry": 33526.27,
     "misses": 0,
-    "tg_msg": 1913
+    "tg_msg": 1916
   },
   "recent": [
-    "5ZA32FxzsxcSXZuYDbrxa9QVVvzkiLbisDb5VKmNpump",
     "5ba8HwNgio5t86aFdWJ81w5pNHjbqAKPKejTsVoDpump",
     "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump",
     "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump",
@@ -32,22 +31,23 @@
     "2eBGQFFjmARa2kPECwLhMiuz7WZaSvgncH3nSruLpump",
     "AY2P2J79jdLWib4yYwMDApCmq9GorZhddDXerca3pump",
     "CXvoRriW4Dzw9n4EzLR1gYeuY8J8wga6M2efzP8qpump",
-    "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump"
+    "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+    "FQbUZry4SJTzxS1GxAeZGLW2ngzDnwxv3XDNVXa4pump"
   ],
-  "scans": 16260,
+  "scans": 16261,
   "skipped": {
     "variazione_h1_fuori_range": 28490,
-    "volume_basso": 141507,
-    "momentum_m5": 47837,
-    "eta_fuori_range": 80740,
-    "pressione_vendita": 4720,
-    "liquidita_bassa": 377117,
+    "volume_basso": 141517,
+    "momentum_m5": 47843,
+    "eta_fuori_range": 80744,
+    "pressione_vendita": 4721,
+    "liquidita_bassa": 377140,
     "rugcheck_danger": 982,
-    "gia_scambiato_di_recente": 11971,
+    "gia_scambiato_di_recente": 11972,
     "variazioni_mancanti": 258,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
   },
-  "balance": -252.2824063992649,
+  "balance": -251.8329630766803,
   "reset_id": "2026-10-25-saldo-5"
 }
