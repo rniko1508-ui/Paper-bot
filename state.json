@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump",
-    "symbol": "LUCIA",
-    "opened": "2026-11-13 19:46:50",
-    "opened_ts": 1794599210.2156634,
-    "signal_price": 9.572e-05,
-    "entry_eff": 9.747734951823864e-05,
-    "units": 40727.41020986817,
-    "size": 4.0,
-    "liq_entry": 22267.25,
-    "misses": 0,
-    "tg_msg": 1981
-  },
+  "position": null,
   "recent": [
     "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
     "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
@@ -34,20 +22,20 @@
     "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
     "7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump"
   ],
-  "scans": 16996,
+  "scans": 16997,
   "skipped": {
-    "variazione_h1_fuori_range": 29542,
-    "volume_basso": 147156,
-    "momentum_m5": 49674,
-    "eta_fuori_range": 82953,
+    "variazione_h1_fuori_range": 29544,
+    "volume_basso": 147162,
+    "momentum_m5": 49680,
+    "eta_fuori_range": 82957,
     "pressione_vendita": 5046,
-    "liquidita_bassa": 395741,
+    "liquidita_bassa": 395769,
     "rugcheck_danger": 989,
     "gia_scambiato_di_recente": 12456,
     "variazioni_mancanti": 262,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
   },
-  "balance": -257.4640472815104,
+  "balance": -256.0173591507198,
   "reset_id": "2026-10-25-saldo-5"
 }
