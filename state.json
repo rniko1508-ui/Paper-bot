@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
-    "symbol": "KOSMIK",
-    "opened": "2026-11-13 23:49:11",
-    "opened_ts": 1794613751.8377125,
-    "signal_price": 8.857e-05,
-    "entry_eff": 9.019750208368225e-05,
-    "units": 44014.52266734356,
-    "size": 4.0,
-    "liq_entry": 21315.15,
-    "misses": 0,
-    "tg_msg": 2006
-  },
+  "position": null,
   "recent": [
     "BGdgAWDxZxBhb8CU8DrxchfnLmfpZq9kpZVSd1wupump",
     "9RZH5NbSW27KewwfAcbhQXixMRUaMc7zNppCRnfUpump",
@@ -34,20 +22,20 @@
     "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump",
     "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump"
   ],
-  "scans": 17107,
+  "scans": 17108,
   "skipped": {
     "variazione_h1_fuori_range": 29850,
-    "volume_basso": 147955,
-    "momentum_m5": 50149,
-    "eta_fuori_range": 83585,
-    "pressione_vendita": 5131,
-    "liquidita_bassa": 398321,
+    "volume_basso": 147967,
+    "momentum_m5": 50154,
+    "eta_fuori_range": 83591,
+    "pressione_vendita": 5132,
+    "liquidita_bassa": 398338,
     "rugcheck_danger": 989,
-    "gia_scambiato_di_recente": 12478,
+    "gia_scambiato_di_recente": 12480,
     "variazioni_mancanti": 263,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
   },
-  "balance": -260.0281849431952,
+  "balance": -260.70212748609765,
   "reset_id": "2026-10-25-saldo-5"
 }
