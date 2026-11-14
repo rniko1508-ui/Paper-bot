@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump",
+    "symbol": "DOGCOIN",
+    "opened": "2026-11-14 19:51:09",
+    "opened_ts": 1794685869.7834842,
+    "signal_price": 6.983e-05,
+    "entry_eff": 7.111773716836288e-05,
+    "units": 55822.92347971494,
+    "size": 4.0,
+    "liq_entry": 18139.33,
+    "misses": 0,
+    "tg_msg": 2075
+  },
   "recent": [
-    "A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump",
     "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
     "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND",
     "7x8HCyf5Z3JYWXmC7p6C4w11Hw6JAXFEiZy6PCDBpump",
@@ -20,20 +31,21 @@
     "6bYMEsNWWtioQtBqEDqdvnxnHNTNcxdnftsVHhxUTYfj",
     "5bzT7x5nYZx3grnRaL6cDRQuSKxEWDVwh2WUxd91pump",
     "6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
-    "fX9dKa1DVdjSvYk3f2GAcj2RjQ5DFa54QTWAsXBpump"
+    "fX9dKa1DVdjSvYk3f2GAcj2RjQ5DFa54QTWAsXBpump",
+    "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump"
   ],
-  "scans": 17871,
+  "scans": 17896,
   "skipped": {
-    "variazione_h1_fuori_range": 31334,
-    "volume_basso": 156999,
-    "momentum_m5": 52792,
-    "eta_fuori_range": 85967,
-    "pressione_vendita": 5462,
-    "liquidita_bassa": 416090,
+    "variazione_h1_fuori_range": 31361,
+    "volume_basso": 157127,
+    "momentum_m5": 52870,
+    "eta_fuori_range": 86037,
+    "pressione_vendita": 5471,
+    "liquidita_bassa": 416739,
     "rugcheck_danger": 993,
-    "gia_scambiato_di_recente": 13026,
+    "gia_scambiato_di_recente": 13039,
     "variazioni_mancanti": 271,
-    "eta_sconosciuta": 709,
+    "eta_sconosciuta": 732,
     "rugcheck_non_verificato": 640
   },
   "balance": -268.6532176036794,
