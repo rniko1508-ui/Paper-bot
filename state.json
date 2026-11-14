@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump",
-    "symbol": "RARECOIN",
-    "opened": "2026-11-14 02:17:02",
-    "opened_ts": 1794622622.906514,
-    "signal_price": 5.605e-05,
-    "entry_eff": 5.708216790575356e-05,
-    "units": 69548.86518246352,
+    "mint": "5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump",
+    "symbol": "Chunkee",
+    "opened": "2026-11-14 02:18:08",
+    "opened_ts": 1794622688.061575,
+    "signal_price": 0.0001813,
+    "entry_eff": 0.00018461069961094566,
+    "units": 21504.71239406222,
     "size": 4.0,
-    "liq_entry": 19271.18,
+    "liq_entry": 30664.1,
     "misses": 0,
-    "tg_msg": 2016
+    "tg_msg": 2018
   },
   "recent": [
-    "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump",
     "HBFXQ147s9VN62DmUvfWAkRApTPzaR8saHcCVCgrpump",
     "62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray",
     "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
@@ -32,22 +31,23 @@
     "CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump",
     "J4MsEuqfAnCFAE1E7zfN1MrK7X1msFHtGFTySXi2pump",
     "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
-    "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump"
+    "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump",
+    "5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump"
   ],
-  "scans": 17242,
+  "scans": 17243,
   "skipped": {
     "variazione_h1_fuori_range": 30060,
-    "volume_basso": 149505,
-    "momentum_m5": 50577,
-    "eta_fuori_range": 84284,
-    "pressione_vendita": 5222,
-    "liquidita_bassa": 401442,
+    "volume_basso": 149518,
+    "momentum_m5": 50580,
+    "eta_fuori_range": 84288,
+    "pressione_vendita": 5223,
+    "liquidita_bassa": 401470,
     "rugcheck_danger": 989,
     "gia_scambiato_di_recente": 12559,
     "variazioni_mancanti": 265,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
   },
-  "balance": -259.61062428037314,
+  "balance": -260.3009707686027,
   "reset_id": "2026-10-25-saldo-5"
 }
