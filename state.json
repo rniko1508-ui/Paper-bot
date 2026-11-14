@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
-    "symbol": "GTA$",
-    "opened": "2026-11-14 14:31:18",
-    "opened_ts": 1794666678.9194043,
-    "signal_price": 0.0003857,
-    "entry_eff": 0.0003926926740497435,
-    "units": 10109.686944394356,
+    "mint": "97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump",
+    "symbol": "DYC",
+    "opened": "2026-11-14 15:17:04",
+    "opened_ts": 1794669424.7832093,
+    "signal_price": 5.205e-05,
+    "entry_eff": 5.3007943386064765e-05,
+    "units": 74894.43555819357,
     "size": 4.0,
-    "liq_entry": 61620.74,
+    "liq_entry": 19787.69,
     "misses": 0,
-    "tg_msg": 2057
+    "tg_msg": 2059
   },
   "recent": [
-    "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump",
     "5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump",
     "4HwfkLiQtJYGUCb6Na9KVy6c8ScHjaJmgRXYpbghpump",
     "4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump",
@@ -32,22 +31,23 @@
     "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk",
     "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
     "8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump",
-    "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump"
+    "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+    "97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump"
   ],
-  "scans": 17733,
+  "scans": 17734,
   "skipped": {
-    "variazione_h1_fuori_range": 31139,
-    "volume_basso": 155939,
-    "momentum_m5": 52418,
-    "eta_fuori_range": 85580,
-    "pressione_vendita": 5438,
-    "liquidita_bassa": 412760,
+    "variazione_h1_fuori_range": 31140,
+    "volume_basso": 155948,
+    "momentum_m5": 52421,
+    "eta_fuori_range": 85584,
+    "pressione_vendita": 5439,
+    "liquidita_bassa": 412784,
     "rugcheck_danger": 989,
-    "gia_scambiato_di_recente": 12935,
+    "gia_scambiato_di_recente": 12936,
     "variazioni_mancanti": 269,
-    "eta_sconosciuta": 578,
+    "eta_sconosciuta": 579,
     "rugcheck_non_verificato": 640
   },
-  "balance": -266.4953800687761,
+  "balance": -267.42050422046884,
   "reset_id": "2026-10-25-saldo-5"
 }
