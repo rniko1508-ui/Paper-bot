@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump",
+    "symbol": "RARECOIN",
+    "opened": "2026-11-14 02:17:02",
+    "opened_ts": 1794622622.906514,
+    "signal_price": 5.605e-05,
+    "entry_eff": 5.708216790575356e-05,
+    "units": 69548.86518246352,
+    "size": 4.0,
+    "liq_entry": 19271.18,
+    "misses": 0,
+    "tg_msg": 2016
+  },
   "recent": [
-    "91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump",
     "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump",
     "HBFXQ147s9VN62DmUvfWAkRApTPzaR8saHcCVCgrpump",
     "62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray",
@@ -20,18 +31,19 @@
     "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
     "CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump",
     "J4MsEuqfAnCFAE1E7zfN1MrK7X1msFHtGFTySXi2pump",
-    "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump"
+    "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+    "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump"
   ],
-  "scans": 17225,
+  "scans": 17242,
   "skipped": {
-    "variazione_h1_fuori_range": 30027,
-    "volume_basso": 149288,
-    "momentum_m5": 50543,
-    "eta_fuori_range": 84202,
-    "pressione_vendita": 5221,
-    "liquidita_bassa": 400985,
+    "variazione_h1_fuori_range": 30060,
+    "volume_basso": 149505,
+    "momentum_m5": 50577,
+    "eta_fuori_range": 84284,
+    "pressione_vendita": 5222,
+    "liquidita_bassa": 401442,
     "rugcheck_danger": 989,
-    "gia_scambiato_di_recente": 12550,
+    "gia_scambiato_di_recente": 12559,
     "variazioni_mancanti": 265,
     "eta_sconosciuta": 526,
     "rugcheck_non_verificato": 640
