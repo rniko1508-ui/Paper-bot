@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
-    "symbol": "Nyajira",
-    "opened": "2026-11-15 15:05:37",
-    "opened_ts": 1794755137.2625685,
-    "signal_price": 6.366e-05,
-    "entry_eff": 6.483574303394069e-05,
-    "units": 61231.657327066576,
-    "size": 4.0,
-    "liq_entry": 17053.86,
-    "misses": 0,
-    "tg_msg": 2151
-  },
+  "position": null,
   "recent": [
     "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump",
     "ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump",
@@ -34,20 +22,20 @@
     "GUkwiQYxXzutiaF1io6i1j67BDd7UzJsgMinLRQ8pump",
     "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump"
   ],
-  "scans": 18775,
+  "scans": 18776,
   "skipped": {
     "variazione_h1_fuori_range": 32360,
-    "volume_basso": 164603,
+    "volume_basso": 164611,
     "momentum_m5": 54630,
-    "eta_fuori_range": 88409,
+    "eta_fuori_range": 88413,
     "pressione_vendita": 5632,
-    "liquidita_bassa": 443059,
+    "liquidita_bassa": 443082,
     "rugcheck_danger": 1023,
-    "gia_scambiato_di_recente": 13458,
+    "gia_scambiato_di_recente": 13461,
     "variazioni_mancanti": 288,
     "eta_sconosciuta": 1207,
     "rugcheck_non_verificato": 640
   },
-  "balance": -279.7156954379873,
+  "balance": -279.61750738987604,
   "reset_id": "2026-10-25-saldo-5"
 }
