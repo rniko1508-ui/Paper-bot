@@ -917,3 +917,4 @@ chiuso_il,simbolo,mint,aperto_il,minuti,prezzo_ingresso,prezzo_uscita,importo,in
 2026-11-15 19:21:22,BFS,A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ,2026-11-15 19:18:14,3.1,9.41e-05,8.177e-05,4.0,3.3128,-0.6872,-17.2,stop loss,26337
 2026-11-15 20:13:10,ANT,BDPm9gPHCRyo2qjcRrYPsXexmbRwuuHQZo2qhhYXpump,2026-11-15 19:51:18,21.9,0.0002665,1.408e-06,4.0,0.0,-4.0,-100.0,protezione profitto (ROI sceso sotto +14%),36134
 2026-11-15 20:18:18,NCAT,Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump,2026-11-15 20:13:11,5.1,5.88e-05,6.792e-05,4.0,4.4125,0.4125,10.3,protezione profitto (ROI sceso sotto +14%),19927
+2026-11-15 20:24:44,ANT,7H2sHeLHyHR8jxENGmsqn7RxTkYZa4KwXvKYcoxBpump,2026-11-15 20:18:19,6.4,0.0001242,0.0001791,4.0,5.5166,1.5166,37.9,take profit,24217
