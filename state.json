@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+    "symbol": "Marvin",
+    "opened": "2026-11-16 05:01:15",
+    "opened_ts": 1794805275.5963047,
+    "signal_price": 0.0004708,
+    "entry_eff": 0.0004793329379652057,
+    "units": 8282.343410100015,
+    "size": 4.0,
+    "liq_entry": 64341.15,
+    "misses": 0,
+    "tg_msg": 2238
+  },
   "recent": [
-    "9WGvvKDQSkzwmPoGmDCx42C8t1xyvrV3hFExCgkrpump",
     "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
     "5LGmxerWmb53hbyP5KYGyP8jXxVmVmBggvNtrHKxCafZ",
     "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump",
@@ -20,18 +31,19 @@
     "9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi",
     "A5xsAQhwGeKsNTKPiyB3jYydffWxPyzyWVodSA4hpump",
     "5qRxJ9W45zUrUtGGDneysiRBKZaceNriEqVUei1Rpump",
-    "Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g"
+    "Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g",
+    "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump"
   ],
-  "scans": 19284,
+  "scans": 19290,
   "skipped": {
-    "variazione_h1_fuori_range": 33252,
-    "volume_basso": 168762,
-    "momentum_m5": 56209,
-    "eta_fuori_range": 90513,
-    "pressione_vendita": 5814,
-    "liquidita_bassa": 455621,
+    "variazione_h1_fuori_range": 33264,
+    "volume_basso": 168810,
+    "momentum_m5": 56228,
+    "eta_fuori_range": 90537,
+    "pressione_vendita": 5817,
+    "liquidita_bassa": 455772,
     "rugcheck_danger": 1028,
-    "gia_scambiato_di_recente": 13833,
+    "gia_scambiato_di_recente": 13834,
     "variazioni_mancanti": 290,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
