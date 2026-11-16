@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
-    "symbol": "ETF",
-    "opened": "2026-11-16 19:03:28",
-    "opened_ts": 1794855808.7663572,
-    "signal_price": 0.0002871,
-    "entry_eff": 0.00029232728263471185,
-    "units": 13580.668777196748,
+    "mint": "BRf3SXRk8BdXmBZDJfKyEhbYmqBVf8843ctEMcD4pump",
+    "symbol": "COGE",
+    "opened": "2026-11-16 19:06:42",
+    "opened_ts": 1794856002.7822442,
+    "signal_price": 0.0001663,
+    "entry_eff": 0.0001693412163140465,
+    "units": 23443.79051014704,
     "size": 4.0,
-    "liq_entry": 38612.95,
+    "liq_entry": 27823.14,
     "misses": 0,
-    "tg_msg": 2282
+    "tg_msg": 2284
   },
   "recent": [
-    "Fvv62MhgjrXpvXmKcLci2HoiCAxFmSkUm1Niamvipump",
     "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
     "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump",
     "2YxbK7V6ZTKSxcavk3V4kFzdtZ4uywhhoyuSxapjpump",
@@ -32,22 +31,23 @@
     "qay6c14bea8Y2ebCYwDpNtMqxEE27WZFJELKPQ6cGTA",
     "HrVrPuiccywXYvXRGemHxztdeHQRgr2V8qA5BkquAy6o",
     "EsSzJa8xsyehSvVsNUy6t1KxMXgZYYaJKBAqyJxT3bid",
-    "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump"
+    "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+    "BRf3SXRk8BdXmBZDJfKyEhbYmqBVf8843ctEMcD4pump"
   ],
-  "scans": 19481,
+  "scans": 19482,
   "skipped": {
     "variazione_h1_fuori_range": 33487,
-    "volume_basso": 170388,
-    "momentum_m5": 56612,
-    "eta_fuori_range": 91570,
-    "pressione_vendita": 5852,
-    "liquidita_bassa": 460528,
+    "volume_basso": 170394,
+    "momentum_m5": 56616,
+    "eta_fuori_range": 91576,
+    "pressione_vendita": 5853,
+    "liquidita_bassa": 460553,
     "rugcheck_danger": 1028,
     "gia_scambiato_di_recente": 13915,
     "variazioni_mancanti": 290,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
   },
-  "balance": -299.5415829956565,
+  "balance": -300.1863591904798,
   "reset_id": "2026-10-25-saldo-5"
 }
