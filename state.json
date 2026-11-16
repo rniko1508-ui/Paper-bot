@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump",
-    "symbol": "CYBERDACITY",
-    "opened": "2026-11-16 00:30:12",
-    "opened_ts": 1794789012.5776348,
-    "signal_price": 0.0001419,
-    "entry_eff": 0.00014449801778256233,
-    "units": 27474.42533069191,
+    "mint": "Fvv62MhgjrXpvXmKcLci2HoiCAxFmSkUm1Niamvipump",
+    "symbol": "nma",
+    "opened": "2026-11-16 00:31:18",
+    "opened_ts": 1794789078.2171826,
+    "signal_price": 6.179e-05,
+    "entry_eff": 6.293117270760998e-05,
+    "units": 63084.79294427523,
     "size": 4.0,
-    "liq_entry": 25907.29,
+    "liq_entry": 17073.36,
     "misses": 0,
-    "tg_msg": 2216
+    "tg_msg": 2218
   },
   "recent": [
-    "A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ",
     "BDPm9gPHCRyo2qjcRrYPsXexmbRwuuHQZo2qhhYXpump",
     "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump",
     "7H2sHeLHyHR8jxENGmsqn7RxTkYZa4KwXvKYcoxBpump",
@@ -32,22 +31,23 @@
     "6XGN3oMrjLuWvDyvHL1VZNNPN5d7dTspD9N7LKjAnime",
     "CHuLmJXz8F3YXUyv984PRxeECfSvqD5MZ3W1FoDmpump",
     "GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump",
-    "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump"
+    "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump",
+    "Fvv62MhgjrXpvXmKcLci2HoiCAxFmSkUm1Niamvipump"
   ],
-  "scans": 19109,
+  "scans": 19110,
   "skipped": {
-    "variazione_h1_fuori_range": 32878,
-    "volume_basso": 167095,
-    "momentum_m5": 55552,
-    "eta_fuori_range": 89816,
+    "variazione_h1_fuori_range": 32880,
+    "volume_basso": 167106,
+    "momentum_m5": 55555,
+    "eta_fuori_range": 89822,
     "pressione_vendita": 5753,
-    "liquidita_bassa": 451266,
+    "liquidita_bassa": 451291,
     "rugcheck_danger": 1028,
-    "gia_scambiato_di_recente": 13669,
+    "gia_scambiato_di_recente": 13670,
     "variazioni_mancanti": 289,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
   },
-  "balance": -291.4105822601781,
+  "balance": -292.15490042668597,
   "reset_id": "2026-10-25-saldo-5"
 }
