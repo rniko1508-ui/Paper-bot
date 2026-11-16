@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump",
+    "symbol": "Anthropig",
+    "opened": "2026-11-16 01:32:13",
+    "opened_ts": 1794792733.4244728,
+    "signal_price": 0.001201,
+    "entry_eff": 0.0012227390293236614,
+    "units": 3246.80893043542,
+    "size": 4.0,
+    "liq_entry": 79385.72,
+    "misses": 0,
+    "tg_msg": 2222
+  },
   "recent": [
-    "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump",
     "7H2sHeLHyHR8jxENGmsqn7RxTkYZa4KwXvKYcoxBpump",
     "2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump",
     "EwVUPKyysUxz1Ej2s6AczqqXjK8EwTNokCtvk38Xpump",
@@ -20,18 +31,19 @@
     "GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump",
     "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump",
     "Fvv62MhgjrXpvXmKcLci2HoiCAxFmSkUm1Niamvipump",
-    "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump"
+    "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+    "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump"
   ],
-  "scans": 19121,
+  "scans": 19148,
   "skipped": {
-    "variazione_h1_fuori_range": 32897,
-    "volume_basso": 167218,
-    "momentum_m5": 55591,
-    "eta_fuori_range": 89877,
-    "pressione_vendita": 5772,
-    "liquidita_bassa": 451565,
+    "variazione_h1_fuori_range": 32990,
+    "volume_basso": 167465,
+    "momentum_m5": 55736,
+    "eta_fuori_range": 89985,
+    "pressione_vendita": 5779,
+    "liquidita_bassa": 452260,
     "rugcheck_danger": 1028,
-    "gia_scambiato_di_recente": 13691,
+    "gia_scambiato_di_recente": 13712,
     "variazioni_mancanti": 289,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
