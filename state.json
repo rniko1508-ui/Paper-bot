@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "EsSzJa8xsyehSvVsNUy6t1KxMXgZYYaJKBAqyJxT3bid",
-    "symbol": "DSP",
-    "opened": "2026-11-16 18:01:59",
-    "opened_ts": 1794852119.5810091,
-    "signal_price": 0.0009828,
-    "entry_eff": 0.0010006180583722712,
-    "units": 3967.547823850083,
+    "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+    "symbol": "ETF",
+    "opened": "2026-11-16 19:03:28",
+    "opened_ts": 1794855808.7663572,
+    "signal_price": 0.0002871,
+    "entry_eff": 0.00029232728263471185,
+    "units": 13580.668777196748,
     "size": 4.0,
-    "liq_entry": 61589.38,
+    "liq_entry": 38612.95,
     "misses": 0,
-    "tg_msg": 2277
+    "tg_msg": 2282
   },
   "recent": [
-    "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump",
     "Fvv62MhgjrXpvXmKcLci2HoiCAxFmSkUm1Niamvipump",
     "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
     "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump",
@@ -32,22 +31,23 @@
     "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump",
     "qay6c14bea8Y2ebCYwDpNtMqxEE27WZFJELKPQ6cGTA",
     "HrVrPuiccywXYvXRGemHxztdeHQRgr2V8qA5BkquAy6o",
-    "EsSzJa8xsyehSvVsNUy6t1KxMXgZYYaJKBAqyJxT3bid"
+    "EsSzJa8xsyehSvVsNUy6t1KxMXgZYYaJKBAqyJxT3bid",
+    "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump"
   ],
-  "scans": 19480,
+  "scans": 19481,
   "skipped": {
-    "variazione_h1_fuori_range": 33486,
-    "volume_basso": 170382,
-    "momentum_m5": 56611,
-    "eta_fuori_range": 91564,
-    "pressione_vendita": 5851,
-    "liquidita_bassa": 460502,
+    "variazione_h1_fuori_range": 33487,
+    "volume_basso": 170388,
+    "momentum_m5": 56612,
+    "eta_fuori_range": 91570,
+    "pressione_vendita": 5852,
+    "liquidita_bassa": 460528,
     "rugcheck_danger": 1028,
     "gia_scambiato_di_recente": 13915,
     "variazioni_mancanti": 290,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
   },
-  "balance": -299.9242765296401,
+  "balance": -299.5415829956565,
   "reset_id": "2026-10-25-saldo-5"
 }
