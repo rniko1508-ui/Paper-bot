@@ -10,7 +10,8 @@
     "size": 4.0,
     "liq_entry": 27823.14,
     "misses": 0,
-    "tg_msg": 2284
+    "tg_msg": 2284,
+    "armed": true
   },
   "recent": [
     "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
