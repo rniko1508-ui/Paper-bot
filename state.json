@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump",
-    "symbol": "MELNOK",
-    "opened": "2026-11-17 04:08:10",
-    "opened_ts": 1794888490.545407,
-    "signal_price": 9.128e-05,
-    "entry_eff": 9.295825056471236e-05,
-    "units": 42707.34416668381,
-    "size": 4.0,
-    "liq_entry": 20739.23,
-    "misses": 0,
-    "tg_msg": 2324
-  },
+  "position": null,
   "recent": [
     "EsSzJa8xsyehSvVsNUy6t1KxMXgZYYaJKBAqyJxT3bid",
     "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
@@ -34,20 +22,20 @@
     "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump",
     "3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump"
   ],
-  "scans": 19764,
+  "scans": 19765,
   "skipped": {
-    "variazione_h1_fuori_range": 34053,
-    "volume_basso": 172921,
-    "momentum_m5": 57646,
-    "eta_fuori_range": 93294,
+    "variazione_h1_fuori_range": 34056,
+    "volume_basso": 172928,
+    "momentum_m5": 57650,
+    "eta_fuori_range": 93298,
     "pressione_vendita": 5951,
-    "liquidita_bassa": 466975,
+    "liquidita_bassa": 467001,
     "rugcheck_danger": 1028,
-    "gia_scambiato_di_recente": 14210,
+    "gia_scambiato_di_recente": 14213,
     "variazioni_mancanti": 290,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
   },
-  "balance": -301.0958974382282,
+  "balance": -299.6696371847649,
   "reset_id": "2026-10-25-saldo-5"
 }
