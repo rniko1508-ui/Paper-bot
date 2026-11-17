@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump",
-    "symbol": "LEOSTAR",
-    "opened": "2026-11-17 01:31:56",
-    "opened_ts": 1794879116.7990475,
-    "signal_price": 0.0009928,
-    "entry_eff": 0.0010107809690595127,
-    "units": 3927.6560615242993,
-    "size": 4.0,
-    "liq_entry": 71832.03,
-    "misses": 0,
-    "tg_msg": 2319
-  },
+  "position": null,
   "recent": [
     "qay6c14bea8Y2ebCYwDpNtMqxEE27WZFJELKPQ6cGTA",
     "HrVrPuiccywXYvXRGemHxztdeHQRgr2V8qA5BkquAy6o",
@@ -34,20 +22,20 @@
     "D3g7TDE64JvXDQkoVnswXPEv1i28kovsDYCvBs89pump",
     "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump"
   ],
-  "scans": 19724,
+  "scans": 19725,
   "skipped": {
-    "variazione_h1_fuori_range": 33982,
-    "volume_basso": 172514,
+    "variazione_h1_fuori_range": 33985,
+    "volume_basso": 172525,
     "momentum_m5": 57506,
-    "eta_fuori_range": 93056,
+    "eta_fuori_range": 93059,
     "pressione_vendita": 5945,
-    "liquidita_bassa": 465965,
+    "liquidita_bassa": 465991,
     "rugcheck_danger": 1028,
-    "gia_scambiato_di_recente": 14168,
+    "gia_scambiato_di_recente": 14170,
     "variazioni_mancanti": 290,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
   },
-  "balance": -303.0873088111281,
+  "balance": -301.4582278138106,
   "reset_id": "2026-10-25-saldo-5"
 }
