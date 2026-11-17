@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
-    "symbol": "GEKKO",
-    "opened": "2026-11-17 15:22:56",
-    "opened_ts": 1794928976.5472083,
-    "signal_price": 0.0003607,
-    "entry_eff": 0.0003672569495534824,
-    "units": 10809.870323289451,
-    "size": 4.0,
-    "liq_entry": 44842.58,
-    "misses": 0,
-    "tg_msg": 2361
-  },
+  "position": null,
   "recent": [
     "D3g7TDE64JvXDQkoVnswXPEv1i28kovsDYCvBs89pump",
     "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump",
@@ -34,20 +22,20 @@
     "3K8KgxKAfe4iWcgD2D3wNuyGmet6RsNeusmLkVGRpump",
     "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump"
   ],
-  "scans": 20158,
+  "scans": 20159,
   "skipped": {
-    "variazione_h1_fuori_range": 34850,
-    "volume_basso": 176519,
-    "momentum_m5": 58980,
-    "eta_fuori_range": 95580,
-    "pressione_vendita": 6128,
-    "liquidita_bassa": 475769,
+    "variazione_h1_fuori_range": 34851,
+    "volume_basso": 176528,
+    "momentum_m5": 58984,
+    "eta_fuori_range": 95587,
+    "pressione_vendita": 6129,
+    "liquidita_bassa": 475792,
     "rugcheck_danger": 1028,
-    "gia_scambiato_di_recente": 14589,
+    "gia_scambiato_di_recente": 14590,
     "variazioni_mancanti": 294,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
   },
-  "balance": -304.6566903242235,
+  "balance": -305.25279582616855,
   "reset_id": "2026-10-25-saldo-5"
 }
