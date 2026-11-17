@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "9a5uUXxa7LzHkT6YUikttpQsUZm4Etw8qhd2HP7xpump",
-    "symbol": "KATIA",
-    "opened": "2026-11-17 07:02:02",
-    "opened_ts": 1794898922.3473067,
-    "signal_price": 0.0001101,
-    "entry_eff": 0.00011211138807474279,
-    "units": 35411.21083393658,
-    "size": 4.0,
-    "liq_entry": 29768.75,
-    "misses": 0,
-    "tg_msg": 2339
-  },
+  "position": null,
   "recent": [
     "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
     "6UcvWd4hHYz6FUE8LqDrrXvz6uXbvNtsp9LudEmnpump",
@@ -34,20 +22,20 @@
     "GkMfy66mLHzyXFKBw4feG8dXtoXuphQVSJQYMQb4pump",
     "9a5uUXxa7LzHkT6YUikttpQsUZm4Etw8qhd2HP7xpump"
   ],
-  "scans": 19876,
+  "scans": 19877,
   "skipped": {
-    "variazione_h1_fuori_range": 34323,
-    "volume_basso": 174015,
-    "momentum_m5": 58089,
-    "eta_fuori_range": 93776,
-    "pressione_vendita": 5998,
-    "liquidita_bassa": 469278,
+    "variazione_h1_fuori_range": 34325,
+    "volume_basso": 174026,
+    "momentum_m5": 58091,
+    "eta_fuori_range": 93781,
+    "pressione_vendita": 5999,
+    "liquidita_bassa": 469294,
     "rugcheck_danger": 1028,
-    "gia_scambiato_di_recente": 14333,
+    "gia_scambiato_di_recente": 14337,
     "variazioni_mancanti": 291,
     "eta_sconosciuta": 1209,
     "rugcheck_non_verificato": 640
   },
-  "balance": -299.6915910261122,
+  "balance": -300.574715446332,
   "reset_id": "2026-10-25-saldo-5"
 }
