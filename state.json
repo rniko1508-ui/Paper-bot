@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "Cv4q9qcHapnz3XFm1KrHkXWmbYNKvbwKQsPaJPMt6FNF",
+    "symbol": "FUNDADOR",
+    "opened": "2026-11-18 19:05:19",
+    "opened_ts": 1795028719.425142,
+    "signal_price": 4.346e-05,
+    "entry_eff": 4.42615383475642e-05,
+    "units": 89694.12605647669,
+    "size": 4.0,
+    "liq_entry": 18053.47,
+    "misses": 0,
+    "tg_msg": 2487
+  },
   "recent": [
-    "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump",
     "GxTJDfGh9TEDYSK3oRUm2W17NAW8kGuzx2cMP5eApump",
     "tMhpF2j6zGBNyuFSh2qffeGMcmcWuLXNscn8LCipump",
     "G5fgrdGfNY2gMrJk6JUa6WGREFg4cw9VMpon2HtXpump",
@@ -20,18 +31,19 @@
     "6qNMHrswqq4tB9aSBCa66orADDH3vYRcoQiS2XnJpump",
     "H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump",
     "HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump",
-    "FmfDTbuvkWg5SR1L1fxYMSV68d9XZVhdeHPWUsikpump"
+    "FmfDTbuvkWg5SR1L1fxYMSV68d9XZVhdeHPWUsikpump",
+    "Cv4q9qcHapnz3XFm1KrHkXWmbYNKvbwKQsPaJPMt6FNF"
   ],
-  "scans": 20918,
+  "scans": 20928,
   "skipped": {
-    "variazione_h1_fuori_range": 36300,
-    "volume_basso": 182847,
-    "momentum_m5": 61512,
-    "eta_fuori_range": 99962,
+    "variazione_h1_fuori_range": 36337,
+    "volume_basso": 182931,
+    "momentum_m5": 61557,
+    "eta_fuori_range": 100032,
     "pressione_vendita": 6284,
-    "liquidita_bassa": 495009,
+    "liquidita_bassa": 495192,
     "rugcheck_danger": 1085,
-    "gia_scambiato_di_recente": 15277,
+    "gia_scambiato_di_recente": 15284,
     "variazioni_mancanti": 301,
     "eta_sconosciuta": 1387,
     "rugcheck_non_verificato": 640
