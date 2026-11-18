@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
+    "symbol": "JALU",
+    "opened": "2026-11-18 17:24:35",
+    "opened_ts": 1795022675.216783,
+    "signal_price": 0.0003226,
+    "entry_eff": 0.00032846467920094044,
+    "units": 12086.535482773557,
+    "size": 4.0,
+    "liq_entry": 44589.42,
+    "misses": 0,
+    "tg_msg": 2470
+  },
   "recent": [
-    "BM52Wwq9ikCqnmJUdUjMbUohyWsuDaHb1mKhw4yqpump",
     "8qHpNFu6o6JDx8rmdjik6k3si8QRLBgMuuRmGQ21pump",
     "AYfuRfhDGPP5DKeNNp2oVPDjrYZtZttS1FMKS3jpump",
     "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
@@ -20,16 +31,17 @@
     "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
     "7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump",
     "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC",
-    "6vofxAisDWYuD2o9jfRD4EkvpL8gs2qVbgAzDsLypump"
+    "6vofxAisDWYuD2o9jfRD4EkvpL8gs2qVbgAzDsLypump",
+    "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump"
   ],
-  "scans": 20861,
+  "scans": 20862,
   "skipped": {
-    "variazione_h1_fuori_range": 36112,
-    "volume_basso": 182408,
-    "momentum_m5": 61214,
-    "eta_fuori_range": 99615,
-    "pressione_vendita": 6269,
-    "liquidita_bassa": 493944,
+    "variazione_h1_fuori_range": 36115,
+    "volume_basso": 182415,
+    "momentum_m5": 61218,
+    "eta_fuori_range": 99623,
+    "pressione_vendita": 6270,
+    "liquidita_bassa": 493964,
     "rugcheck_danger": 1085,
     "gia_scambiato_di_recente": 15209,
     "variazioni_mancanti": 301,
