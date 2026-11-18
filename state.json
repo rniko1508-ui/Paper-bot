@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "HMdJzGtSqENEDYRouQ7S9Hdg6JT7wj5G7LovbHCypump",
-    "symbol": "YUKON",
-    "opened": "2026-11-18 16:11:58",
-    "opened_ts": 1795018318.019978,
-    "signal_price": 6.811e-05,
-    "entry_eff": 6.936064032537978e-05,
-    "units": 57237.07251513559,
-    "size": 4.0,
-    "liq_entry": 22095.41,
-    "misses": 0,
-    "tg_msg": 2456
-  },
+  "position": null,
   "recent": [
     "7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump",
     "6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump",
@@ -34,20 +22,20 @@
     "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump",
     "HMdJzGtSqENEDYRouQ7S9Hdg6JT7wj5G7LovbHCypump"
   ],
-  "scans": 20819,
+  "scans": 20820,
   "skipped": {
-    "variazione_h1_fuori_range": 35982,
-    "volume_basso": 182107,
-    "momentum_m5": 61051,
-    "eta_fuori_range": 99296,
+    "variazione_h1_fuori_range": 35985,
+    "volume_basso": 182115,
+    "momentum_m5": 61055,
+    "eta_fuori_range": 99305,
     "pressione_vendita": 6251,
-    "liquidita_bassa": 493012,
+    "liquidita_bassa": 493036,
     "rugcheck_danger": 1075,
     "gia_scambiato_di_recente": 15175,
     "variazioni_mancanti": 300,
     "eta_sconosciuta": 1387,
     "rugcheck_non_verificato": 640
   },
-  "balance": -312.9192268794442,
+  "balance": -314.2474222878909,
   "reset_id": "2026-10-25-saldo-5"
 }
