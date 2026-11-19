@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "J8JjZXF6XE3zDp3zVQPYxkC9SNDuejGh8Eh6hjKgpump",
+    "symbol": "JETSKI",
+    "opened": "2026-11-19 16:37:04",
+    "opened_ts": 1795106224.161922,
+    "signal_price": 5.048e-05,
+    "entry_eff": 5.141551593836847e-05,
+    "units": 77214.04575145798,
+    "size": 4.0,
+    "liq_entry": 15026.08,
+    "misses": 0,
+    "tg_msg": 2595
+  },
   "recent": [
-    "92m4S52bu3dZyqzPmPStu8Krz6JcpzHdsG4D5QBqpump",
     "43Z5f8GboUfc6M6wtaGGtFciEhLXixJEwQKv8wBUpump",
     "EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump",
     "FJSga8VWXAUHvQCb2gBzn7xc2EQ7wdGKw764Hdespump",
@@ -20,18 +31,19 @@
     "Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump",
     "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
     "Au6Lx5eEQUsANpPaMttLj1anZDXvVQj9fXyYwMpSpump",
-    "EywjBvp69aahb3MHrb4PBtKqVzcQNEtE3NaGk36S8hCd"
+    "EywjBvp69aahb3MHrb4PBtKqVzcQNEtE3NaGk36S8hCd",
+    "J8JjZXF6XE3zDp3zVQPYxkC9SNDuejGh8Eh6hjKgpump"
   ],
-  "scans": 21545,
+  "scans": 21558,
   "skipped": {
-    "variazione_h1_fuori_range": 37536,
-    "volume_basso": 187450,
-    "momentum_m5": 63715,
-    "eta_fuori_range": 103241,
-    "pressione_vendita": 6559,
-    "liquidita_bassa": 508354,
+    "variazione_h1_fuori_range": 37573,
+    "volume_basso": 187519,
+    "momentum_m5": 63764,
+    "eta_fuori_range": 103332,
+    "pressione_vendita": 6565,
+    "liquidita_bassa": 508633,
     "rugcheck_danger": 1092,
-    "gia_scambiato_di_recente": 15798,
+    "gia_scambiato_di_recente": 15805,
     "variazioni_mancanti": 324,
     "eta_sconosciuta": 1823,
     "rugcheck_non_verificato": 640
