@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "DeXXt9HopHa28msm4iATCvrQBer1FScmkpnt73Dgpump",
-    "symbol": "GAYTA",
-    "opened": "2026-11-19 12:24:59",
-    "opened_ts": 1795091099.9490852,
-    "signal_price": 6.392e-05,
-    "entry_eff": 6.509584235989786e-05,
-    "units": 60986.997880001465,
-    "size": 4.0,
-    "liq_entry": 20225.96,
-    "misses": 0,
-    "tg_msg": 2581
-  },
+  "position": null,
   "recent": [
     "64Uf4fkAWepSjBF8QKWdftHjtgKb2FG6gZsgmx6Fpump",
     "BM5wUne5TCtqVn6QTwrQCZ6LAgY7pgVr7KSMzV1Gpump",
@@ -34,20 +22,20 @@
     "5a6mAmWbL3Na2KhwV1LmmAUSf12Gy1vd3NjqBq24pump",
     "DeXXt9HopHa28msm4iATCvrQBer1FScmkpnt73Dgpump"
   ],
-  "scans": 21445,
+  "scans": 21446,
   "skipped": {
-    "variazione_h1_fuori_range": 37364,
-    "volume_basso": 187030,
-    "momentum_m5": 63427,
-    "eta_fuori_range": 102611,
+    "variazione_h1_fuori_range": 37365,
+    "volume_basso": 187035,
+    "momentum_m5": 63433,
+    "eta_fuori_range": 102616,
     "pressione_vendita": 6540,
-    "liquidita_bassa": 506300,
+    "liquidita_bassa": 506323,
     "rugcheck_danger": 1092,
     "gia_scambiato_di_recente": 15737,
     "variazioni_mancanti": 324,
     "eta_sconosciuta": 1823,
     "rugcheck_non_verificato": 640
   },
-  "balance": -318.73921153176553,
+  "balance": -319.5241135525395,
   "reset_id": "2026-10-25-saldo-5"
 }
