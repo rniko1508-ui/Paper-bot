@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
-    "symbol": "GTASZN",
-    "opened": "2026-11-19 02:22:18",
-    "opened_ts": 1795054938.353261,
-    "signal_price": 0.001699,
-    "entry_eff": 0.001729718986356594,
-    "units": 2295.170505332914,
+    "mint": "64Uf4fkAWepSjBF8QKWdftHjtgKb2FG6gZsgmx6Fpump",
+    "symbol": "FNDR",
+    "opened": "2026-11-19 02:26:26",
+    "opened_ts": 1795055186.3331833,
+    "signal_price": 0.0002409,
+    "entry_eff": 0.0002452867622929968,
+    "units": 16185.137603381168,
     "size": 4.0,
-    "liq_entry": 99221.56,
+    "liq_entry": 38115.36,
     "misses": 0,
-    "tg_msg": 2531
+    "tg_msg": 2533
   },
   "recent": [
-    "FmfDTbuvkWg5SR1L1fxYMSV68d9XZVhdeHPWUsikpump",
     "Cv4q9qcHapnz3XFm1KrHkXWmbYNKvbwKQsPaJPMt6FNF",
     "GUmgNeyZCLrjQW2TaLhqkTUas8isQc86YuzKQ6Fppump",
     "83KEwhixMSDS5KkUa3ow6Svnvjq9U9Xoig9WoctUpump",
@@ -32,22 +31,23 @@
     "CyfdugHk3PT44hEUxpnU25CXAJsVQ9EdipKWCHEBKSdS",
     "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX",
     "3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump",
-    "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump"
+    "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
+    "64Uf4fkAWepSjBF8QKWdftHjtgKb2FG6gZsgmx6Fpump"
   ],
-  "scans": 21057,
+  "scans": 21058,
   "skipped": {
-    "variazione_h1_fuori_range": 36705,
-    "volume_basso": 184033,
-    "momentum_m5": 62172,
-    "eta_fuori_range": 100691,
-    "pressione_vendita": 6372,
-    "liquidita_bassa": 497830,
+    "variazione_h1_fuori_range": 36706,
+    "volume_basso": 184042,
+    "momentum_m5": 62174,
+    "eta_fuori_range": 100695,
+    "pressione_vendita": 6374,
+    "liquidita_bassa": 497848,
     "rugcheck_danger": 1087,
-    "gia_scambiato_di_recente": 15409,
+    "gia_scambiato_di_recente": 15410,
     "variazioni_mancanti": 303,
-    "eta_sconosciuta": 1445,
+    "eta_sconosciuta": 1446,
     "rugcheck_non_verificato": 640
   },
-  "balance": -322.96218292485025,
+  "balance": -323.6306785137238,
   "reset_id": "2026-10-25-saldo-5"
 }
