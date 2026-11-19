@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "H1jcPQwCX9VPiNGBUpQNJdGzZEHiisFSs1WS4fi6pump",
+    "symbol": "VINTEL",
+    "opened": "2026-11-19 22:25:12",
+    "opened_ts": 1795127112.0290074,
+    "signal_price": 7.199e-05,
+    "entry_eff": 7.331738504343534e-05,
+    "units": 54148.13959401385,
+    "size": 4.0,
+    "liq_entry": 18245.5,
+    "misses": 0,
+    "tg_msg": 2626
+  },
   "recent": [
-    "DeXXt9HopHa28msm4iATCvrQBer1FScmkpnt73Dgpump",
     "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
     "Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump",
     "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
@@ -20,18 +31,19 @@
     "6ayRQ5AgLQpPnBgEQ5WP9iRt7t7mXmiUN98ZTtFJpump",
     "FSfZuwaRFVcTtVBsiJ45NYK7Mwi3ANRcVT8kpbevtPGj",
     "22Rh3HSAmmdLwr5qP7ULgXEDD86zpd3w8zZ8SMzrpump",
-    "82u71wqQSa4NmD1UTTDwKyh5EUm3xe9pMp4UZXhFpump"
+    "82u71wqQSa4NmD1UTTDwKyh5EUm3xe9pMp4UZXhFpump",
+    "H1jcPQwCX9VPiNGBUpQNJdGzZEHiisFSs1WS4fi6pump"
   ],
-  "scans": 21837,
+  "scans": 21841,
   "skipped": {
-    "variazione_h1_fuori_range": 38196,
-    "volume_basso": 188813,
-    "momentum_m5": 64657,
-    "eta_fuori_range": 105395,
+    "variazione_h1_fuori_range": 38208,
+    "volume_basso": 188833,
+    "momentum_m5": 64675,
+    "eta_fuori_range": 105429,
     "pressione_vendita": 6630,
-    "liquidita_bassa": 515220,
+    "liquidita_bassa": 515296,
     "rugcheck_danger": 1092,
-    "gia_scambiato_di_recente": 15912,
+    "gia_scambiato_di_recente": 15915,
     "variazioni_mancanti": 326,
     "eta_sconosciuta": 1823,
     "rugcheck_non_verificato": 640
