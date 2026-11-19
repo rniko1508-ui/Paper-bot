@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "92m4S52bu3dZyqzPmPStu8Krz6JcpzHdsG4D5QBqpump",
-    "symbol": "GTA Strategy ",
-    "opened": "2026-11-19 03:18:31",
-    "opened_ts": 1795058311.6870375,
-    "signal_price": 6.115e-05,
-    "entry_eff": 6.227947469332774e-05,
-    "units": 63744.917881032205,
-    "size": 4.0,
-    "liq_entry": 17001.05,
-    "misses": 0,
-    "tg_msg": 2545
-  },
+  "position": null,
   "recent": [
     "89GFxMWQ1r8cwTwRSgeQ9RaGPtUdmDLQgCsQZcrWpump",
     "Eyp4dHQD8oLLF4XLyA1QDcFxSYxQSFnphiujRvugpump",
@@ -34,20 +22,20 @@
     "7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump",
     "92m4S52bu3dZyqzPmPStu8Krz6JcpzHdsG4D5QBqpump"
   ],
-  "scans": 21096,
+  "scans": 21097,
   "skipped": {
-    "variazione_h1_fuori_range": 36775,
-    "volume_basso": 184418,
-    "momentum_m5": 62339,
-    "eta_fuori_range": 100826,
-    "pressione_vendita": 6394,
-    "liquidita_bassa": 498568,
+    "variazione_h1_fuori_range": 36778,
+    "volume_basso": 184427,
+    "momentum_m5": 62341,
+    "eta_fuori_range": 100830,
+    "pressione_vendita": 6395,
+    "liquidita_bassa": 498588,
     "rugcheck_danger": 1087,
-    "gia_scambiato_di_recente": 15463,
+    "gia_scambiato_di_recente": 15465,
     "variazioni_mancanti": 303,
-    "eta_sconosciuta": 1484,
+    "eta_sconosciuta": 1485,
     "rugcheck_non_verificato": 640
   },
-  "balance": -324.7096547810684,
+  "balance": -325.90136877468035,
   "reset_id": "2026-10-25-saldo-5"
 }
