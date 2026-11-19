@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump",
-    "symbol": "Leonida",
-    "opened": "2026-11-18 22:39:30",
-    "opened_ts": 1795041570.2522855,
-    "signal_price": 0.001541,
-    "entry_eff": 0.0015688700761670653,
-    "units": 2530.4836011017424,
-    "size": 4.0,
-    "liq_entry": 93340.08,
-    "misses": 0,
-    "tg_msg": 2522
-  },
+  "position": null,
   "recent": [
     "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump",
     "6qNMHrswqq4tB9aSBCa66orADDH3vYRcoQiS2XnJpump",
@@ -34,20 +22,20 @@
     "7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump",
     "9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump"
   ],
-  "scans": 21021,
+  "scans": 21022,
   "skipped": {
-    "variazione_h1_fuori_range": 36612,
-    "volume_basso": 183738,
-    "momentum_m5": 62040,
-    "eta_fuori_range": 100540,
-    "pressione_vendita": 6329,
-    "liquidita_bassa": 497176,
+    "variazione_h1_fuori_range": 36613,
+    "volume_basso": 183746,
+    "momentum_m5": 62044,
+    "eta_fuori_range": 100545,
+    "pressione_vendita": 6330,
+    "liquidita_bassa": 497196,
     "rugcheck_danger": 1085,
-    "gia_scambiato_di_recente": 15397,
-    "variazioni_mancanti": 302,
-    "eta_sconosciuta": 1387,
+    "gia_scambiato_di_recente": 15398,
+    "variazioni_mancanti": 303,
+    "eta_sconosciuta": 1388,
     "rugcheck_non_verificato": 640
   },
-  "balance": -322.6809107494348,
+  "balance": -322.5877537294804,
   "reset_id": "2026-10-25-saldo-5"
 }
