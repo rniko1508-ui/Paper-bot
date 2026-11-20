@@ -22,16 +22,16 @@
     "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump",
     "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump"
   ],
-  "scans": 22715,
+  "scans": 22745,
   "skipped": {
-    "variazione_h1_fuori_range": 39580,
-    "volume_basso": 194939,
-    "momentum_m5": 66828,
-    "eta_fuori_range": 108838,
+    "variazione_h1_fuori_range": 39619,
+    "volume_basso": 195099,
+    "momentum_m5": 66866,
+    "eta_fuori_range": 108939,
     "pressione_vendita": 6780,
-    "liquidita_bassa": 534782,
+    "liquidita_bassa": 535477,
     "rugcheck_danger": 1105,
-    "gia_scambiato_di_recente": 16497,
+    "gia_scambiato_di_recente": 16498,
     "variazioni_mancanti": 327,
     "eta_sconosciuta": 1823,
     "rugcheck_non_verificato": 640
