@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump",
-    "symbol": "URANUS",
-    "opened": "2026-11-21 22:23:55",
-    "opened_ts": 1795299835.5351264,
-    "signal_price": 7.597e-05,
-    "entry_eff": 7.736301524720168e-05,
-    "units": 51316.510703654356,
-    "size": 4.0,
-    "liq_entry": 23782.2,
-    "misses": 0,
-    "tg_msg": 2779
-  },
+  "position": null,
   "recent": [
     "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump",
     "FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump",
@@ -34,20 +22,20 @@
     "27u3diWofnXGUkddjLGhcy1nRssFKHW3RtNbpWzUpump",
     "DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump"
   ],
-  "scans": 23719,
+  "scans": 23720,
   "skipped": {
-    "variazione_h1_fuori_range": 41351,
-    "volume_basso": 203874,
-    "momentum_m5": 69495,
-    "eta_fuori_range": 112345,
+    "variazione_h1_fuori_range": 41355,
+    "volume_basso": 203884,
+    "momentum_m5": 69499,
+    "eta_fuori_range": 112349,
     "pressione_vendita": 6868,
-    "liquidita_bassa": 556633,
+    "liquidita_bassa": 556656,
     "rugcheck_danger": 1116,
     "gia_scambiato_di_recente": 17106,
     "variazioni_mancanti": 331,
     "eta_sconosciuta": 2061,
     "rugcheck_non_verificato": 640
   },
-  "balance": -343.16470403720547,
+  "balance": -343.83820321172357,
   "reset_id": "2026-10-25-saldo-5"
 }
