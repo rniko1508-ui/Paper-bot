@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump",
-    "symbol": "Bigfoot",
-    "opened": "2026-11-21 14:41:00",
-    "opened_ts": 1795272060.6922204,
-    "signal_price": 6.007e-05,
-    "entry_eff": 6.117875052824992e-05,
-    "units": 64891.812364929094,
-    "size": 4.0,
-    "liq_entry": 17480.93,
-    "misses": 0,
-    "tg_msg": 2755
-  },
+  "position": null,
   "recent": [
     "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump",
     "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
@@ -34,20 +22,20 @@
     "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
     "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump"
   ],
-  "scans": 23414,
+  "scans": 23415,
   "skipped": {
-    "variazione_h1_fuori_range": 40739,
-    "volume_basso": 201360,
-    "momentum_m5": 68566,
-    "eta_fuori_range": 110795,
-    "pressione_vendita": 6838,
-    "liquidita_bassa": 550106,
+    "variazione_h1_fuori_range": 40740,
+    "volume_basso": 201368,
+    "momentum_m5": 68568,
+    "eta_fuori_range": 110797,
+    "pressione_vendita": 6839,
+    "liquidita_bassa": 550124,
     "rugcheck_danger": 1112,
-    "gia_scambiato_di_recente": 16932,
+    "gia_scambiato_di_recente": 16933,
     "variazioni_mancanti": 329,
     "eta_sconosciuta": 1855,
     "rugcheck_non_verificato": 640
   },
-  "balance": -336.91828499849356,
+  "balance": -338.197822881837,
   "reset_id": "2026-10-25-saldo-5"
 }
