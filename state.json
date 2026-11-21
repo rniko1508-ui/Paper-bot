@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump",
-    "symbol": "PUNANI",
-    "opened": "2026-11-21 05:29:17",
-    "opened_ts": 1795238957.4634006,
-    "signal_price": 0.0006115,
-    "entry_eff": 0.0006225984314080342,
-    "units": 6376.501770204701,
-    "size": 4.0,
-    "liq_entry": 53504.59,
-    "misses": 0,
-    "tg_msg": 2735
-  },
+  "position": null,
   "recent": [
     "J5zXjgnbwxnWSuT13aE5sRmGnbyoNafWHR52SDB9pump",
     "FDUktn5RyqhMqvXimZ8om9MGraFg5J6q92xEwoLFpump",
@@ -34,20 +22,20 @@
     "FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump",
     "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump"
   ],
-  "scans": 22975,
+  "scans": 22976,
   "skipped": {
-    "variazione_h1_fuori_range": 39941,
-    "volume_basso": 197043,
-    "momentum_m5": 67406,
-    "eta_fuori_range": 109776,
-    "pressione_vendita": 6786,
-    "liquidita_bassa": 540896,
+    "variazione_h1_fuori_range": 39946,
+    "volume_basso": 197052,
+    "momentum_m5": 67407,
+    "eta_fuori_range": 109781,
+    "pressione_vendita": 6787,
+    "liquidita_bassa": 540915,
     "rugcheck_danger": 1105,
     "gia_scambiato_di_recente": 16605,
     "variazioni_mancanti": 328,
     "eta_sconosciuta": 1851,
     "rugcheck_non_verificato": 640
   },
-  "balance": -341.03401470089847,
+  "balance": -339.2806024559628,
   "reset_id": "2026-10-25-saldo-5"
 }
