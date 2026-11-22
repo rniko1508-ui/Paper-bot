@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump",
+    "symbol": "Bigfoot",
+    "opened": "2026-11-22 13:00:06",
+    "opened_ts": 1795352406.707688,
+    "signal_price": 6.846e-05,
+    "entry_eff": 6.97198430773133e-05,
+    "units": 56942.18209294608,
+    "size": 4.0,
+    "liq_entry": 19870.06,
+    "misses": 0,
+    "tg_msg": 2823
+  },
   "recent": [
-    "2G5b75jm9HtJmAccjxpzdWGs5r7XXeMYLTANoEcvpump",
     "27u3diWofnXGUkddjLGhcy1nRssFKHW3RtNbpWzUpump",
     "DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump",
     "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
@@ -20,18 +31,19 @@
     "tZsjFu2CH1R23wEpbfXAYGc2KUaVrUbwofCNNNqpump",
     "5o7AFuoNWsy7gQS85ospXhWFJRnxDwTtwTR3JF2Jpump",
     "95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump",
-    "3pGmCpDCr2B6cZFhFJFtLrcMCadMvjV4dB9UGJyNpump"
+    "3pGmCpDCr2B6cZFhFJFtLrcMCadMvjV4dB9UGJyNpump",
+    "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump"
   ],
-  "scans": 24299,
+  "scans": 24310,
   "skipped": {
-    "variazione_h1_fuori_range": 41969,
-    "volume_basso": 207783,
-    "momentum_m5": 70604,
-    "eta_fuori_range": 114405,
-    "pressione_vendita": 6952,
-    "liquidita_bassa": 569824,
+    "variazione_h1_fuori_range": 41977,
+    "volume_basso": 207827,
+    "momentum_m5": 70636,
+    "eta_fuori_range": 114438,
+    "pressione_vendita": 6961,
+    "liquidita_bassa": 570038,
     "rugcheck_danger": 1131,
-    "gia_scambiato_di_recente": 17429,
+    "gia_scambiato_di_recente": 17434,
     "variazioni_mancanti": 334,
     "eta_sconosciuta": 2061,
     "rugcheck_non_verificato": 640
