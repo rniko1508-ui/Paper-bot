@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
-    "symbol": "MINELIUS",
-    "opened": "2026-11-22 23:00:36",
-    "opened_ts": 1795388436.4855206,
-    "signal_price": 0.007858,
-    "entry_eff": 0.007999747105140124,
-    "units": 496.2656878801998,
-    "size": 4.0,
-    "liq_entry": 207399.98,
-    "misses": 0,
-    "tg_msg": 2856
-  },
+  "position": null,
   "recent": [
     "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
     "tZsjFu2CH1R23wEpbfXAYGc2KUaVrUbwofCNNNqpump",
@@ -34,20 +22,20 @@
     "fZz5uVNxjzJjUDRFho9efrQD2qcdYcsv4rWhuWbpump",
     "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump"
   ],
-  "scans": 24845,
+  "scans": 24846,
   "skipped": {
-    "variazione_h1_fuori_range": 42515,
-    "volume_basso": 211819,
-    "momentum_m5": 71453,
-    "eta_fuori_range": 116805,
+    "variazione_h1_fuori_range": 42516,
+    "volume_basso": 211827,
+    "momentum_m5": 71461,
+    "eta_fuori_range": 116808,
     "pressione_vendita": 7110,
-    "liquidita_bassa": 581446,
+    "liquidita_bassa": 581463,
     "rugcheck_danger": 1138,
     "gia_scambiato_di_recente": 17645,
     "variazioni_mancanti": 334,
-    "eta_sconosciuta": 2251,
+    "eta_sconosciuta": 2252,
     "rugcheck_non_verificato": 640
   },
-  "balance": -346.02043315032057,
+  "balance": -346.5880613406904,
   "reset_id": "2026-10-25-saldo-5"
 }
