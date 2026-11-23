@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump",
-    "symbol": "ZOL",
-    "opened": "2026-11-23 00:17:56",
-    "opened_ts": 1795393076.8256621,
-    "signal_price": 8.64e-05,
-    "entry_eff": 8.799002866834762e-05,
-    "units": 45118.74879554524,
+    "mint": "ADs7gnpeYvkBLthYhqRcrVTeGSFQuqfYnv3PbS6Bpump",
+    "symbol": "XMAS",
+    "opened": "2026-11-23 00:22:04",
+    "opened_ts": 1795393324.0169528,
+    "signal_price": 0.0001467,
+    "entry_eff": 0.00014938490448080776,
+    "units": 26575.643729183135,
     "size": 4.0,
-    "liq_entry": 19845.72,
+    "liq_entry": 26489.42,
     "misses": 0,
-    "tg_msg": 2862
+    "tg_msg": 2864
   },
   "recent": [
-    "95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump",
     "3pGmCpDCr2B6cZFhFJFtLrcMCadMvjV4dB9UGJyNpump",
     "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump",
     "v4GK8f24ZJJa5qLoTJ4mJ5d6jsNUXHScwGaRHdfpump",
@@ -32,22 +31,23 @@
     "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
     "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
     "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
-    "EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump"
+    "EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump",
+    "ADs7gnpeYvkBLthYhqRcrVTeGSFQuqfYnv3PbS6Bpump"
   ],
-  "scans": 24864,
+  "scans": 24865,
   "skipped": {
-    "variazione_h1_fuori_range": 42568,
-    "volume_basso": 212000,
-    "momentum_m5": 71552,
-    "eta_fuori_range": 116848,
-    "pressione_vendita": 7111,
-    "liquidita_bassa": 581781,
+    "variazione_h1_fuori_range": 42569,
+    "volume_basso": 212009,
+    "momentum_m5": 71558,
+    "eta_fuori_range": 116850,
+    "pressione_vendita": 7112,
+    "liquidita_bassa": 581799,
     "rugcheck_danger": 1139,
-    "gia_scambiato_di_recente": 17659,
+    "gia_scambiato_di_recente": 17660,
     "variazioni_mancanti": 334,
-    "eta_sconosciuta": 2270,
+    "eta_sconosciuta": 2271,
     "rugcheck_non_verificato": 640
   },
-  "balance": -347.922934648199,
+  "balance": -349.0936210311256,
   "reset_id": "2026-10-25-saldo-5"
 }
