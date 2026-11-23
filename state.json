@@ -1,18 +1,5 @@
 {
-  "position": {
-    "mint": "J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump",
-    "symbol": "BIRDMAGA",
-    "opened": "2026-11-23 02:54:13",
-    "opened_ts": 1795402453.0814266,
-    "signal_price": 0.0002031,
-    "entry_eff": 0.00020680819236879733,
-    "units": 19196.53160025871,
-    "size": 4.0,
-    "liq_entry": 31012.15,
-    "misses": 0,
-    "tg_msg": 2880,
-    "armed": true
-  },
+  "position": null,
   "recent": [
     "2MdCPWNFufmJSZhajSvi1yqBFTB24GQ4ipjNcB8Vpump",
     "FryQiSLqU7NfPvpQJRiYrVuvRRW66uB4FLorrKmjpump",
@@ -35,20 +22,20 @@
     "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5",
     "J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump"
   ],
-  "scans": 24915,
+  "scans": 24916,
   "skipped": {
-    "variazione_h1_fuori_range": 42710,
-    "volume_basso": 212449,
-    "momentum_m5": 71779,
-    "eta_fuori_range": 116926,
+    "variazione_h1_fuori_range": 42713,
+    "volume_basso": 212456,
+    "momentum_m5": 71784,
+    "eta_fuori_range": 116928,
     "pressione_vendita": 7155,
-    "liquidita_bassa": 582828,
+    "liquidita_bassa": 582846,
     "rugcheck_danger": 1139,
-    "gia_scambiato_di_recente": 17697,
+    "gia_scambiato_di_recente": 17698,
     "variazioni_mancanti": 334,
-    "eta_sconosciuta": 2283,
+    "eta_sconosciuta": 2284,
     "rugcheck_non_verificato": 640
   },
-  "balance": -350.9382271928427,
+  "balance": -350.61726593563935,
   "reset_id": "2026-10-25-saldo-5"
 }
