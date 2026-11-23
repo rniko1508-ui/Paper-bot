@@ -1,20 +1,18 @@
 {
   "position": {
-    "mint": "DrJjCnagFhVKNuc8Fe8HejkY4aZaaCqy7WivdwdVpump",
-    "symbol": "JENSEN",
-    "opened": "2026-11-23 21:20:09",
-    "opened_ts": 1795468809.6700025,
-    "signal_price": 0.0001169,
-    "entry_eff": 0.00011904398678842078,
-    "units": 33349.017511115104,
+    "mint": "8WW5B189mPntQQ85HTPvQNsYxXhQbAhdjXvZ6qaapump",
+    "symbol": "ChristmASS",
+    "opened": "2026-11-23 22:08:45",
+    "opened_ts": 1795471725.744012,
+    "signal_price": 0.0002448,
+    "entry_eff": 0.0002492618708964735,
+    "units": 15927.02480215624,
     "size": 4.0,
-    "liq_entry": 23505.29,
+    "liq_entry": 35305,
     "misses": 0,
-    "tg_msg": null,
-    "armed": true
+    "tg_msg": null
   },
   "recent": [
-    "2DQbV7hsqxKVWmFakXGGhBbNyY28tDJ9YuJkojYrpump",
     "9AiHB952pXVrHuct9m3RKWoWv4LG52p58FYjMvUkpump",
     "GKg5RfhuCVprXSyESwpNznuzrWD5mCmjeg1eb1LejyZP",
     "nNske7YBu4R29HcifzAmDqzgh3oetzqX3QAPSEQpump",
@@ -33,22 +31,23 @@
     "BqekG1RSPUthaKfStu7Uvyvr1eR6TchrQMp1M5r5pump",
     "Bp6Aen8xiLqhKLHwb27dViwAsojLjhoSPhzpEZm7UmqC",
     "DsuztYTs2PnXRy4NrcVRzQRK1jbvvntPGSjCbdpMpump",
-    "DrJjCnagFhVKNuc8Fe8HejkY4aZaaCqy7WivdwdVpump"
+    "DrJjCnagFhVKNuc8Fe8HejkY4aZaaCqy7WivdwdVpump",
+    "8WW5B189mPntQQ85HTPvQNsYxXhQbAhdjXvZ6qaapump"
   ],
-  "scans": 25798,
+  "scans": 25799,
   "skipped": {
-    "variazione_h1_fuori_range": 44378,
-    "volume_basso": 218041,
-    "momentum_m5": 74516,
-    "eta_fuori_range": 120046,
+    "variazione_h1_fuori_range": 44380,
+    "volume_basso": 218048,
+    "momentum_m5": 74517,
+    "eta_fuori_range": 120054,
     "pressione_vendita": 7395,
-    "liquidita_bassa": 601645,
+    "liquidita_bassa": 601677,
     "rugcheck_danger": 1145,
-    "gia_scambiato_di_recente": 18618,
-    "variazioni_mancanti": 341,
+    "gia_scambiato_di_recente": 18619,
+    "variazioni_mancanti": 342,
     "eta_sconosciuta": 2583,
     "rugcheck_non_verificato": 640
   },
-  "balance": -354.1078067965222,
+  "balance": -352.7023270468616,
   "reset_id": "2026-10-25-saldo-5"
 }
