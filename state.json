@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "2YKce3apGESoWhqt4N7MGg5t4UEKgPPL4ArheEvPpump",
+    "symbol": "SANTIA",
+    "opened": "2026-11-24 18:46:32",
+    "opened_ts": 1795545992.1847684,
+    "signal_price": 0.0001518,
+    "entry_eff": 0.00015457815545097978,
+    "units": 25682.800965101287,
+    "size": 4.0,
+    "liq_entry": 26541.1,
+    "misses": 0,
+    "tg_msg": null
+  },
   "recent": [
-    "Gq2AuvpacDeruqVRCqyZqZJJbDgYDXYDGxWQgWXhpump",
     "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump",
     "9oxUBRyk9EXfQHMchya45p3xsF2fbNzzDUNKzEfKpump",
     "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
@@ -20,18 +31,19 @@
     "Hb4kF1LyTxFD3nRCVbgegQv2oo2jAfK4CpTho8a9pump",
     "6nQCcuXypcAjncXK7gzvJcdwvqitgJRdG3k1no4Jpump",
     "2M3CsCP97Le187KQC5jhZG3c6bFzCZ51NP8bscrupump",
-    "55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump"
+    "55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump",
+    "2YKce3apGESoWhqt4N7MGg5t4UEKgPPL4ArheEvPpump"
   ],
-  "scans": 26701,
+  "scans": 26723,
   "skipped": {
-    "variazione_h1_fuori_range": 45630,
-    "volume_basso": 223030,
-    "momentum_m5": 76571,
-    "eta_fuori_range": 122675,
+    "variazione_h1_fuori_range": 45676,
+    "volume_basso": 223215,
+    "momentum_m5": 76632,
+    "eta_fuori_range": 122739,
     "pressione_vendita": 7638,
-    "liquidita_bassa": 624430,
+    "liquidita_bassa": 624952,
     "rugcheck_danger": 1161,
-    "gia_scambiato_di_recente": 19186,
+    "gia_scambiato_di_recente": 19196,
     "variazioni_mancanti": 352,
     "eta_sconosciuta": 2602,
     "rugcheck_non_verificato": 640
