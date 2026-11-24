@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
-    "symbol": "GROKIA",
-    "opened": "2026-11-24 05:47:55",
-    "opened_ts": 1795499275.6147487,
-    "signal_price": 0.002775,
-    "entry_eff": 0.0028251265835567935,
-    "units": 1405.2467677401653,
+    "mint": "5St93zSNQvWxK22Cj5mJBXcjUNNB452h5uNmrttSpump",
+    "symbol": "CLAUDIO",
+    "opened": "2026-11-24 07:17:15",
+    "opened_ts": 1795504635.3219016,
+    "signal_price": 6.439e-05,
+    "entry_eff": 6.557618248716672e-05,
+    "units": 60540.27315141333,
     "size": 4.0,
-    "liq_entry": 125719.52,
+    "liq_entry": 18964.39,
     "misses": 0,
     "tg_msg": null
   },
   "recent": [
-    "GHWEB3FsfqDbNBt9QxVU7kXkUh1cX7kFk5NVDkgApump",
     "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
     "BqekG1RSPUthaKfStu7Uvyvr1eR6TchrQMp1M5r5pump",
     "Bp6Aen8xiLqhKLHwb27dViwAsojLjhoSPhzpEZm7UmqC",
@@ -32,22 +31,23 @@
     "Gq2AuvpacDeruqVRCqyZqZJJbDgYDXYDGxWQgWXhpump",
     "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump",
     "9oxUBRyk9EXfQHMchya45p3xsF2fbNzzDUNKzEfKpump",
-    "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump"
+    "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+    "5St93zSNQvWxK22Cj5mJBXcjUNNB452h5uNmrttSpump"
   ],
-  "scans": 26136,
+  "scans": 26137,
   "skipped": {
     "variazione_h1_fuori_range": 44941,
-    "volume_basso": 220010,
-    "momentum_m5": 75354,
-    "eta_fuori_range": 121785,
+    "volume_basso": 220013,
+    "momentum_m5": 75356,
+    "eta_fuori_range": 121787,
     "pressione_vendita": 7465,
-    "liquidita_bassa": 611628,
+    "liquidita_bassa": 611657,
     "rugcheck_danger": 1145,
     "gia_scambiato_di_recente": 18871,
     "variazioni_mancanti": 350,
     "eta_sconosciuta": 2583,
     "rugcheck_non_verificato": 640
   },
-  "balance": -358.3768427038865,
+  "balance": -358.1102684199744,
   "reset_id": "2026-10-25-saldo-5"
 }
