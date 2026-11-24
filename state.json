@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
-    "symbol": "Slingoor",
-    "opened": "2026-11-24 19:00:55",
-    "opened_ts": 1795546855.2174678,
-    "signal_price": 6.912e-05,
-    "entry_eff": 7.039589094800338e-05,
-    "units": 56395.33709335914,
-    "size": 4.0,
-    "liq_entry": 17426.52,
-    "misses": 0,
-    "tg_msg": null
-  },
+  "position": null,
   "recent": [
     "9oxUBRyk9EXfQHMchya45p3xsF2fbNzzDUNKzEfKpump",
     "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
@@ -34,20 +22,20 @@
     "2YKce3apGESoWhqt4N7MGg5t4UEKgPPL4ArheEvPpump",
     "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump"
   ],
-  "scans": 26724,
+  "scans": 26725,
   "skipped": {
-    "variazione_h1_fuori_range": 45677,
-    "volume_basso": 223224,
-    "momentum_m5": 76634,
-    "eta_fuori_range": 122741,
+    "variazione_h1_fuori_range": 45678,
+    "volume_basso": 223233,
+    "momentum_m5": 76639,
+    "eta_fuori_range": 122743,
     "pressione_vendita": 7638,
-    "liquidita_bassa": 624975,
+    "liquidita_bassa": 624998,
     "rugcheck_danger": 1161,
     "gia_scambiato_di_recente": 19197,
     "variazioni_mancanti": 352,
     "eta_sconosciuta": 2602,
     "rugcheck_non_verificato": 640
   },
-  "balance": -361.98385881369006,
+  "balance": -362.6649758195192,
   "reset_id": "2026-10-25-saldo-5"
 }
