@@ -1,19 +1,18 @@
 {
   "position": {
-    "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
-    "symbol": "DUVAL",
-    "opened": "2026-11-24 13:07:33",
-    "opened_ts": 1795525653.814521,
-    "signal_price": 0.0003564,
-    "entry_eff": 0.0003628779970869128,
-    "units": 10940.316116904565,
+    "mint": "FJ3eLHQJqq8NsVkUyQmj5jSJJXvdf1ZiP2YMdEWUpump",
+    "symbol": "Unemployed",
+    "opened": "2026-11-24 13:23:59",
+    "opened_ts": 1795526639.5839703,
+    "signal_price": 9.745e-05,
+    "entry_eff": 9.923990625856288e-05,
+    "units": 40004.06842038356,
     "size": 4.0,
-    "liq_entry": 45403.38,
+    "liq_entry": 21772.73,
     "misses": 0,
     "tg_msg": null
   },
   "recent": [
-    "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump",
     "BECqBzwZmkzM7A3tWimc2qvm7ookzYi8XACHMZgipump",
     "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
     "A5euULARiF254xqxSqZ1bdC8zCGiKW2FRh2zYstWZWZs",
@@ -32,22 +31,23 @@
     "4pf9HEnkdN3ihjVbfZg2NwbZkCJyUk4na44oysuWpump",
     "5JWeGmA9z6yHd5F9P6B23A8wthho8BpZuDmQv5DfLoat",
     "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6",
-    "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump"
+    "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
+    "FJ3eLHQJqq8NsVkUyQmj5jSJJXvdf1ZiP2YMdEWUpump"
   ],
-  "scans": 26446,
+  "scans": 26447,
   "skipped": {
-    "variazione_h1_fuori_range": 45312,
-    "volume_basso": 221227,
-    "momentum_m5": 75997,
-    "eta_fuori_range": 122198,
+    "variazione_h1_fuori_range": 45313,
+    "volume_basso": 221231,
+    "momentum_m5": 76000,
+    "eta_fuori_range": 122199,
     "pressione_vendita": 7560,
-    "liquidita_bassa": 619233,
+    "liquidita_bassa": 619253,
     "rugcheck_danger": 1145,
     "gia_scambiato_di_recente": 19044,
     "variazioni_mancanti": 352,
     "eta_sconosciuta": 2583,
     "rugcheck_non_verificato": 640
   },
-  "balance": -361.1102886123906,
+  "balance": -360.55952806846165,
   "reset_id": "2026-10-25-saldo-5"
 }
