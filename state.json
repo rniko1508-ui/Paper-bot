@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "Ea7ADHtZdQVre2mTBbN9Ps3TBraR6n5GUamGF9Ftpump",
-    "symbol": "TELEDROID",
-    "opened": "2026-11-25 01:28:39",
-    "opened_ts": 1795570119.2419884,
-    "signal_price": 6.228e-05,
-    "entry_eff": 6.343129178857991e-05,
-    "units": 62587.40580646277,
-    "size": 4.0,
-    "liq_entry": 16469.77,
-    "misses": 0,
-    "tg_msg": null
-  },
+  "position": null,
   "recent": [
     "fiixPXZmvzFefzHmCXQG9jri2JyH8ichA3tgWENpump",
     "6sbUBNuXyVQVHsoaUGYAiL3Pyntpyjm3yHZP1YfHYMzH",
@@ -34,20 +22,20 @@
     "E2MJUFBMaTH7j21P2HncB96erJ4dM3FPL2W6i8Dpump",
     "Ea7ADHtZdQVre2mTBbN9Ps3TBraR6n5GUamGF9Ftpump"
   ],
-  "scans": 26923,
+  "scans": 26924,
   "skipped": {
-    "variazione_h1_fuori_range": 45991,
-    "volume_basso": 224731,
-    "momentum_m5": 77063,
-    "eta_fuori_range": 123191,
+    "variazione_h1_fuori_range": 45994,
+    "volume_basso": 224739,
+    "momentum_m5": 77068,
+    "eta_fuori_range": 123193,
     "pressione_vendita": 7666,
-    "liquidita_bassa": 630243,
+    "liquidita_bassa": 630261,
     "rugcheck_danger": 1161,
     "gia_scambiato_di_recente": 19306,
     "variazioni_mancanti": 352,
     "eta_sconosciuta": 2602,
     "rugcheck_non_verificato": 640
   },
-  "balance": -364.58730956631604,
+  "balance": -365.277466751184,
   "reset_id": "2026-10-25-saldo-5"
 }
