@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump",
-    "symbol": "Grodia",
-    "opened": "2026-11-25 23:52:31",
-    "opened_ts": 1795650751.5849597,
-    "signal_price": 0.001465,
-    "entry_eff": 0.0014915058033160109,
-    "units": 2661.7395595603066,
-    "size": 4.0,
-    "liq_entry": 86301.28,
-    "misses": 0,
-    "tg_msg": null
-  },
+  "position": null,
   "recent": [
     "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump",
     "38EDdUxnJvrnDsJyB45E2W3pK26qLEjmWTvsEmMuG9ZR",
@@ -34,20 +22,20 @@
     "BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6",
     "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump"
   ],
-  "scans": 27846,
+  "scans": 27847,
   "skipped": {
-    "variazione_h1_fuori_range": 47042,
-    "volume_basso": 230863,
-    "momentum_m5": 78603,
-    "eta_fuori_range": 125760,
+    "variazione_h1_fuori_range": 47043,
+    "volume_basso": 230871,
+    "momentum_m5": 78607,
+    "eta_fuori_range": 125765,
     "pressione_vendita": 7772,
-    "liquidita_bassa": 651888,
+    "liquidita_bassa": 651919,
     "rugcheck_danger": 1161,
-    "gia_scambiato_di_recente": 19647,
+    "gia_scambiato_di_recente": 19648,
     "variazioni_mancanti": 631,
     "eta_sconosciuta": 2730,
     "rugcheck_non_verificato": 640
   },
-  "balance": -363.9918843877061,
+  "balance": -364.5963940217262,
   "reset_id": "2026-10-25-saldo-5"
 }
