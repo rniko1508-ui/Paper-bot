@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump",
-    "symbol": "HELIORA",
-    "opened": "2026-11-25 09:19:37",
-    "opened_ts": 1795598377.9966207,
-    "signal_price": 6.702e-05,
-    "entry_eff": 6.82563986744572e-05,
-    "units": 58163.04518107615,
-    "size": 4.0,
-    "liq_entry": 17848.99,
-    "misses": 0,
-    "tg_msg": null
-  },
+  "position": null,
   "recent": [
     "CR4Tks2HjJkKVQQVDmKU41qW7iEaEBh1RRExdTRMpump",
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
@@ -34,20 +22,20 @@
     "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy",
     "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump"
   ],
-  "scans": 27249,
+  "scans": 27250,
   "skipped": {
-    "variazione_h1_fuori_range": 46334,
-    "volume_basso": 226788,
-    "momentum_m5": 77647,
-    "eta_fuori_range": 123801,
+    "variazione_h1_fuori_range": 46335,
+    "volume_basso": 226793,
+    "momentum_m5": 77649,
+    "eta_fuori_range": 123802,
     "pressione_vendita": 7712,
-    "liquidita_bassa": 637683,
+    "liquidita_bassa": 637702,
     "rugcheck_danger": 1161,
     "gia_scambiato_di_recente": 19479,
     "variazioni_mancanti": 352,
     "eta_sconosciuta": 2602,
     "rugcheck_non_verificato": 640
   },
-  "balance": -361.24095199035935,
+  "balance": -361.82739586866916,
   "reset_id": "2026-10-25-saldo-5"
 }
