@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump",
+    "symbol": "DongCoin",
+    "opened": "2026-11-25 02:30:46",
+    "opened_ts": 1795573846.5384264,
+    "signal_price": 0.000559,
+    "entry_eff": 0.0005691487641754754,
+    "units": 6975.329210722843,
+    "size": 4.0,
+    "liq_entry": 51542.01,
+    "misses": 0,
+    "tg_msg": null
+  },
   "recent": [
-    "Hb4kF1LyTxFD3nRCVbgegQv2oo2jAfK4CpTho8a9pump",
     "6nQCcuXypcAjncXK7gzvJcdwvqitgJRdG3k1no4Jpump",
     "2M3CsCP97Le187KQC5jhZG3c6bFzCZ51NP8bscrupump",
     "55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump",
@@ -20,18 +31,19 @@
     "E2MJUFBMaTH7j21P2HncB96erJ4dM3FPL2W6i8Dpump",
     "Ea7ADHtZdQVre2mTBbN9Ps3TBraR6n5GUamGF9Ftpump",
     "E35iEA2yLLHc1tjm6et1Z3YuH8DhxJYWtWezPHgSpump",
-    "5Xd2vr3oY2YDhBeozvsZQto3rLiMzWDDBLadkgQspump"
+    "5Xd2vr3oY2YDhBeozvsZQto3rLiMzWDDBLadkgQspump",
+    "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump"
   ],
-  "scans": 26970,
+  "scans": 26978,
   "skipped": {
-    "variazione_h1_fuori_range": 46108,
-    "volume_basso": 225056,
-    "momentum_m5": 77221,
-    "eta_fuori_range": 123315,
+    "variazione_h1_fuori_range": 46123,
+    "volume_basso": 225104,
+    "momentum_m5": 77238,
+    "eta_fuori_range": 123331,
     "pressione_vendita": 7671,
-    "liquidita_bassa": 631384,
+    "liquidita_bassa": 631598,
     "rugcheck_danger": 1161,
-    "gia_scambiato_di_recente": 19329,
+    "gia_scambiato_di_recente": 19346,
     "variazioni_mancanti": 352,
     "eta_sconosciuta": 2602,
     "rugcheck_non_verificato": 640
