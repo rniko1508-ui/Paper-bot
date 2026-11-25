@@ -1,7 +1,18 @@
 {
-  "position": null,
+  "position": {
+    "mint": "hCM8Mga76sK983j3Gvui427SakSGYnG1tDi4Tsipump",
+    "symbol": "UBI",
+    "opened": "2026-11-25 21:24:52",
+    "opened_ts": 1795641892.7957542,
+    "signal_price": 6.594e-05,
+    "entry_eff": 6.715179291717843e-05,
+    "units": 59119.7915578575,
+    "size": 4.0,
+    "liq_entry": 21208.61,
+    "misses": 0,
+    "tg_msg": null
+  },
   "recent": [
-    "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump",
     "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump",
     "CkwFsrupdFHzo5kYk8b5W47CVx1v5ymzeu6BBoDjpump",
     "HyXjbs37EKU1QPKm2MnSQ3YaxNCugdh2W8bktSfYpump",
@@ -20,16 +31,17 @@
     "Ya9PEJA9UZmbT5aim46TA6cPCkTNfsqEn1aEVrnpump",
     "J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump",
     "xmraCcXf1qpZgkwaQn5myc7Q6SZ7He7sXQhXUBYNXMR",
-    "ErfdcsXZSZHZYkT35jZRG7nBW4uLE5vAZP3gUtenpump"
+    "ErfdcsXZSZHZYkT35jZRG7nBW4uLE5vAZP3gUtenpump",
+    "hCM8Mga76sK983j3Gvui427SakSGYnG1tDi4Tsipump"
   ],
-  "scans": 27731,
+  "scans": 27732,
   "skipped": {
-    "variazione_h1_fuori_range": 46819,
-    "volume_basso": 229808,
-    "momentum_m5": 78290,
-    "eta_fuori_range": 125194,
+    "variazione_h1_fuori_range": 46821,
+    "volume_basso": 229818,
+    "momentum_m5": 78294,
+    "eta_fuori_range": 125198,
     "pressione_vendita": 7767,
-    "liquidita_bassa": 648758,
+    "liquidita_bassa": 648783,
     "rugcheck_danger": 1161,
     "gia_scambiato_di_recente": 19570,
     "variazioni_mancanti": 627,
