@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "BSMz6chW26adx25hkfRZvmTSu6q4d3ieixPx73hQpump",
-    "symbol": "Irochan",
-    "opened": "2026-11-26 14:50:48",
-    "opened_ts": 1795704648.4260507,
-    "signal_price": 5.757e-05,
-    "entry_eff": 5.863405140515675e-05,
-    "units": 67708.0963170634,
-    "size": 4.0,
-    "liq_entry": 16572.03,
-    "misses": 0,
-    "tg_msg": null
-  },
+  "position": null,
   "recent": [
     "ErfdcsXZSZHZYkT35jZRG7nBW4uLE5vAZP3gUtenpump",
     "hCM8Mga76sK983j3Gvui427SakSGYnG1tDi4Tsipump",
@@ -34,20 +22,20 @@
     "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump",
     "BSMz6chW26adx25hkfRZvmTSu6q4d3ieixPx73hQpump"
   ],
-  "scans": 28234,
+  "scans": 28235,
   "skipped": {
-    "variazione_h1_fuori_range": 47588,
-    "volume_basso": 233404,
-    "momentum_m5": 79415,
-    "eta_fuori_range": 127114,
+    "variazione_h1_fuori_range": 47590,
+    "volume_basso": 233410,
+    "momentum_m5": 79416,
+    "eta_fuori_range": 127118,
     "pressione_vendita": 7857,
-    "liquidita_bassa": 660613,
+    "liquidita_bassa": 660634,
     "rugcheck_danger": 1161,
     "gia_scambiato_di_recente": 19955,
     "variazioni_mancanti": 633,
     "eta_sconosciuta": 2730,
     "rugcheck_non_verificato": 640
   },
-  "balance": -364.10222253212487,
+  "balance": -363.5862434136563,
   "reset_id": "2026-10-25-saldo-5"
 }
