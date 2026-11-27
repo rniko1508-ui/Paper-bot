@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "659ziXQiNko5cdGzPaBKVu81ahHzZMTFKBcNxe5ALXkG",
-    "symbol": "Maebashi",
-    "opened": "2026-11-27 23:41:58",
-    "opened_ts": 1795822918.8497899,
-    "signal_price": 5.744e-05,
-    "entry_eff": 5.850279402487644e-05,
-    "units": 67860.0067940667,
-    "size": 4.0,
-    "liq_entry": 15914.65,
-    "misses": 0,
-    "tg_msg": null
-  },
+  "position": null,
   "recent": [
     "DNgboHpauGZ5KbSptWSkwQyQLSDCQKdoU3qsk9FTpump",
     "54jKBorvDP4eB7vZnWy1HJfhm4X17pSJCE6o2Lshpump",
@@ -34,20 +22,20 @@
     "Xb6V46U9hHHxiJnoAFxiEqEh59owzdt1ZL9q5zpVSoL",
     "659ziXQiNko5cdGzPaBKVu81ahHzZMTFKBcNxe5ALXkG"
   ],
-  "scans": 29654,
+  "scans": 29655,
   "skipped": {
-    "variazione_h1_fuori_range": 48660,
-    "volume_basso": 243608,
-    "momentum_m5": 81120,
-    "eta_fuori_range": 132117,
+    "variazione_h1_fuori_range": 48662,
+    "volume_basso": 243617,
+    "momentum_m5": 81122,
+    "eta_fuori_range": 132120,
     "pressione_vendita": 7931,
-    "liquidita_bassa": 693311,
+    "liquidita_bassa": 693340,
     "rugcheck_danger": 1170,
     "gia_scambiato_di_recente": 20304,
     "variazioni_mancanti": 646,
     "eta_sconosciuta": 2782,
     "rugcheck_non_verificato": 645
   },
-  "balance": -377.15035908147087,
+  "balance": -377.9816140704546,
   "reset_id": "2026-10-25-saldo-5"
 }
