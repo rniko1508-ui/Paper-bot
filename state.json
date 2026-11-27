@@ -1,20 +1,18 @@
 {
   "position": {
-    "mint": "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump",
-    "symbol": "SpaceXCoin",
-    "opened": "2026-11-27 03:45:46",
-    "opened_ts": 1795751146.1219044,
-    "signal_price": 0.0004535,
-    "entry_eff": 0.000461737890085176,
-    "units": 8597.951533212188,
+    "mint": "5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh",
+    "symbol": "DragonRiders",
+    "opened": "2026-11-27 05:07:13",
+    "opened_ts": 1795756033.423441,
+    "signal_price": 0.0001208,
+    "entry_eff": 0.00012300591670900854,
+    "units": 32274.870235646566,
     "size": 4.0,
-    "liq_entry": 48444.33,
+    "liq_entry": 30663.1,
     "misses": 0,
-    "tg_msg": null,
-    "armed": true
+    "tg_msg": null
   },
   "recent": [
-    "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
     "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump",
     "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump",
     "FokVFH6mDsazoKbtnUaA2FRMsRbDSwZhNfn17Fdvpump",
@@ -33,22 +31,23 @@
     "CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump",
     "9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump",
     "G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump",
-    "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump"
+    "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump",
+    "5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh"
   ],
-  "scans": 28742,
+  "scans": 28743,
   "skipped": {
-    "variazione_h1_fuori_range": 47993,
-    "volume_basso": 237021,
-    "momentum_m5": 80009,
-    "eta_fuori_range": 129363,
-    "pressione_vendita": 7887,
-    "liquidita_bassa": 673145,
+    "variazione_h1_fuori_range": 47994,
+    "volume_basso": 237026,
+    "momentum_m5": 80012,
+    "eta_fuori_range": 129367,
+    "pressione_vendita": 7889,
+    "liquidita_bassa": 673172,
     "rugcheck_danger": 1170,
     "gia_scambiato_di_recente": 20080,
     "variazioni_mancanti": 640,
     "eta_sconosciuta": 2730,
     "rugcheck_non_verificato": 645
   },
-  "balance": -365.91616650358003,
+  "balance": -365.3856498003287,
   "reset_id": "2026-10-25-saldo-5"
 }
