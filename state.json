@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump",
-    "symbol": "Zhaki",
-    "opened": "2026-11-27 13:30:30",
-    "opened_ts": 1795786230.3208294,
-    "signal_price": 6.698e-05,
-    "entry_eff": 6.821595259581582e-05,
-    "units": 58197.5307670703,
-    "size": 4.0,
-    "liq_entry": 17677.14,
-    "misses": 0,
-    "tg_msg": null
-  },
+  "position": null,
   "recent": [
     "CC1uvrWkFdju8NuUrS7x3bKVzu5Cjy6Kt6nyB6Pbpump",
     "57sCZ82FwS5Dfs7FN9nshtU5Mkb3w1dqhmPUuCPvpump",
@@ -34,20 +22,20 @@
     "ExpdNM5YykDnGTmyxCH5B3s7mdWi1cEreDvK6ic8pump",
     "2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump"
   ],
-  "scans": 29194,
+  "scans": 29195,
   "skipped": {
     "variazione_h1_fuori_range": 48150,
-    "volume_basso": 240354,
-    "momentum_m5": 80249,
-    "eta_fuori_range": 130999,
+    "volume_basso": 240359,
+    "momentum_m5": 80250,
+    "eta_fuori_range": 131003,
     "pressione_vendita": 7890,
-    "liquidita_bassa": 682844,
+    "liquidita_bassa": 682861,
     "rugcheck_danger": 1170,
     "gia_scambiato_di_recente": 20100,
     "variazioni_mancanti": 645,
     "eta_sconosciuta": 2730,
     "rugcheck_non_verificato": 645
   },
-  "balance": -369.7207391402878,
+  "balance": -370.0617688820361,
   "reset_id": "2026-10-25-saldo-5"
 }
