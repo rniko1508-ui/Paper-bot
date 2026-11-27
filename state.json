@@ -1,17 +1,5 @@
 {
-  "position": {
-    "mint": "5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh",
-    "symbol": "DragonRiders",
-    "opened": "2026-11-27 05:07:13",
-    "opened_ts": 1795756033.423441,
-    "signal_price": 0.0001208,
-    "entry_eff": 0.00012300591670900854,
-    "units": 32274.870235646566,
-    "size": 4.0,
-    "liq_entry": 30663.1,
-    "misses": 0,
-    "tg_msg": null
-  },
+  "position": null,
   "recent": [
     "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump",
     "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump",
@@ -34,20 +22,20 @@
     "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump",
     "5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh"
   ],
-  "scans": 28743,
+  "scans": 28744,
   "skipped": {
     "variazione_h1_fuori_range": 47994,
-    "volume_basso": 237026,
-    "momentum_m5": 80012,
-    "eta_fuori_range": 129367,
+    "volume_basso": 237032,
+    "momentum_m5": 80015,
+    "eta_fuori_range": 129370,
     "pressione_vendita": 7889,
-    "liquidita_bassa": 673172,
+    "liquidita_bassa": 673204,
     "rugcheck_danger": 1170,
     "gia_scambiato_di_recente": 20080,
     "variazioni_mancanti": 640,
     "eta_sconosciuta": 2730,
     "rugcheck_non_verificato": 645
   },
-  "balance": -365.3856498003287,
+  "balance": -366.16399496746567,
   "reset_id": "2026-10-25-saldo-5"
 }
